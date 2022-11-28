@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "category": "Földrajz",
+        "question": "Mi Svájc fővárosa?",
+        "level": 2,
+        "answers": [
+            { "text": "New York", "isCorrect": false },
+            { "text": "Bern", "isCorrect": true },
+            { "text": "Párizs", "isCorrect": false },
+            { "text": "Tirana", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Földrajz",
+        "question": "Melyik a legnépesebb város az alábbiak közül?",
+        "level": 2,
+        "answers": [
+            { "text": "Debrecen", "isCorrect": true },
+            { "text": "Miskolc", "isCorrect": false },
+            { "text": "Szeged", "isCorrect": false },
+            { "text": "Győr", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Földrajz",
+        "question": "Hány lakosa van Budapestnek?",
+        "level": 2,
+        "answers": [
+            { "text": "1 millió", "isCorrect": false },
+            { "text": "1,5 millió", "isCorrect": false },
+            { "text": "1,7 millió", "isCorrect": true },
+            { "text": "2 millió", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Sport",
+        "question": "Ki nyerte meg a 2021-es Forma-1-es világbajnokságot?",
+        "level": 3,
+        "answers": [
+            { "text": "Mick Schumacher", "isCorrect": false },
+            { "text": "Max Verstappen", "isCorrect": true },
+            { "text": "Lewis Hamilton", "isCorrect": false },
+            { "text": "Fernando Alonso", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Tudomány és technika",
+        "question": "Melyik országhoz tartozik a Hyundai autómárka?",
+        "level": 3,
+        "answers": [
+            { "text": "Japán", "isCorrect": false },
+            { "text": "USA", "isCorrect": false },
+            { "text": "Dél-Korea", "isCorrect": true },
+            { "text": "Németország", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Irodalom és kultúra",
+        "question": "Hogy hívják A vágy villamosa című könyv/film főhősét?",
+        "level": 4,
+        "answers": [
+            { "text": "Jack Dawson", "isCorrect": false },
+            { "text": "Blanche DuBois", "isCorrect": true },
+            { "text": "Miranda Hobbes", "isCorrect": false },
+            { "text": "Phoebe Buffay", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Matematika",
+        "question": "Mennyi 12 négyzete?",
+        "level": 2,
+        "answers": [
+            { "text": "122", "isCorrect": false },
+            { "text": "140", "isCorrect": false },
+            { "text": "144", "isCorrect": true },
+            { "text": "146", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Történelem",
+        "question": "Mikor zajlott a Habsburgok elleni forradalom és szabadságharc?",
+        "level": 2,
+        "answers": [
+            { "text": "1703-1711", "isCorrect": false },
+            { "text": "1848-1849", "isCorrect": true },
+            { "text": "1867", "isCorrect": false },
+            { "text": "1914-1918", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 9,
+        "category": "Film és TV",
+        "question": "Hány epizódja volt a Dallas című filmsorozatnak?",
+        "level": 4,
+        "answers": [
+            { "text": "220", "isCorrect": false },
+            { "text": "270", "isCorrect": false },
+            { "text": "357", "isCorrect": true },
+            { "text": "400", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 10,
+        "category": "Történelem",
+        "question": "Ki volt az Amerikai Egyesült Államok 40. elnöke?",
+        "level": 4,
+        "answers": [
+            { "text": "Jimmy Carter", "isCorrect": false },
+            { "text": "Ronald Reagan", "isCorrect": true },
+            { "text": "George W. Bush", "isCorrect": false },
+            { "text": "Barack Obama", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 11,
+        "category": "Irodalom és kultúra",
+        "question": "A monda szerint hol lakik az igazi Télapó?",
+        "level": 3,
+        "answers": [
+            { "text": "Oroszországban", "isCorrect": false },
+            { "text": "Amerikában", "isCorrect": false },
+            { "text": "Finnországban", "isCorrect": true },
+            { "text": "Kínában", "isCorrect": false }
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Földrajz",
+        "question": "Hány kerülete van Budapestnek?",
+        "level": 3,
+        "answers": [
+            { "text": "16", "isCorrect": false },
+            { "text": "18", "isCorrect": false },
+            { "text": "20", "isCorrect": false },
+            { "text": "23", "isCorrect": true }
+        ]
+    },
+    {
+        "id": 13,
+        "category": "Tudomány és technológia",
+        "question": "Mi volt a híres magyar gőzmozdony, a Bivaly sorozatszáma?",
+        "level": 3,
+        "answers": [
+            { "text": "242", "isCorrect": false },
+            { "text": "323", "isCorrect": false },
+            { "text": "424", "isCorrect": true },
+            { "text": "626", "isCorrect": false }
+        ]
+    }
+]
