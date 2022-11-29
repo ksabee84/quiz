@@ -13,12 +13,28 @@ body .container {
     background-size: cover;
 }
 
-div.correct {
-    background-color: green;
+@keyframes correct {
+    0% {background-color: green;}
+    25% {background-color: greenyellow;}
+    50% {background-color: green;}
+    100% {background-color: greenyellow;}
 }
 
-div.wrong {
-    background-color: red;
+@keyframes wrong {
+    0% {background-color: red;}
+    25% {background-color: lightcoral;}
+    50% {background-color: red;}
+    100% {background-color: lightcoral;}
+}
+
+div .correct {
+    animation-name: correct;
+    animation-duration: 2s;
+}
+
+div .wrong {
+    animation-name: wrong;
+    animation-duration: 2s;
 }
 
 #startQuizBtn {

@@ -6,8 +6,8 @@ const questions = [
         question: "Mi Svájc fővárosa?",
         level: '2',
         answers: [
-            { text: "New York", isCorrect: false },
             { text: "Bern", isCorrect: true },
+            { text: "New York", isCorrect: false },
             { text: "Párizs", isCorrect: false },
             { text: "Tirana", isCorrect: false },
         ]
@@ -19,9 +19,9 @@ const questions = [
         level: '2',
         answers: [
             { text: "Debrecen", isCorrect: true },
+            { text: "Győr", isCorrect: false },
             { text: "Miskolc", isCorrect: false },
             { text: "Szeged", isCorrect: false },
-            { text: "Győr", isCorrect: false },
         ]
     },
     {
@@ -42,10 +42,10 @@ const questions = [
         question: "Ki nyerte meg a 2021-es Forma-1-es világbajnokságot?",
         level: '3',
         answers: [
-            { text: "Mick Schumacher", isCorrect: false },
-            { text: "Max Verstappen", isCorrect: true },
-            { text: "Lewis Hamilton", isCorrect: false },
             { text: "Fernando Alonso", isCorrect: false },
+            { text: "Lewis Hamilton", isCorrect: false },
+            { text: "Max Verstappen", isCorrect: true },
+            { text: "Mick Schumacher", isCorrect: false }, 
         ]
     },
     {
@@ -54,10 +54,10 @@ const questions = [
         question: "Melyik országhoz tartozik a Hyundai autómárka?",
         level: '3',
         answers: [
-            { text: "Japán", isCorrect: false },
-            { text: "USA", isCorrect: false },
             { text: "Dél-Korea", isCorrect: true },
+            { text: "Japán", isCorrect: false },
             { text: "Németország", isCorrect: false },
+            { text: "USA", isCorrect: false },
         ]
     },
     {
@@ -66,8 +66,8 @@ const questions = [
         question: "Hogy hívják A vágy villamosa című könyv/film főhősét?",
         level: '4',
         answers: [
-            { text: "Jack Dawson", isCorrect: false },
             { text: "Blanche DuBois", isCorrect: true },
+            { text: "Jack Dawson", isCorrect: false },
             { text: "Miranda Hobbes", isCorrect: false },
             { text: "Phoebe Buffay", isCorrect: false },
         ]
@@ -114,10 +114,10 @@ const questions = [
         question: "Ki volt az Amerikai Egyesült Államok 40. elnöke?",
         level: '4',
         answers: [
+            { text: "Barack Obama", isCorrect: false },
+            { text: "George W. Bush", isCorrect: false },
             { text: "Jimmy Carter", isCorrect: false },
             { text: "Ronald Reagan", isCorrect: true },
-            { text: "George W. Bush", isCorrect: false },
-            { text: "Barack Obama", isCorrect: false },
         ]
     },
     {
@@ -126,10 +126,10 @@ const questions = [
         question: "A monda szerint hol lakik az igazi Télapó?",
         level: '3',
         answers: [
-            { text: "Oroszországban", isCorrect: false },
             { text: "Amerikában", isCorrect: false },
             { text: "Finnországban", isCorrect: true },
             { text: "Kínában", isCorrect: false },
+            { text: "Oroszországban", isCorrect: false },
         ]
     },
     {
@@ -162,10 +162,10 @@ const questions = [
         question: "Melyik színész formálta meg először filmen James Bondot?",
         level: '3',
         answers: [
-            { text: "George Lazenby", isCorrect: false },
-            { text: "Sean Connery", isCorrect: true },
-            { text: "Pierce Brosnan", isCorrect: false },
             { text: "Daniel Craig", isCorrect: false },
+            { text: "George Lazenby", isCorrect: false },
+            { text: "Pierce Brosnan", isCorrect: false },
+            { text: "Sean Connery", isCorrect: true },
         ]
     },
     {
@@ -178,6 +178,66 @@ const questions = [
             { text: "1984", isCorrect: false },
             { text: "1986", isCorrect: true },
             { text: "1990", isCorrect: false },
+        ]
+    },
+    {
+        id: 16,
+        category: "Történelem",
+        question: "Melyik év április 15-én süllyedt el a Titanic?",
+        level: '3',
+        answers: [
+            { text: "1890", isCorrect: false },
+            { text: "1910", isCorrect: false },
+            { text: "1912", isCorrect: true },
+            { text: "1930", isCorrect: false },
+        ]
+    },
+    {
+        id: 17,
+        category: "Földrajz",
+        question: "Mi Portugália fővárosa?",
+        level: '2',
+        answers: [
+            { text: "Lisszabon", isCorrect: true },
+            { text: "Párizs", isCorrect: false },
+            { text: "Porto", isCorrect: false },
+            { text: "Sevilla", isCorrect: false },
+        ]
+    },
+    {
+        id: 18,
+        category: "Földrajz",
+        question: "Melyik folyó magyarországi szakasza a leghosszabb?",
+        level: '2',
+        answers: [
+            { text: "Dráva", isCorrect: false },
+            { text: "Duna", isCorrect: false },
+            { text: "Maros", isCorrect: false },
+            { text: "Tisza", isCorrect: true },
+        ]
+    },
+    {
+        id: 19,
+        category: "Élővilág",
+        question: "A következők közül melyik a legkisebb madár?",
+        level: '3',
+        answers: [
+            { text: "méhkolibri", isCorrect: true },
+            { text: "sárgafejű királyka", isCorrect: false },
+            { text: "sárszalonka", isCorrect: false },
+            { text: "vörösbegy", isCorrect: false },
+        ]
+    },
+    {
+        id: 20,
+        category: "Tudomány és technika",
+        question: "Hivatalosan ki találta fel a telefont?",
+        level: '2',
+        answers: [
+            { text: "Alexander Graham Bell", isCorrect: true },
+            { text: "Hans Geiger", isCorrect: false },
+            { text: "Isaac Newton", isCorrect: false },
+            { text: "James Watt", isCorrect: false },
         ]
     },
 
@@ -235,13 +295,15 @@ function startQuiz() {
     setNextQuestion();
 }
 
-function setNextQuestion() {
-    resetState();
-    showQuestion(shuffledQuestions[currentQuestionIndex]);
+function increaseQuestionNumbers() {
+    let count = 1;
+    count +=1;
+    questionNumber.innerHTML = count;
+    console.log(count);
 }
 
 function resetState() {
-    clearStatusClass(resultDiv, pointsDiv);
+    //clearStatusClass(resultDiv, pointsDiv);
     resultDiv.style.display = 'none';
     pointsDiv.style.display = 'none';
     nextQuestionBtn.style.display = 'none';
@@ -252,6 +314,11 @@ function resetState() {
     while(answerBtnsContainer.firstChild) {
         answerBtnsContainer.removeChild(answerBtnsContainer.firstChild)
     }
+}
+
+function setNextQuestion() {
+    resetState();
+    showQuestion(shuffledQuestions[currentQuestionIndex]);
 }
 
 function showQuestion(questions) {
@@ -330,7 +397,7 @@ function selectAnswer(e) {
 function increasePoints() {
     var value = parseInt(points.innerHTML);
     value = isNaN(value) ? 0 : value;
-    ++value;
+    value++;
     points.innerHTML = value;
 }
 
@@ -361,9 +428,7 @@ startQuizBtn.onclick = () => {
 
 nextQuestionBtn.onclick = () => {
     currentQuestionIndex++;
+    increaseQuestionNumbers();
     setNextQuestion();
     resultDiv.style.display = 'none';
-    let number = 1;
-    number++;
-    questionNumber.innerHTML = number;
 }
