@@ -243,21 +243,21 @@ const questions = [
 
 ];
 
-
+const startBtn = document.getElementById('startBtn');
+const mainContainer = document.getElementById('mainContainer');
 const startQuizBtn = document.getElementById('startQuizBtn');
-const container = document.getElementById('container');
 const questionDiv = document.getElementById('questionDiv');
-const questionText = document.getElementById('questionText');
-const categoryDiv = document.getElementById('categoryDiv');
-const categoryText = document.getElementById('categoryText');
-const answerBtnsContainer = document.getElementById('answerBtns');
-const answerBtn = document.getElementsByClassName('answBtn');
-const resultDiv = document.getElementById('result');
-const pointsDiv = document.getElementById('pointsDiv');
-const points = document.getElementById('points');
 const noOfQuestUpper = document.getElementById('noOfQuestUpper');
 const questionNumber = document.getElementById('questionNo');
+const categoryDiv = document.getElementById('categoryDiv');
+const categoryText = document.getElementById('categoryText');
+const questionText = document.getElementById('questionText');
+const answerBtnsContainer = document.getElementById('answerBtns');
+const answerBtn = document.getElementsByClassName('answBtn');
+const resultDiv = document.getElementById('resultDiv');
+const pointsDiv = document.getElementById('pointsDiv');
 const noOfQuestFooter = document.getElementById('noOfQuestFooter');
+const points = document.getElementById('points');
 const nextQuestionBtn = document.getElementById('nextBtn');
 const restartButton = document.getElementById('restartBtn');
 
@@ -268,6 +268,11 @@ pointsDiv.style.display = 'none';
 nextQuestionBtn.style.display = 'none';
 
 let shuffledQuestions, currentQuestionIndex;
+let count = 1;
+let pointsValue = 0;
+
+const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
+const startQuizSound = new Audio("./sounds/startthequiz.mp3");
 
 const noOfQuest = questions.length;
 noOfQuestUpper.innerHTML = noOfQuest;
@@ -296,10 +301,8 @@ function startQuiz() {
 }
 
 function increaseQuestionNumbers() {
-    let count = 1;
     count +=1;
     questionNumber.innerHTML = count;
-    console.log(count);
 }
 
 function resetState() {
@@ -307,7 +310,7 @@ function resetState() {
     resultDiv.style.display = 'none';
     pointsDiv.style.display = 'none';
     nextQuestionBtn.style.display = 'none';
-    container.classList.remove('border-success', 'border-danger', 'border-3');
+    mainContainer.classList.remove('border-success', 'border-danger', 'border-3');
     answerBtnsContainer.classList.remove('border-success', 'border-danger', 'border-3');
     resultDiv.classList.remove('border', 'border-success', 'border-danger', 'bg-success', 'bg-danger');
     pointsDiv.classList.remove('border', 'border-success', 'border-danger');
@@ -338,9 +341,10 @@ function showQuestion(questions) {
 
 function selectAnswer(e) {
     const selectedButton = e.target;
-    const correct = selectedButton.dataset.isCorrect;
+    //const correct = selectedButton.dataset.isCorrect;
     Array.from(answerBtnsContainer.children).forEach(button => {
         setStatusClass(button, button.dataset.isCorrect);
+        
     })
     resultDiv.style.display = 'block';
 
@@ -360,22 +364,26 @@ function selectAnswer(e) {
             restartButton.style.display = 'none';
         }
     }
+
+    selectedButton.classList.add('correct');
         
     if(selectedButton.dataset.isCorrect) {
+        correctAnswerSound.play();
         resultDiv.innerHTML = 'Helyes válasz!';
         resultDiv.classList.add('border', 'border-success', 'bg-success'),
         pointsDiv.style.display = 'block';
         pointsDiv.classList.add('border', 'border-success'),
-        container.classList.add('border-success', 'border-3');
+        mainContainer.classList.add('border-success', 'border-3');
         answerBtnsContainer.classList.add('border', 'border-success', 'border-3');
         increasePoints();
     }
     else {
+        selectedButton.classList.add('wrong');
         resultDiv.innerHTML = 'Helytelen válasz!';
         resultDiv.classList.add('border', 'border-danger', 'bg-danger'),
         pointsDiv.style.display = 'block';
         pointsDiv.classList.add('border', 'border-danger');
-        container.classList.add('border-danger', 'border-3');
+        mainContainer.classList.add('border-danger', 'border-3');
         answerBtnsContainer.classList.add('border', 'border-danger', 'border-3');
     }
 
@@ -395,20 +403,18 @@ function selectAnswer(e) {
 }
 
 function increasePoints() {
-    var value = parseInt(points.innerHTML);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    points.innerHTML = value;
+    ++pointsValue;
+    points.innerHTML = pointsValue;
 }
 
 function setStatusClass(element, isCorrect) {
     clearStatusClass(element);
     if(isCorrect) {
         element.classList.remove('btn-primary');
-        element.classList.add('correct', 'btn-success');
+        element.classList.add('btn-success');
     } else {
         element.classList.remove('btn-primary');
-        element.classList.add('wrong', 'btn-danger');
+        element.classList.add('btn-danger');
     }
 }
 
@@ -421,6 +427,12 @@ function resetResult() {
     points.innerHTML = 0;
     questionNumber.innerHTML = '1';
 }
+
+/*
+startBtn.onclick = () => {
+    startQuizSound.play();
+}
+*/
 
 startQuizBtn.onclick = () => {
     startQuiz();
