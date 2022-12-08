@@ -240,9 +240,384 @@ const questions = [
             { text: "James Watt", isCorrect: false },
         ]
     },
-
+    {
+        id: 21,
+        category: "Film és TV",
+        question: "Hány Oscar-díjat kapott az 1998-as Titanic című film?",
+        level: '3',
+        answers: [
+            { text: "3", isCorrect: false },
+            { text: "6", isCorrect: false },
+            { text: "9", isCorrect: false },
+            { text: "11", isCorrect: true },
+        ]
+    },
+    {
+        id: 22,
+        category: "Film és TV",
+        question: "Hány részből áll a Gyűrűk Ura?",
+        level: '3',
+        answers: [
+            { text: "2", isCorrect: false },
+            { text: "3", isCorrect: true },
+            { text: "4", isCorrect: false },
+            { text: "5", isCorrect: false },
+        ]
+    },
+    {
+        id: 23,
+        category: "Film és TV",
+        question: `Melyik film főcímdala az "Eye of the Tiger"?`,
+        level: '3',
+        answers: [
+            { text: "Star Wars", isCorrect: false },
+            { text: "Rocky", isCorrect: true },
+            { text: "Ponyvaregény", isCorrect: false },
+            { text: "Ál/arc", isCorrect: false },
+        ]
+    },
+    {
+        id: 24,
+        category: "Film és TV",
+        question: "Melyik nem filmtrilógia az alábbiak közül?",
+        level: '3',
+        answers: [
+            { text: "A keresztapa", isCorrect: false },
+            { text: "Vissza a jövőbe", isCorrect: false },
+            { text: "Batman-filmek", isCorrect: true },
+            { text: "A Gyűrűk Ura", isCorrect: false },
+        ]
+    },
+    {
+        id: 25,
+        category: "Földrajz",
+        question: "Nelyik városban nem található minaret?",
+        level: '3',
+        answers: [
+            { text: "Debrecen", isCorrect: true },
+            { text: "Eger", isCorrect: false },
+            { text: "Érd", isCorrect: false },
+            { text: "Pécs", isCorrect: false },
+        ]
+    },
+    {
+        id: 26,
+        category: "Földrajz",
+        question: "Hány országgal határos Magyarország?",
+        level: '2',
+        answers: [
+            { text: "5", isCorrect: false },
+            { text: "6", isCorrect: false },
+            { text: "7", isCorrect: true },
+            { text: "8", isCorrect: false },
+        ]
+    },
+    {
+        id: 27,
+        category: "Földrajz",
+        question: "Melyik város latin neve Arrabona?",
+        level: '2',
+        answers: [
+            { text: "Debrecen", isCorrect: false },
+            { text: "Győr", isCorrect: true },
+            { text: "Nyíregyháza", isCorrect: false },
+            { text: "Pécs", isCorrect: false },
+        ]
+    },
+    {
+        id: 28,
+        category: "Földrajz",
+        question: `Melyik a "leghűségesebb város"?`,
+        level: '3',
+        answers: [
+            { text: "Balassagyarmat", isCorrect: false },
+            { text: "Budapest", isCorrect: false },
+            { text: "Sopron", isCorrect: true },
+            { text: "Szekszárd", isCorrect: false },
+        ]
+    },
+    {
+        id: 29,
+        category: "Földrajz",
+        question: "Melyik folyó folyik át a spanyolországi Córdoba városán?",
+        level: '4',
+        answers: [
+            { text: "Duna", isCorrect: false },
+            { text: "Guadalquivir", isCorrect: true },
+            { text: "Pó", isCorrect: false },
+            { text: "Tejo", isCorrect: false },
+        ]
+    },
+    {
+        id: 30,
+        category: "Irodalom és kultúra",
+        question: "Ki hozta létre Micimackó karakterét?",
+        level: '3',
+        answers: [
+            { text: "A. A. Milne", isCorrect: true },
+            { text: "C. S. Lewis", isCorrect: false },
+            { text: "J. K. Rowling", isCorrect: false },
+            { text: "Lewis Caroll", isCorrect: false },
+        ]
+    },
+    {
+        id: 31,
+        category: "Irodalom és kultúra",
+        question: `Ki írta az "1984" című regényt?`,
+        level: '4',
+        answers: [
+            { text: "Isaac Asimov", isCorrect: false },
+            { text: "Aldous Huxley", isCorrect: false },
+            { text: "George Orwell", isCorrect: true },
+            { text: "Jules Verne", isCorrect: false },
+        ]
+    },
+    {
+        id: 32,
+        category: "Irodalom és kultúra",
+        question: `Ki írta az "Isteni színjáték" című művet?`,
+        level: '3',
+        answers: [
+            { text: "Dante Alighieri", isCorrect: true },
+            { text: "Giovanni Boccaccio", isCorrect: false },
+            { text: "Johann Wolfgang Goethe", isCorrect: false },
+            { text: "William Shakespeare", isCorrect: false },
+        ]
+    },
+    {
+        id: 33,
+        category: "Sport",
+        question: "Melyik válogatott nyerte meg az 1998-as labdarúgó-világbajnokságot?",
+        level: '3',
+        answers: [
+            { text: "Anglia", isCorrect: false },
+            { text: "Brazília", isCorrect: false },
+            { text: "Franciaország", isCorrect: true },
+            { text: "Németország", isCorrect: false },
+        ]
+    },
+    {
+        id: 34,
+        category: "Sport",
+        question: "Melyik évben halt meg Ayrton Senna Formula-1-es versenyző?",
+        level: '4',
+        answers: [
+            { text: "1988", isCorrect: false },
+            { text: "1990", isCorrect: false },
+            { text: "1992", isCorrect: false },
+            { text: "1994", isCorrect: true },
+        ]
+    },
+    {
+        id: 35,
+        category: "Sport",
+        question: "Milyen nemzetiségű volt a Forma-1-es versenyző Niki Lauda?",
+        level: '4',
+        answers: [
+            { text: "brit", isCorrect: false },
+            { text: "finn", isCorrect: false },
+            { text: "német", isCorrect: false },
+            { text: "osztrák", isCorrect: true },
+        ]
+    },
+    {
+        id: 36,
+        category: "Sport",
+        question: "Melyik országban rendezték meg a 2010-es labdarúgó-világbajnokságot?",
+        level: '3',
+        answers: [
+            { text: "Argentína", isCorrect: false },
+            { text: "Dél-afrikai Köztársaság", isCorrect: true },
+            { text: "Kína", isCorrect: false },
+            { text: "Németország", isCorrect: false },
+        ]
+    },
+    {
+        id: 37,
+        category: "Sport",
+        question: "Mi annak a hangszernek a neve, ami a 2010-es labdarúgó-világbajnoksággal vált ismertté?",
+        level: '3',
+        answers: [
+            { text: "balalajka", isCorrect: false },
+            { text: "bendzsó", isCorrect: false },
+            { text: "ukulele", isCorrect: false },
+            { text: "vuvuzela", isCorrect: true },
+        ]
+    },
+    {
+        id: 38,
+        category: "Tudomány és technika",
+        question: "Minek a rövidítése a számítástechnikában a CPU?",
+        level: '3',
+        answers: [
+            { text: "Central Processing Unit", isCorrect: true },
+            { text: "Central Programming Unit", isCorrect: false },
+            { text: "Core Processing Unit", isCorrect: false },
+            { text: "Cost Per Unit", isCorrect: false },
+        ]
+    },
+    {
+        id: 39,
+        category: "Tudomány és technika",
+        question: "Minek a rövidítése a számítástechnikában a CD?",
+        level: '3',
+        answers: [
+            { text: "Cluster Decay", isCorrect: false },
+            { text: "Command Denied", isCorrect: false },
+            { text: "Compact Disc", isCorrect: true },
+            { text: "Core Database", isCorrect: false },
+        ]
+    },
+    {
+        id: 40,
+        category: "Tudomány és technika",
+        question: "Minek a rövidítése az informatikában a HDD?",
+        level: '3',
+        answers: [
+            { text: "Hard Disk Drive", isCorrect: true },
+            { text: "High Density Disk", isCorrect: false },
+            { text: "High Density Driver", isCorrect: false },
+            { text: "Host Device Driver", isCorrect: false },
+        ]
+    },
+    {
+        id: 41,
+        category: "Történelem",
+        question: "Hol található a világ legnagyobb gótikus katedrálisa?",
+        level: '5',
+        answers: [
+            { text: "Kölnben", isCorrect: false },
+            { text: "Párizsban", isCorrect: false },
+            { text: "Rómában", isCorrect: false },
+            { text: "Sevillában", isCorrect: true },
+        ]
+    },
+    {
+        id: 42,
+        category: "Tudomány és technika",
+        question: "Melyik nem egy SEAT-autótípus?",
+        level: '3',
+        answers: [
+            { text: "Astra", isCorrect: true },
+            { text: "Cordoba", isCorrect: false },
+            { text: "Ibiza", isCorrect: false },
+            { text: "Marbella", isCorrect: false },
+        ]
+    },
+    {
+        id: 43,
+        category: "Tudomány és technika",
+        question: "Melyik város a Lamborghini autógyár székhelye?",
+        level: '4',
+        answers: [
+            { text: "Modena", isCorrect: false },
+            { text: "Milano", isCorrect: false },
+            { text: "Sant'Agata Bolognese", isCorrect: true },
+            { text: "Torino", isCorrect: false },
+        ]
+    },
+    {
+        id: 44,
+        category: "Tudomány és technika",
+        question: "Melyik város az Opel autógyár székhelye?",
+        level: '4',
+        answers: [
+            { text: "Köln", isCorrect: false },
+            { text: "Rüsselsheim", isCorrect: true },
+            { text: "Wolfsburg", isCorrect: false },
+            { text: "Zwickau", isCorrect: false },
+        ]
+    },
+    {
+        id: 45,
+        category: "Történelem",
+        question: "Melyik évben jött létre Buda, Óbuda és Pest egyesítésével Budapest?",
+        level: '3',
+        answers: [
+            { text: "1848", isCorrect: false },
+            { text: "1867", isCorrect: false },
+            { text: "1873", isCorrect: true },
+            { text: "1912", isCorrect: false },
+        ]
+    },
+    {
+        id: 46,
+        category: "Élővilág",
+        question: "Hány csontja van egy felnőtt embernek?",
+        level: '3',
+        answers: [
+            { text: "150", isCorrect: false },
+            { text: "200", isCorrect: false },
+            { text: "206", isCorrect: true },
+            { text: "250", isCorrect: false },
+        ]
+    },
+    {
+        id: 47,
+        category: "Élővilág",
+        question: "Melyik nem páros szerv?",
+        level: '2',
+        answers: [
+            { text: "máj", isCorrect: true },
+            { text: "szem", isCorrect: false },
+            { text: "tüdő", isCorrect: false },
+            { text: "vese", isCorrect: false },
+        ]
+    },
+    {
+        id: 48,
+        category: "Történelem",
+        question: "Melyik ország nemzeti hőse Tell Vilmos?",
+        level: '3',
+        answers: [
+            { text: "Anglia", isCorrect: false },
+            { text: "Franciaország", isCorrect: false },
+            { text: "Németország", isCorrect: false },
+            { text: "Svájc", isCorrect: true },
+        ]
+    },
+    {
+        id: 49,
+        category: "Történelem",
+        question: "Mi volt Szent István király eredeti neve?",
+        level: '2',
+        answers: [
+            { text: "Buda", isCorrect: false },
+            { text: "Koppány", isCorrect: false },
+            { text: "Vajk", isCorrect: true },
+            { text: "Vazul", isCorrect: false },
+        ]
+    },
+    {
+        id: 50,
+        category: "Irodalom és kultúra",
+        question: `Ki mondta: "Veni, vidi, vici"?`,
+        level: '3',
+        answers: [
+            { text: "Augustus", isCorrect: false },
+            { text: "Calligula", isCorrect: false },
+            { text: "Julius Caesar", isCorrect: true },
+            { text: "Nero", isCorrect: false },
+        ]
+    },
+    /*
+    {
+        id: 51,
+        category: "",
+        question: "",
+        level: '',
+        answers: [
+            { text: "", isCorrect: false },
+            { text: "", isCorrect: false },
+            { text: "", isCorrect: false },
+            { text: "", isCorrect: true },
+        ]
+    },
+    */
 ];
 
+const navbar = document.getElementById('navbarDiv');
+const soundBtn = document.getElementById('soundBtn');
 const startBtn = document.getElementById('startBtn');
 const mainContainer = document.getElementById('mainContainer');
 const startQuizBtn = document.getElementById('startQuizBtn');
@@ -270,9 +645,12 @@ nextQuestionBtn.style.display = 'none';
 let shuffledQuestions, currentQuestionIndex;
 let count = 1;
 let pointsValue = 0;
+let playSounds;
 
-const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
 const startQuizSound = new Audio("./sounds/startthequiz.mp3");
+const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
+const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
+const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
 
 const noOfQuest = questions.length;
 noOfQuestUpper.innerHTML = noOfQuest;
@@ -288,8 +666,21 @@ function importQuestions() {
 }
 */
 
+function toggleSounds() {
+    playSounds = !playSounds;
+    if(playSounds) {
+        soundBtn.style.backgroundImage = "url('./imgs/sound-on.png')";
+    } else {
+        tickingBuzzer.muted = !tickingBuzzer.muted;
+        correctAnswerSound.muted = !correctAnswerSound.muted;
+        wrongAnswerSound.muted = !wrongAnswerSound.muted;
+        soundBtn.style.backgroundImage = "url('./imgs/sound-off.png')";
+    }
+}
+
 function startQuiz() {
     //importQuestions();
+    navbar.style.display = 'block';
     startQuizBtn.style.display = 'none';
     shuffledQuestions = questions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
@@ -322,6 +713,7 @@ function resetState() {
 function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
+    tickingBuzzer.play();
 }
 
 function showQuestion(questions) {
@@ -366,6 +758,8 @@ function selectAnswer(e) {
     }
 
     selectedButton.classList.add('correct');
+
+    tickingBuzzer.pause();
         
     if(selectedButton.dataset.isCorrect) {
         correctAnswerSound.play();
@@ -378,6 +772,7 @@ function selectAnswer(e) {
         increasePoints();
     }
     else {
+        wrongAnswerSound.play();
         selectedButton.classList.add('wrong');
         resultDiv.innerHTML = 'Helytelen válasz!';
         resultDiv.classList.add('border', 'border-danger', 'bg-danger'),
@@ -434,7 +829,12 @@ startBtn.onclick = () => {
 }
 */
 
+soundBtn.onclick = () => {
+    toggleSounds();
+}
+
 startQuizBtn.onclick = () => {
+    soundBtn.style.display = 'block';
     startQuiz();
 }
 

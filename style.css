@@ -9,22 +9,22 @@ body {
 }
 
 body .container {
-    background-image: url('quizbackground.png');
+    background-image: url('./imgs/quizbackground.png');
     background-size: cover;
-    height: 95vh;
+    height: 98vh;
+}
+
+#soundBtn {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('./imgs/sound-on.png');
 }
 
 @keyframes correct {
     0% {background-color: green;}
     50% {background-color: greenyellow;}
 }
-
-/*
-@keyframes wrong {
-    0% {background-color: red;}
-    50% {background-color: lightcoral;}
-}
-*/
 
 div .correct {
     animation-name: correct;

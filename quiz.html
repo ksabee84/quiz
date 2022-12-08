@@ -9,13 +9,105 @@
     <title>A nagy kvízjáték v0.9</title>
 </head>
 <body class="bg-secondary">
-    <div class="container row col-8 col-sm-12 mx-auto py-3 mt-2 rounded" id="mainContainer">
+    <div id="mainContainer" class="container row col-8 col-sm-12 mx-auto py-3 mt-2 rounded">
+        <div id="navbarDiv" class="col-8 mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+                <a class="navbar-brand mx-3" href="index.html">A nagy kvízjáték</a>
+                
+                <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <div class="navbar-nav mr-auto">
+                        <div class="nav-item dropdown">
+                            <div class="nav-link dropdown-toggle" id="dropdownMenuButton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kérdéskategóriák
+                            </div>
+                      
+                            <ul class="dropdown-menu bg-warning mt-2" aria-labelledby="dropdownMenuButton">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="elovilag" />
+                                            <label class="form-check-label" for="elovilag">Élővilág</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="filmestv" />
+                                            <label class="form-check-label" for="filmestv">Film és TV</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="foldrajz" />
+                                            <label class="form-check-label" for="foldrajz">Földrajz</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="irodalom" />
+                                            <label class="form-check-label" for="irodalom">Irodalom és kultúra</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="matematika" />
+                                            <label class="form-check-label" for="matematika">Matematika</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="sport" />
+                                            <label class="form-check-label" for="sport">Sport</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="tudomany" />
+                                            <label class="form-check-label" for="tudomany">Tudomány és technika</label>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span>Bejelentkezés</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="soundBtn" class="mx-2"></button>
+            </nav>
+        </div>
         <div class="col-6 mx-auto text-center">
-            <button type="submit" class="btn btn-primary btn-lg py-5 px-5 fs-3" id="startQuizBtn">
+            <button id="startQuizBtn" type="submit" class="btn btn-primary btn-lg py-5 px-5 fs-3">
                 Kérem az első kérdést!
             </button>
         </div>
-
         <div id="questionDiv" class="col-8 mx-auto mb-3 rounded" >
             <div class="col-4 col-sm-4 px-3 mb-2 border rounded">Kérdések száma:
                 <span id="noOfQuestUpper">0</span>/<span id="questionNo">1</span>
@@ -29,16 +121,16 @@
             </div>
 
             <div id="answerBtns" class="row col-6 col-sm-12 mx-auto d-flex flex-wrap bg-warning text-center rounded">
-                <button class="answBtn" id="answerA">
+                <button id="answerA" class="answBtn">
                     A válasz
                 </button>
-                <button class="answBtn" id="answerB">
+                <button id="answerB" class="answBtn">
                     B válasz
                 </button>
-                <button class="answBtn" id="answerC">
+                <button id="answerC" class="answBtn">
                     C válasz
                 </button>
-                <button class="answBtn" id="answerD">
+                <button id="answerD" class="answBtn">
                     D válasz
                 </button>
             </div>
