@@ -146,7 +146,7 @@ const questions = [
     },
     {
         id: 13,
-        category: "Tudomány és technológia",
+        category: "Tudomány és technika",
         question: "Mi volt a híres magyar gőzmozdony, a Bivaly sorozatszáma?",
         level: '3',
         answers: [
@@ -291,7 +291,7 @@ const questions = [
     {
         id: 25,
         category: "Földrajz",
-        question: "Nelyik városban nem található minaret?",
+        question: "Melyik városban nem található minaret?",
         level: '3',
         answers: [
             { text: "Debrecen", isCorrect: true },
@@ -434,7 +434,7 @@ const questions = [
     },
     {
         id: 37,
-        category: "Sport",
+        category: "Zene",
         question: "Mi annak a hangszernek a neve, ami a 2010-es labdarúgó-világbajnoksággal vált ismertté?",
         level: '3',
         answers: [
@@ -616,9 +616,22 @@ const questions = [
     */
 ];
 
+const startBtn = document.getElementById('startBtn');
 const navbar = document.getElementById('navbarDiv');
 const soundBtn = document.getElementById('soundBtn');
-const startBtn = document.getElementById('startBtn');
+const inputs = document.querySelectorAll('input');
+const selectCategoryBtn = document.getElementById('selectCategoryBtn');
+const noCategoryBtn = document.getElementById('noCategoryBtn');
+const bulvarCheckbox = document.getElementById('bulvarCheckbox');
+const elovilagCheckbox = document.getElementById('elovilagCheckbox');
+const filmCheckbox = document.getElementById('filmCheckbox');
+const foldrajzCheckbox = document.getElementById('foldrajzCheckbox');
+const irodalomCheckbox = document.getElementById('irodalomCheckbox');
+const matekCheckbox = document.getElementById('matekCheckbox');
+const sportCheckbox = document.getElementById('sportCheckbox');
+const toriCheckbox = document.getElementById('toriCheckbox');
+const tudomanyCheckbox = document.getElementById('tudomanyCheckbox');
+const zeneCheckbox = document.getElementById('zeneCheckbox');
 const mainContainer = document.getElementById('mainContainer');
 const startQuizBtn = document.getElementById('startQuizBtn');
 const questionDiv = document.getElementById('questionDiv');
@@ -642,10 +655,21 @@ resultDiv.style.display = 'none';
 pointsDiv.style.display = 'none';
 nextQuestionBtn.style.display = 'none';
 
+let playSounds;
+let selectedQuestions = [];
+let bulvarQuestions = questions.filter((e) => (e.category) === 'Bulvár');
+let elovilagQuestions = questions.filter((e) => (e.category) === 'Élővilág');
+let filmQuestions = questions.filter((e) => (e.category) === 'Film és TV');
+let foldrajzQuestions = questions.filter((e) => (e.category) === 'Földrajz');
+let irodalomQuestions = questions.filter((e) => (e.category) === 'Irodalom és kultúra');
+let matekQuestions = questions.filter((e) => (e.category) === 'Matematika');
+let sportQuestions = questions.filter((e) => (e.category) === 'Sport');
+let toriQuestions = questions.filter((e) => (e.category) === 'Történelem');
+let tudomanyQuestions = questions.filter((e) => (e.category) === 'Tudomány és technika');
+let zeneQuestions = questions.filter((e) => (e.category) === 'Zene');
 let shuffledQuestions, currentQuestionIndex;
 let count = 1;
 let pointsValue = 0;
-let playSounds;
 
 const startQuizSound = new Audio("./sounds/startthequiz.mp3");
 const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
@@ -678,11 +702,63 @@ function toggleSounds() {
     }
 }
 
+function selectCategories() {
+    let checkBoxes = document.querySelectorAll('input:checked');
+    let categoryValues = [];
+    checkBoxes.forEach((inputs) => {
+        categoryValues.push(inputs.value);
+    });
+
+    console.log(categoryValues);
+
+    if(categoryValues.includes('Bulvár')) {
+        selectedQuestions.push(...bulvarQuestions);
+    }
+
+    if(categoryValues.includes('Élővilág')) {
+        selectedQuestions.push(...elovilagQuestions);
+    }
+
+    if(categoryValues.includes('Film és TV')) {
+        selectedQuestions.push(...filmQuestions);
+    }
+
+    if(categoryValues.includes('Földrajz')) {
+        selectedQuestions.push(...foldrajzQuestions);
+    }
+
+    if(categoryValues.includes('Irodalom és kultúra')) {
+        selectedQuestions.push(...irodalomQuestions);
+    }
+
+    if(categoryValues.includes('Matematika')) {
+        selectedQuestions.push(...matekQuestions);
+    }
+
+    if(categoryValues.includes('Sport')) {
+        selectedQuestions.push(...sportQuestions);
+    }
+
+    if(categoryValues.includes('Történelem')) {
+        selectedQuestions.push(...toriQuestions);
+    }
+
+    if(categoryValues.includes('Tudomány és technika')) {
+        selectedQuestions.push(...tudomanyQuestions);
+    }
+
+    if(categoryValues.includes('Zene')) {
+        selectedQuestions.push(...zeneQuestions);
+    }
+
+    console.log(selectedQuestions);
+}
+
 function startQuiz() {
     //importQuestions();
     navbar.style.display = 'block';
     startQuizBtn.style.display = 'none';
-    shuffledQuestions = questions.sort(() => Math.random() - .5);
+    shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
     currentQuestionIndex = 0;
     categoryDiv.style.display = 'block';
     questionDiv.style.display = 'block';
@@ -716,10 +792,10 @@ function setNextQuestion() {
     tickingBuzzer.play();
 }
 
-function showQuestion(questions) {
-    categoryText.innerText = questions.category;
-    questionText.innerText = questions.question;
-    questions.answers.forEach(answer => {
+function showQuestion(selectedQuestions) {
+    categoryText.innerText = selectedQuestions.category;
+    questionText.innerText = selectedQuestions.question;
+    selectedQuestions.answers.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
         button.classList.add('btn', 'btn-primary', 'col-3', 'col-sm-5', 'mx-auto', 'py-3', 'my-3', 'text-center', 'text-wrap', 'border', 'border-black', 'rounded', 'fs-5', 'hover-overlay', 'ripple', 'shadow-1-strong', 'answBtn');
@@ -733,7 +809,6 @@ function showQuestion(questions) {
 
 function selectAnswer(e) {
     const selectedButton = e.target;
-    //const correct = selectedButton.dataset.isCorrect;
     Array.from(answerBtnsContainer.children).forEach(button => {
         setStatusClass(button, button.dataset.isCorrect);
         
@@ -828,6 +903,14 @@ startBtn.onclick = () => {
     startQuizSound.play();
 }
 */
+
+selectCategoryBtn.onclick = () => {
+    selectCategories();
+}
+
+noCategoryBtn.onclick = () => {
+    inputs.checked = false;
+}
 
 soundBtn.onclick = () => {
     toggleSounds();

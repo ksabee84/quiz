@@ -21,6 +21,10 @@ body .container {
     background-image: url('./imgs/sound-on.png');
 }
 
+#selectCategories {
+    margin-left: 45px;
+}
+
 @keyframes correct {
     0% {background-color: green;}
     50% {background-color: greenyellow;}
