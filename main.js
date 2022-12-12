@@ -667,7 +667,8 @@ let sportQuestions = questions.filter((e) => (e.category) === 'Sport');
 let toriQuestions = questions.filter((e) => (e.category) === 'Történelem');
 let tudomanyQuestions = questions.filter((e) => (e.category) === 'Tudomány és technika');
 let zeneQuestions = questions.filter((e) => (e.category) === 'Zene');
-let shuffledQuestions, currentQuestionIndex;
+let shuffledQuestions = [];
+let currentQuestionIndex;
 let count = 1;
 let pointsValue = 0;
 
@@ -676,7 +677,7 @@ const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
 const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
 const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
 
-const noOfQuest = questions.length;
+const noOfQuest = shuffledQuestions.length;
 noOfQuestUpper.innerHTML = noOfQuest;
 noOfQuestFooter.innerHTML = noOfQuest;
 
@@ -708,8 +709,6 @@ function selectCategories() {
     checkBoxes.forEach((inputs) => {
         categoryValues.push(inputs.value);
     });
-
-    console.log(categoryValues);
 
     if(categoryValues.includes('Bulvár')) {
         selectedQuestions.push(...bulvarQuestions);
@@ -756,6 +755,7 @@ function selectCategories() {
 
 function startQuiz() {
     //importQuestions();
+    selectCategories();
     navbar.style.display = 'block';
     startQuizBtn.style.display = 'none';
     shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
@@ -765,6 +765,7 @@ function startQuiz() {
     answerBtnsContainer.style.display = 'inline-flex';
     resultDiv.style.display = 'block';
     setNextQuestion();
+    console.log(shuffledQuestions);
 }
 
 function increaseQuestionNumbers() {
@@ -790,12 +791,13 @@ function setNextQuestion() {
     resetState();
     showQuestion(shuffledQuestions[currentQuestionIndex]);
     tickingBuzzer.play();
+    tickingBuzzer.loop = true;
 }
 
-function showQuestion(selectedQuestions) {
-    categoryText.innerText = selectedQuestions.category;
-    questionText.innerText = selectedQuestions.question;
-    selectedQuestions.answers.forEach(answer => {
+function showQuestion(shuffledQuestions) {
+    categoryText.innerText = shuffledQuestions.category;
+    questionText.innerText = shuffledQuestions.question;
+    shuffledQuestions.answers.forEach(answer => {
         const button = document.createElement('button');
         button.innerText = answer.text;
         button.classList.add('btn', 'btn-primary', 'col-3', 'col-sm-5', 'mx-auto', 'py-3', 'my-3', 'text-center', 'text-wrap', 'border', 'border-black', 'rounded', 'fs-5', 'hover-overlay', 'ripple', 'shadow-1-strong', 'answBtn');
@@ -857,15 +859,15 @@ function selectAnswer(e) {
         answerBtnsContainer.classList.add('border', 'border-danger', 'border-3');
     }
 
-    if(parseInt(points.innerHTML) == questions.length) {
+    if(parseInt(points.innerHTML) == shuffledQuestions.length) {
         resultDiv.innerHTML = 'Minden válasz helyes!<br>Te egy zseni vagy!';
     }
 
-    if(parseInt(points.innerHTML) >= questions.length*0.75 && parseInt(points.innerHTML) <= questions.length*0.8) {
+    if(parseInt(points.innerHTML) >= shuffledQuestions.length*0.75 && parseInt(points.innerHTML) <= shuffledQuestions.length*0.8) {
         resultDiv.innerHTML += '<br>Ne add fel, megy ez neked!';
     }
 
-    if(parseInt(points.innerHTML) >= questions.length*0.5 && parseInt(points.innerHTML) <= questions.length*0.55) {
+    if(parseInt(points.innerHTML) >= shuffledQuestions.length*0.5 && parseInt(points.innerHTML) <= shuffledQuestions.length*0.55) {
         resultDiv.innerHTML += '<br>Gyerünk, van remény!';
     }
 
