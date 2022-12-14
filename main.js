@@ -600,9 +600,369 @@ const questions = [
             { text: "Nero", isCorrect: false },
         ]
     },
-    /*
     {
         id: 51,
+        category: "Történelem",
+        question: `Kit neveznek "Vasladynek"?`,
+        level: '3',
+        answers: [
+            { text: "Angela Merkel", isCorrect: false },
+            { text: "Hillary Clinton", isCorrect: false },
+            { text: "Margaret Thatcher", isCorrect: true },
+            { text: "Michelle Obama", isCorrect: false },
+        ]
+    },
+    {
+        id: 52,
+        category: "Történelem",
+        question: "Ki mászta meg először a Mount Everestet?",
+        level: '3',
+        answers: [
+            { text: "Edmund Hillary", isCorrect: true },
+            { text: "Erőss Zsolt", isCorrect: false },
+            { text: "Neil Armstrong", isCorrect: false },
+            { text: "Sir George Everest", isCorrect: false },
+        ]
+    },
+    {
+        id: 53,
+        category: "Történelem",
+        question: `Ki volt a "Sivatagi Róka"?`,
+        level: '3',
+        answers: [
+            { text: "Albert Kesselring", isCorrect: false },
+            { text: "Erwin Rommel", isCorrect: true },
+            { text: "Helmuth von Moltke", isCorrect: false },
+            { text: "Horatio Nelson", isCorrect: false },
+        ]
+    },
+    {
+        id: 54,
+        category: "Történelem",
+        question: `Milyen "hajósnak" nevezik Wesselényi Miklós bárót?`,
+        level: '3',
+        answers: [
+            { text: "árvízi", isCorrect: true },
+            { text: "dunai", isCorrect: false },
+            { text: "tengeri", isCorrect: false },
+            { text: "tiszai", isCorrect: false },
+        ]
+    },
+    {
+        id: 55,
+        category: "Történelem",
+        question: "Ki vagy mi volt Ozorai Pipó?",
+        level: '4',
+        answers: [
+            { text: "a kockásliliom csak Ozorán élő alfaja", isCorrect: false },
+            { text: "egy manó", isCorrect: false },
+            { text: "jelszó az Macskafogó című rajzfilmben", isCorrect: false },
+            { text: "Zsigmond király hadvezére", isCorrect: true },
+        ]
+    },
+    {
+        id: 56,
+        category: "Irodalom és kultúra",
+        question: "Hol hordanak a férfiak kiltet?",
+        level: '4',
+        answers: [
+            { text: "Ausztrália", isCorrect: false },
+            { text: "Hollandia", isCorrect: false },
+            { text: "Skócia", isCorrect: true },
+            { text: "Svájc", isCorrect: false },
+        ]
+    },
+    {
+        id: 57,
+        category: "Földrajz",
+        question: "Melyik országban gyártják a BMW autókat?",
+        level: '1',
+        answers: [
+            { text: "Ausztria", isCorrect: false },
+            { text: "Egyesült Királyság", isCorrect: false },
+            { text: "Németország", isCorrect: true },
+            { text: "Svédország", isCorrect: false },
+        ]
+    },
+    {
+        id: 58,
+        category: "Földrajz",
+        question: "Melyik autópályán lehet eljutni Budapestről a Balatonra?",
+        level: '2',
+        answers: [
+            { text: "M3", isCorrect: false },
+            { text: "M5", isCorrect: false },
+            { text: "M6", isCorrect: false },
+            { text: "M7", isCorrect: true },
+        ]
+    },
+    {
+        id: 59,
+        category: "Földrajz",
+        question: "Melyik város a transzszibériai vasútvonal keleti végállomása?",
+        level: '4',
+        answers: [
+            { text: "Jekatyerinburg", isCorrect: false },
+            { text: "Novoszibirszk", isCorrect: false },
+            { text: "Szentpétervár", isCorrect: false },
+            { text: "Vlagyivosztok", isCorrect: true },
+        ]
+    },
+    {
+        id: 60,
+        category: "Földrajz",
+        question: "Melyik országban vezetnek a bal oldalon?",
+        level: '3',
+        answers: [
+            { text: "Dánia", isCorrect: false },
+            { text: "Hollandia", isCorrect: false },
+            { text: "Írország", isCorrect: true },
+            { text: "Svédország", isCorrect: false },
+        ]
+    },
+    {
+        id: 61,
+        category: "Tudomány és technika",
+        question: "Melyik évben repült utoljára a Concorde repülőgép?",
+        level: '4',
+        answers: [
+            { text: "1999", isCorrect: false },
+            { text: "2005", isCorrect: false },
+            { text: "2003", isCorrect: true },
+            { text: "2008", isCorrect: false },
+        ]
+    },
+    {
+        id: 62,
+        category: "Tudomány és technika",
+        question: "Melyik évben gyártották le az utolsó Boeing 747-est?",
+        level: '5',
+        answers: [
+            { text: "1999", isCorrect: false },
+            { text: "2010", isCorrect: false },
+            { text: "2020", isCorrect: false },
+            { text: "2022", isCorrect: true },
+        ]
+    },
+    {
+        id: 63,
+        category: "Történelem",
+        question: "Mikor adták át az Eiffel-tornyot?",
+        level: '4',
+        answers: [
+            { text: "1870", isCorrect: false },
+            { text: "1880", isCorrect: false },
+            { text: "1889", isCorrect: true },
+            { text: "1900", isCorrect: false },
+        ]
+    },
+    {
+        id: 64,
+        category: "Tudomány és technika",
+        question: "Melyik évben adták át a budapesti Nyugati pályaudvart?",
+        level: '5',
+        answers: [
+            { text: "1870", isCorrect: false },
+            { text: "1877", isCorrect: true },
+            { text: "1887", isCorrect: false },
+            { text: "1890", isCorrect: false },
+        ]
+    },
+    {
+        id: 65,
+        category: "Bulvár",
+        question: "Ki Korda György felesége?",
+        level: '2',
+        answers: [
+            { text: "Balázs Klári", isCorrect: true },
+            { text: "Hernádi Judit", isCorrect: false },
+            { text: "Kovács Kati", isCorrect: false },
+            { text: "Pogány Judit", isCorrect: false },
+        ]
+    },
+    {
+        id: 66,
+        category: "Tudomány és technika",
+        question: "Melyik a francia nemzeti vasúttársaság?",
+        level: '4',
+        answers: [
+            { text: "DB", isCorrect: false },
+            { text: "ÖBB", isCorrect: false },
+            { text: "SBB", isCorrect: false },
+            { text: "SNCF", isCorrect: true },
+        ]
+    },
+    {
+        id: 67,
+        category: "Földrajz",
+        question: "Minek hívják egy ország fizikailag különálló területét?",
+        level: '4',
+        answers: [
+            { text: "enklávé", isCorrect: false },
+            { text: "exklávé", isCorrect: true },
+            { text: "szubkontinens", isCorrect: false },
+            { text: "szuburbanizáció", isCorrect: false },
+        ]
+    },
+    {
+        id: 68,
+        category: "Film és TV",
+        question: "Melyik sorozatban játszott Gillian Anderson?",
+        level: '3',
+        answers: [
+            { text: "Dallas", isCorrect: false },
+            { text: "Grace Klinika", isCorrect: false },
+            { text: "Vészhelyzet", isCorrect: false },
+            { text: "X-Akták", isCorrect: true },
+        ]
+    },
+    {
+        id: 69,
+        category: "Film és TV",
+        question: `Ki játszotta a főszerepet az "Ace Ventura - állati nyomozó" című filmben?`,
+        level: '3',
+        answers: [
+            { text: "Antonio Banderas", isCorrect: false },
+            { text: "Jim Carey", isCorrect: true },
+            { text: "John Travolta", isCorrect: false },
+            { text: "Kevin Bacon", isCorrect: false },
+        ]
+    },
+    {
+        id: 70,
+        category: "Bulvár",
+        question: "Hogy hívják Istenes Bence feleségét?",
+        level: '3',
+        answers: [
+            { text: "Csobot Adél", isCorrect: true },
+            { text: "Jordán Adél", isCorrect: false },
+            { text: "Oroszlán Szonja", isCorrect: false },
+            { text: "Zimány Linda", isCorrect: false },
+        ]
+    },
+    {
+        id: 71,
+        category: "Film és TV",
+        question: "Ki játssza a főszereplőt a Harry Potter-filmekben?",
+        level: '3',
+        answers: [
+            { text: "Daniel Radcliffe", isCorrect: true },
+            { text: "Elijah Wood", isCorrect: false },
+            { text: "Robert Pattinson", isCorrect: false },
+            { text: "Rupert Grint", isCorrect: false },
+        ]
+    },
+    {
+        id: 72,
+        category: "Zene",
+        question: "A Republic szerint mit csinál a mandula?",
+        level: '3',
+        answers: [
+            { text: "érik", isCorrect: false },
+            { text: "indul", isCorrect: true },
+            { text: "sír", isCorrect: false },
+            { text: "virágzik", isCorrect: false },
+        ]
+    },
+    {
+        id: 73,
+        category: "Zene",
+        question: `Melyik együttes műve a "Kölyköd voltam" című dal?`,
+        level: '3',
+        answers: [
+            { text: "Edda", isCorrect: true },
+            { text: "Ossian", isCorrect: false },
+            { text: "Republic", isCorrect: false },
+            { text: "Road", isCorrect: false },
+        ]
+    },
+    {
+        id: 74,
+        category: "Zene",
+        question: "Melyik egy Republic-dal címe?",
+        level: '3',
+        answers: [
+            { text: "Arany és bíbor", isCorrect: false },
+            { text: "Kék és narancssárga", isCorrect: true },
+            { text: "Rózsaszín és vörös", isCorrect: false },
+            { text: "Zöld és fekete", isCorrect: false },
+        ]
+    },
+    {
+        id: 75,
+        category: "Zene",
+        question: "Ki a Margaret Island énekesnője?",
+        level: '3',
+        answers: [
+            { text: "Bocskor Bíborka", isCorrect: false },
+            { text: "Lábas Viki", isCorrect: true },
+            { text: "Muri Enikő", isCorrect: false },
+            { text: "Péterffy Bori", isCorrect: false },
+        ]
+    },
+    {
+        id: 76,
+        category: "Zene",
+        question: `Ki volt "Paff, a bűvös..."?`,
+        level: '3',
+        answers: [
+            { text: "bárány", isCorrect: false },
+            { text: "cickány", isCorrect: false },
+            { text: "páfrány", isCorrect: false },
+            { text: "sárkány", isCorrect: true },
+        ]
+    },
+    {
+        id: 77,
+        category: "Zene",
+        question: "Az ismert dal szerint hol van egy kék tó?",
+        level: '3',
+        answers: [
+            { text: "a fák alatt", isCorrect: true },
+            { text: "a hegy lábánál", isCorrect: false },
+            { text: "az ég alatt", isCorrect: false },
+            { text: "magas hegyek között", isCorrect: false },
+        ]
+    },
+    {
+        id: 78,
+        category: "Zene",
+        question: `Melyik évben jelent meg Michael Jackson "Billie Jean" című dala?`,
+        level: '5',
+        answers: [
+            { text: "1983", isCorrect: true },
+            { text: "1985", isCorrect: false },
+            { text: "1990", isCorrect: false },
+            { text: "1991", isCorrect: false },
+        ]
+    },
+    {
+        id: 79,
+        category: "Történelem",
+        question: "Melyik évben halt meg Diana walesi hercegné?",
+        level: '4',
+        answers: [
+            { text: "1980", isCorrect: false },
+            { text: "1995", isCorrect: false },
+            { text: "1997", isCorrect: true },
+            { text: "2005", isCorrect: false },
+        ]
+    },
+    {
+        id: 80,
+        category: "Történelem",
+        question: "Ki volt a brit uralkodó a II. világháború (1939-1945) idején?",
+        level: '5',
+        answers: [
+            { text: "II. Erzsébet", isCorrect: false },
+            { text: "V. György", isCorrect: false },
+            { text: "VI. György", isCorrect: true },
+            { text: "VII. Eduárd", isCorrect: false },
+        ]
+    },
+    /*
+    {
+        id: 81,
         category: "",
         question: "",
         level: '',
@@ -619,9 +979,9 @@ const questions = [
 const startBtn = document.getElementById('startBtn');
 const navbar = document.getElementById('navbarDiv');
 const soundBtn = document.getElementById('soundBtn');
-const inputs = document.querySelectorAll('input');
-const selectCategoryBtn = document.getElementById('selectCategoryBtn');
-const noCategoryBtn = document.getElementById('noCategoryBtn');
+const inputs = document.getElementsByTagName('input');
+const selectAllCatBtn = document.getElementById('selectAllCatBtn');
+const noCatBtn = document.getElementById('noCatBtn');
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
 const elovilagCheckbox = document.getElementById('elovilagCheckbox');
 const filmCheckbox = document.getElementById('filmCheckbox');
@@ -677,10 +1037,6 @@ const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
 const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
 const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
 
-const noOfQuest = shuffledQuestions.length;
-noOfQuestUpper.innerHTML = noOfQuest;
-noOfQuestFooter.innerHTML = noOfQuest;
-
 /*
 function importQuestions() {
     fetch("./questions.json")
@@ -704,6 +1060,7 @@ function toggleSounds() {
 }
 
 function selectCategories() {
+    selectedQuestions = [];
     let checkBoxes = document.querySelectorAll('input:checked');
     let categoryValues = [];
     checkBoxes.forEach((inputs) => {
@@ -749,23 +1106,32 @@ function selectCategories() {
     if(categoryValues.includes('Zene')) {
         selectedQuestions.push(...zeneQuestions);
     }
-
-    console.log(selectedQuestions);
 }
 
 function startQuiz() {
     //importQuestions();
-    selectCategories();
-    navbar.style.display = 'block';
-    startQuizBtn.style.display = 'none';
-    shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
-    currentQuestionIndex = 0;
-    categoryDiv.style.display = 'block';
-    questionDiv.style.display = 'block';
-    answerBtnsContainer.style.display = 'inline-flex';
-    resultDiv.style.display = 'block';
-    setNextQuestion();
-    console.log(shuffledQuestions);
+    let selectedBoxes = [];
+    for (let i = 0; i < inputs.length; i++) {
+        if (inputs[i].checked) {
+            selectedBoxes.push(inputs[i].value);
+        }
+    }
+    
+    if(selectedBoxes.length > 0) {
+        selectCategories();
+        navbar.style.display = 'block';
+        startQuizBtn.style.display = 'none';
+        shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
+        const noOfQuest = shuffledQuestions.length;
+        noOfQuestUpper.innerHTML = noOfQuest;
+        noOfQuestFooter.innerHTML = noOfQuest;
+        currentQuestionIndex = 0;
+        categoryDiv.style.display = 'block';
+        questionDiv.style.display = 'block';
+        answerBtnsContainer.style.display = 'inline-flex';
+        resultDiv.style.display = 'block';
+        setNextQuestion();
+    }    
 }
 
 function increaseQuestionNumbers() {
@@ -774,7 +1140,6 @@ function increaseQuestionNumbers() {
 }
 
 function resetState() {
-    //clearStatusClass(resultDiv, pointsDiv);
     resultDiv.style.display = 'none';
     pointsDiv.style.display = 'none';
     nextQuestionBtn.style.display = 'none';
@@ -826,12 +1191,7 @@ function selectAnswer(e) {
         nextQuestionBtn.style.display = 'none';
         restartButton.innerText = 'Újrakezdés!';
         restartButton.classList.add('btn', 'btn-primary', 'col-3', 'col-sm-3', 'mx-auto', 'text-center', 'border', 'border-black', 'rounded', 'shadow');
-        restartButton.style.display = 'block';
-        restartButton.onclick = () => {
-            resetResult();
-            startQuiz();
-            restartButton.style.display = 'none';
-        }
+        restartButton.style.display = 'block'; 
     }
 
     selectedButton.classList.add('correct');
@@ -879,20 +1239,20 @@ function increasePoints() {
     points.innerHTML = pointsValue;
 }
 
-function setStatusClass(element, isCorrect) {
-    clearStatusClass(element);
+function setStatusClass(answerBtn, isCorrect) {
+    clearStatusClass(answerBtn);
     if(isCorrect) {
-        element.classList.remove('btn-primary');
-        element.classList.add('btn-success');
+        answerBtn.classList.remove('btn-primary');
+        answerBtn.classList.add('btn-success');
     } else {
-        element.classList.remove('btn-primary');
-        element.classList.add('btn-danger');
+        answerBtn.classList.remove('btn-primary');
+        answerBtn.classList.add('btn-danger');
     }
 }
 
-function clearStatusClass(element) {
-    element.classList.remove('correct');
-    element.classList.remove('wrong');
+function clearStatusClass(answerBtn) {
+    answerBtn.classList.remove('correct');
+    answerBtn.classList.remove('wrong');
 }
 
 function resetResult() {
@@ -906,12 +1266,16 @@ startBtn.onclick = () => {
 }
 */
 
-selectCategoryBtn.onclick = () => {
-    selectCategories();
+selectAllCatBtn.onclick = () => {
+    for (const checkbox of inputs) {
+        checkbox.checked = true;
+    }
 }
 
-noCategoryBtn.onclick = () => {
-    inputs.checked = false;
+noCatBtn.onclick = () => {
+    for (const checkbox of inputs) {
+        checkbox.checked = false;
+    }
 }
 
 soundBtn.onclick = () => {
@@ -928,4 +1292,12 @@ nextQuestionBtn.onclick = () => {
     increaseQuestionNumbers();
     setNextQuestion();
     resultDiv.style.display = 'none';
+}
+
+restartButton.onclick = () => {
+    questionDiv.style.display = 'none';
+    restartButton.style.display = 'none';
+    startQuizBtn.style.display = 'inline-block';
+    resetResult();
+    resetState();
 }
