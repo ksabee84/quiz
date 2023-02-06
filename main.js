@@ -1,4 +1,4 @@
-
+/*
 const questions = [
     {
         id: 1,
@@ -960,9 +960,248 @@ const questions = [
             { text: "VII. Eduárd", isCorrect: false },
         ]
     },
-    /*
     {
         id: 81,
+        category: "Földrajz",
+        question: "Melyik városban található a Vaszilij Blazsennij (más néven Boldog Vazul) székesegyház?",
+        level: '4',
+        answers: [
+            { text: "Minszk", isCorrect: false },
+            { text: "Moszkva", isCorrect: true },
+            { text: "Riga", isCorrect: false },
+            { text: "Szentpétervár", isCorrect: false },
+        ]
+    },
+    {
+        id: 82,
+        category: "Film és TV",
+        question: `Ki játszotta az "Egyről a kettőre" című sorozat főszerepét?`,
+        level: '4',
+        answers: [
+            { text: "George Clooney", isCorrect: false },
+            { text: "Larry Hagman", isCorrect: false },
+            { text: "Matt LeBlanc", isCorrect: false },
+            { text: "Patrick Duffy", isCorrect: true },
+        ]
+    },
+    {
+        id: 83,
+        category: "Tudomány és technika",
+        question: "Ki alapította a Tesla vállalatot?",
+        level: '3',
+        answers: [
+            { text: "Bill Gates", isCorrect: false },
+            { text: "Elon Musk", isCorrect: true },
+            { text: "Jeff Bezos", isCorrect: false },
+            { text: "Mark Zuckerberg", isCorrect: false },
+        ]
+    },
+    {
+        id: 84,
+        category: "Bulvár",
+        question: "Ki nem volt Zimány Linda párja?",
+        level: '3',
+        answers: [
+            { text: "Dzsudzsák Balázs", isCorrect: false },
+            { text: "Hujber Ferenc", isCorrect: true },
+            { text: `Kecskés Tibor "Kefir"`, isCorrect: false },
+            { text: "Kedves Ferenc", isCorrect: false }, 
+        ]
+    },
+    {
+        id: 85,
+        category: "Zene",
+        question: "Milyen nemzetiségű volt az ABBA együttes?",
+        level: '3',
+        answers: [
+            { text: "dán", isCorrect: false },
+            { text: "német", isCorrect: false },
+            { text: "norvég", isCorrect: false },
+            { text: "svéd", isCorrect: true },
+        ]
+    },
+    {
+        id: 86,
+        category: "Zene",
+        question: "Melyik zenekar énekese volt Lovasi András?",
+        level: '3',
+        answers: [
+            { text: "30Y", isCorrect: false },
+            { text: "Kispál és a borz", isCorrect: true },
+            { text: "Pál utcai fiúk", isCorrect: false },
+            { text: "Quimby", isCorrect: false },
+        ]
+    },
+    {
+        id: 87,
+        category: "Zene",
+        question: `Melyik zenekar énekli a "Sajtból van a Hold" című dalt?`,
+        level: '3',
+        answers: [
+            { text: "Bergendy", isCorrect: true },
+            { text: "Illés", isCorrect: false },
+            { text: "Omega", isCorrect: false },
+            { text: "Piramis", isCorrect: false },  
+        ]
+    },
+    {
+        id: 88,
+        category: "Zene",
+        question: "Mi Skócia jellegzetes hangszere?",
+        level: '2',
+        answers: [
+            { text: "dob", isCorrect: false },
+            { text: "duda", isCorrect: true },
+            { text: "gitár", isCorrect: false },
+            { text: "hárfa", isCorrect: false },  
+        ]
+    },
+    {
+        id: 89,
+        category: "Zene",
+        question: "Milyen hangszer híres készítője volt Stradivari?",
+        level: '3',
+        answers: [
+            { text: "gitár", isCorrect: false },
+            { text: "hegedű", isCorrect: true },
+            { text: "orgona", isCorrect: false },
+            { text: "zongora", isCorrect: false },
+        ]
+    },
+    {
+        id: 90,
+        category: "Film és TV",
+        question: "Melyik filmet nem Steven Spielberg rendezte?",
+        level: '3',
+        answers: [
+            { text: "A cápa", isCorrect: false },
+            { text: "E.T., a földönkívüli", isCorrect: false },
+            { text: "Rocky", isCorrect: true },
+            { text: "Ryan közlegény megmentése", isCorrect: false },
+        ]
+    },
+    {
+        id: 91,
+        category: "Irodalom és kultúra",
+        question: "Hol született Ady Endre?",
+        level: '3',
+        answers: [
+            { text: "Debrecenben", isCorrect: false },
+            { text: "Érmindszenten", isCorrect: true },
+            { text: "Kolozsváron", isCorrect: false },
+            { text: "Nagyváradon", isCorrect: false },
+        ]
+    },
+    {
+        id: 92,
+        category: "Irodalom és kultúra",
+        question: "Melyik nem Jókai Mór regénye?",
+        level: '3',
+        answers: [
+            { text: "A beszélő köntös", isCorrect: true },
+            { text: "Az arany ember", isCorrect: false },
+            { text: "Egy magyar nábob", isCorrect: false },
+            { text: "Nincsen ördög", isCorrect: false },
+        ]
+    },
+    {
+        id: 93,
+        category: "Irodalom és kultúra",
+        question: `Ki írta a "Vuk" című regényt?`,
+        level: '3',
+        answers: [
+            { text: "Arany János", isCorrect: false },
+            { text: "Fekete István", isCorrect: true },
+            { text: "Jókai Mór", isCorrect: false },
+            { text: "Mikszáth Kálmán", isCorrect: false },
+        ]
+    },
+    {
+        id: 94,
+        category: "Irodalom és kultúra",
+        question: "Melyik költőnk szerelme volt Csinszka?",
+        level: '2',
+        answers: [
+            { text: "Ady Endre", isCorrect: true },
+            { text: "Babits Mihály", isCorrect: false },
+            { text: "Csokonai Vitéz Mihály", isCorrect: false },
+            { text: "Radnóti Miklós", isCorrect: false },
+        ]
+    },
+    {
+        id: 95,
+        category: "Irodalom és kultúra",
+        question: `Ki írta a "Nemzeti dal" című verset?`,
+        level: '',
+        answers: [
+            { text: "Ady Endre", isCorrect: false },
+            { text: "Arany János", isCorrect: false },
+            { text: "József Attila", isCorrect: false },
+            { text: "Petőfi Sándor", isCorrect: true },
+        ]
+    },
+    {
+        id: 96,
+        category: "Irodalom és kultúra",
+        question: "Milyen írói álnéven alkot Molnár Éva?",
+        level: '3',
+        answers: [
+            { text: "Danielle Steel", isCorrect: false },
+            { text: "J. K. Rowling", isCorrect: false },
+            { text: "Selma Lagerlöf", isCorrect: false },
+            { text: "Vavyan Fable", isCorrect: true },
+        ]
+    },
+    {
+        id: 97,
+        category: "Irodalom és kultúra",
+        question: `Ki írta "A legyek ura" című regényt?`,
+        level: '3',
+        answers: [
+            { text: "Charles Dickens", isCorrect: false },
+            { text: "F. Scott Fitzgerald", isCorrect: false },
+            { text: "Rudyard Kipling", isCorrect: false },
+            { text: "William Golding", isCorrect: true },
+        ]
+    },
+    {
+        id: 98,
+        category: "Irodalom és kultúra",
+        question: `Ki írta "Az ember tragádiája" című művet?`,
+        level: '2',
+        answers: [
+            { text: "Illyés Gyula", isCorrect: false },
+            { text: "Madách Imre", isCorrect: true },
+            { text: "Mikszáth Kálmán", isCorrect: false },
+            { text: "Molnár Ferenc", isCorrect: false },
+        ]
+    },
+    {
+        id: 99,
+        category: "Irodalom és kultúra",
+        question: "Melyik könyvet nem Jules Verne írta?",
+        level: '3',
+        answers: [
+            { text: "Dél csillaga", isCorrect: false },
+            { text: "Kétévi vakáció", isCorrect: false },
+            { text: "Nemo kapitány", isCorrect: false },
+            { text: "Oliver Twist", isCorrect: true },
+        ]
+    },
+    {
+        id: 100,
+        category: "Irodalom és kultúra",
+        question: `Ki írta a "Bűn és bűnhődés" című regényt?`,
+        level: '3',
+        answers: [
+            { text: "Anton Pavlovics Csehov", isCorrect: false },
+            { text: "Fjodor Mihajlovics Dosztojevszkij", isCorrect: true },
+            { text: "Lev Nyikolajevics Tolsztoj", isCorrect: false },
+            { text: "Nyikolaj Vasziljevics Gogol ", isCorrect: false },
+        ]
+    },
+    {
+        id: 101,
         category: "",
         question: "",
         level: '',
@@ -973,8 +1212,9 @@ const questions = [
             { text: "", isCorrect: true },
         ]
     },
-    */
 ];
+
+*/
 
 const startBtn = document.getElementById('startBtn');
 const navbar = document.getElementById('navbarDiv');
@@ -1015,37 +1255,50 @@ resultDiv.style.display = 'none';
 pointsDiv.style.display = 'none';
 nextQuestionBtn.style.display = 'none';
 
-let playSounds;
+let questionsObject = [];
+
+const importQuestions = () => {
+    fetch("./questions.json")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log('data is: ', data);
+        data.map(item => {
+            questionsObject.push(item);
+        })
+        
+        console.log('questionsObject: ', questionsObject);
+        
+    })
+    .catch(error => console.log('error: ', error));
+}
+    
 let selectedQuestions = [];
-let bulvarQuestions = questions.filter((e) => (e.category) === 'Bulvár');
-let elovilagQuestions = questions.filter((e) => (e.category) === 'Élővilág');
-let filmQuestions = questions.filter((e) => (e.category) === 'Film és TV');
-let foldrajzQuestions = questions.filter((e) => (e.category) === 'Földrajz');
-let irodalomQuestions = questions.filter((e) => (e.category) === 'Irodalom és kultúra');
-let matekQuestions = questions.filter((e) => (e.category) === 'Matematika');
-let sportQuestions = questions.filter((e) => (e.category) === 'Sport');
-let toriQuestions = questions.filter((e) => (e.category) === 'Történelem');
-let tudomanyQuestions = questions.filter((e) => (e.category) === 'Tudomány és technika');
-let zeneQuestions = questions.filter((e) => (e.category) === 'Zene');
 let shuffledQuestions = [];
+let categoryValues = [];
+let questions = [];
+
+
+let bulvarQuestions = questionsObject.filter((e) => (e.category) == 'Bulvár');
+let elovilagQuestions = questionsObject.filter((e) => (e.category) == 'Élővilág');
+let filmQuestions = questionsObject.filter((e) => (e.category) == 'Film és TV');
+let foldrajzQuestions = questionsObject.filter((e) => (e.category) == 'Földrajz');
+let irodalomQuestions = questionsObject.filter((e) => (e.category) == 'Irodalom és kultúra');
+let matekQuestions = questionsObject.filter((e) => (e.category) == 'Matematika');
+let sportQuestions = questionsObject.filter((e) => (e.category) == 'Sport');
+let toriQuestions = questionsObject.filter((e) => (e.category) == 'Történelem');
+let tudomanyQuestions = questionsObject.filter((e) => (e.category) == 'Tudomány és technika');
+let zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');
+let playSounds;
 let currentQuestionIndex;
 let count = 1;
 let pointsValue = 0;
+
+console.log(bulvarQuestions);
 
 const startQuizSound = new Audio("./sounds/startthequiz.mp3");
 const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
 const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
 const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
-
-/*
-function importQuestions() {
-    fetch("./questions.json")
-    .then((res) => {
-    return res.json();
-    })
-    .then((data) => console.log(data));
-}
-*/
 
 function toggleSounds() {
     playSounds = !playSounds;
@@ -1060,9 +1313,8 @@ function toggleSounds() {
 }
 
 function selectCategories() {
-    selectedQuestions = [];
     let checkBoxes = document.querySelectorAll('input:checked');
-    let categoryValues = [];
+    
     checkBoxes.forEach((inputs) => {
         categoryValues.push(inputs.value);
     });
@@ -1109,7 +1361,7 @@ function selectCategories() {
 }
 
 function startQuiz() {
-    //importQuestions();
+    importQuestions();
     let selectedBoxes = [];
     for (let i = 0; i < inputs.length; i++) {
         if (inputs[i].checked) {
@@ -1121,15 +1373,20 @@ function startQuiz() {
         selectCategories();
         navbar.style.display = 'block';
         startQuizBtn.style.display = 'none';
+
         shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
+        
         const noOfQuest = shuffledQuestions.length;
+        
         noOfQuestUpper.innerHTML = noOfQuest;
         noOfQuestFooter.innerHTML = noOfQuest;
         currentQuestionIndex = 0;
+        
         categoryDiv.style.display = 'block';
         questionDiv.style.display = 'block';
         answerBtnsContainer.style.display = 'inline-flex';
         resultDiv.style.display = 'block';
+
         setNextQuestion();
     }    
 }
