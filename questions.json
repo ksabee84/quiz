@@ -2394,7 +2394,55 @@
              "isCorrect":false
           },
           {
-             "text":"Nyikolaj Vasziljevics Gogol ",
+             "text":"Nyikolaj Vasziljevics Gogol",
+             "isCorrect":false
+          }
+       ]
+    },
+    {
+       "id":101,
+       "category":"",
+       "question":"",
+       "level":"",
+       "answers":[
+          {
+             "text":"",
+             "isCorrect":false
+          },
+          {
+             "text":"",
+             "isCorrect":true
+          },
+          {
+             "text":"",
+             "isCorrect":false
+          },
+          {
+             "text":"",
+             "isCorrect":false
+          }
+       ]
+    },
+    {
+       "id":102,
+       "category":"",
+       "question":"",
+       "level":"",
+       "answers":[
+          {
+             "text":"",
+             "isCorrect":false
+          },
+          {
+             "text":"",
+             "isCorrect":true
+          },
+          {
+             "text":"",
+             "isCorrect":false
+          },
+          {
+             "text":"",
              "isCorrect":false
           }
        ]
