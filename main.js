@@ -71,13 +71,14 @@ const importQuestions = () => {
             toriQuestions = questionsObject.filter((e) => (e.category) == 'Történelem');
             tudomanyQuestions = questionsObject.filter((e) => (e.category) == 'Tudomány és technika');
             zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');
-            //shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
         });
 
         console.log('questionsObject: ', questionsObject);
     })
     .catch(error => console.log('error: ', error));
 }
+
+importQuestions();
 
 const startQuizSound = new Audio("./sounds/startthequiz.mp3");
 const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
@@ -152,7 +153,6 @@ function selectCategories() {
 }
 
 function startQuiz() {
-    importQuestions();
     let selectedBoxes = [];
     for (let i = 0; i < inputs.length; i++) {
         if (inputs[i].checked) {
@@ -234,7 +234,7 @@ function selectAnswer(e) {
     if(shuffledQuestions.length > currentQuestionIndex + 1) {
         nextQuestionBtn.style.display = 'inline';
     } else {
-        if(parseInt(points.innerHTML) < questions.length*0.4) {
+        if(parseInt(points.innerHTML) < shuffledQuestions.length*0.4) {
             resultDiv.innerHTML += '<br>Hát van még mit gyakorolnod...';
         }
         nextQuestionBtn.style.display = 'none';
