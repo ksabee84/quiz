@@ -1,11 +1,13 @@
 
 const startBtn = document.getElementById('startBtn');
 
+const mainContainer = document.getElementById('mainContainer');
 const navbar = document.getElementById('navbarDiv');
 const soundBtn = document.getElementById('soundBtn');
 
+const selectorDiv = document.getElementById('selectorDiv');
 const questionCategoriesDiv = document.getElementById('questionCategoriesDiv');
-const inputs = document.getElementsByTagName('input');
+const categoryInputs = document.getElementsByName('categoryCheckbox');
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
 const elovilagCheckbox = document.getElementById('elovilagCheckbox');
 const filmCheckbox = document.getElementById('filmCheckbox');
@@ -19,7 +21,16 @@ const zeneCheckbox = document.getElementById('zeneCheckbox');
 const selectAllCatBtn = document.getElementById('selectAllCatBtn');
 const noCatBtn = document.getElementById('noCatBtn');
 
-const mainContainer = document.getElementById('mainContainer');
+const questionLevelsDiv = document.getElementById('questionLevelsDiv');
+const levelInputs = document.getElementsByName('levelCheckbox');
+const veryEasyCheckbox = document.getElementById('veryEasyCheckbox');
+const easyCheckbox = document.getElementById('easyCheckbox');
+const normalCheckbox = document.getElementById('normalCheckbox');
+const hardCheckbox = document.getElementById('hardCheckbox');
+const veryHardCheckbox = document.getElementById('veryHardCheckbox');
+const selectAllLevelBtn = document.getElementById('selectAllLevelBtn');
+const noLevelBtn = document.getElementById('noLevelBtn');
+
 const startQuizBtn = document.getElementById('startQuizBtn');
 const questionDiv = document.getElementById('questionDiv');
 const noOfQuestUpper = document.getElementById('noOfQuestUpper');
@@ -56,12 +67,12 @@ let zeneQuestions = [];
 let categoryValues = [];
 let selectedQuestions = [];
 let shuffledQuestions = [];
+let levelValues = [];
 
 const importQuestions = () => {
     fetch("./questions.json")
     .then((response) => response.json())
     .then((data) => {
-        console.log('data is: ', data);
         data.map(item => {
             questionsObject.push(item);
             bulvarQuestions = questionsObject.filter((e) => (e.category) == 'Bulvár');
@@ -73,14 +84,15 @@ const importQuestions = () => {
             sportQuestions = questionsObject.filter((e) => (e.category) == 'Sport');
             toriQuestions = questionsObject.filter((e) => (e.category) == 'Történelem');
             tudomanyQuestions = questionsObject.filter((e) => (e.category) == 'Tudomány és technika');
-            zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');
-            shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
+            zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');     
         });
         
         console.log('questionsObject: ', questionsObject);
     })
     .catch(error => console.log('error: ', error));
 };
+
+importQuestions();
 
 const startQuizSound = new Audio("./sounds/startthequiz.mp3");
 const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
@@ -105,10 +117,10 @@ function toggleSounds() {
 }
 
 function selectCategories() {
-    let checkBoxes = document.querySelectorAll('input:checked');
+    let checkBoxes = document.querySelectorAll('input[name="categoryCheckbox"]:checked');
     
-    checkBoxes.forEach((inputs) => {
-        categoryValues.push(inputs.value);
+    checkBoxes.forEach((categoryInputs) => {
+        categoryValues.push(categoryInputs.value);
     });
 
     if(categoryValues.includes('Bulvár')) {
@@ -152,22 +164,32 @@ function selectCategories() {
     }
 }
 
+
+function selectLevels() {
+    let checkBoxes = document.querySelectorAll('input[name="levelCheckbox"]:checked');
+
+    checkBoxes.forEach((levelInputs) => {
+        levelValues.push(levelInputs.value);
+    });
+}
+
 function startQuiz() {
-    importQuestions();
     let selectedBoxes = [];
-    for (let i = 0; i < inputs.length; i++) {
-        if (inputs[i].checked) {
-            selectedBoxes.push(inputs[i].value);
+    for (let i = 0; i < categoryInputs.length; i++) {
+        if (categoryInputs[i].checked) {
+            selectedBoxes.push(categoryInputs[i].value);
         }
     }
     
     if(selectedBoxes.length > 0) {
         selectCategories();
         navbar.style.display = 'block';
+        selectorDiv.style.display = 'none';
         questionCategoriesDiv.style.display = 'none';
+        questionLevelsDiv.style.display = 'none';
         startQuizBtn.style.display = 'none';
         
-        //shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
+        shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
         
         const noOfQuest = shuffledQuestions.length;
         
@@ -235,7 +257,7 @@ function selectAnswer(e) {
     if(shuffledQuestions.length > currentQuestionIndex + 1) {
         nextQuestionBtn.style.display = 'inline';
     } else {
-        if(parseInt(points.innerHTML) < questions.length*0.4) {
+        if(parseInt(points.innerHTML) < shuffledQuestions.length*0.4) {
             resultDiv.innerHTML += '<br>Hát van még mit gyakorolnod...';
         }
         nextQuestionBtn.style.display = 'none';
@@ -317,13 +339,25 @@ startBtn.onclick = () => {
 */
 
 selectAllCatBtn.onclick = () => {
-    for (const checkbox of inputs) {
+    for (const checkbox of categoryInputs) {
         checkbox.checked = true;
     }
 }
 
 noCatBtn.onclick = () => {
-    for (const checkbox of inputs) {
+    for (const checkbox of categoryInputs) {
+        checkbox.checked = false;
+    }
+}
+
+selectAllLevelBtn.onclick = () => {
+    for (const checkbox of levelInputs) {
+        checkbox.checked = true;
+    }
+}
+
+noLevelBtn.onclick = () => {
+    for (const checkbox of levelInputs) {
         checkbox.checked = false;
     }
 }
@@ -347,7 +381,7 @@ nextQuestionBtn.onclick = () => {
 restartButton.onclick = () => {
     questionDiv.style.display = 'none';
     restartButton.style.display = 'none';
-    startQuizBtn.style.display = 'inline-block';
+    selectorDiv.style.display = 'inline-block';
     resetResult();
     resetState();
 }

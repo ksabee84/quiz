@@ -11,7 +11,7 @@ body {
 body .container {
     background-image: url('./imgs/quizbackground.png');
     background-size: cover;
-    height: 98vh;
+    height: 100%;
 }
 
 #soundBtn {
@@ -39,8 +39,8 @@ div .wrong {
 }
 
 #startQuizBtn {
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
 }
 
 .answBtn {

@@ -530,7 +530,7 @@
     {
        "id":23,
        "category":"Film és TV",
-       "question":"`Melyik film főcímdala az \"Eye of the Tiger\"?`",
+       "question":"Melyik film főcímdala az \"Eye of the Tiger\"?",
        "level":"3",
        "answers":[
           {
@@ -650,7 +650,7 @@
     {
        "id":28,
        "category":"Földrajz",
-       "question":"`Melyik a \"leghűségesebb város\"?`",
+       "question":"Melyik a \"leghűségesebb város\"?",
        "level":"3",
        "answers":[
           {
@@ -722,7 +722,7 @@
     {
        "id":31,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta az \"1984\" című regényt?`",
+       "question":"Ki írta az \"1984\" című regényt?",
        "level":"4",
        "answers":[
           {
@@ -746,7 +746,7 @@
     {
        "id":32,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta az \"Isteni színjáték\" című művet?`",
+       "question":"Ki írta az \"Isteni színjáték\" című művet?",
        "level":"3",
        "answers":[
           {
@@ -1178,7 +1178,7 @@
     {
        "id":50,
        "category":"Irodalom és kultúra",
-       "question":"`Ki mondta: \"Veni, vidi, vici\"?`",
+       "question":"Ki mondta: \"Veni, vidi, vici\"?",
        "level":"3",
        "answers":[
           {
@@ -1202,7 +1202,7 @@
     {
        "id":51,
        "category":"Történelem",
-       "question":"`Kit neveznek \"Vasladynek\"?`",
+       "question":"Kit neveznek \"Vasladynek\"?",
        "level":"3",
        "answers":[
           {
@@ -1250,7 +1250,7 @@
     {
        "id":53,
        "category":"Történelem",
-       "question":"`Ki volt a \"Sivatagi Róka\"?`",
+       "question":"Ki volt a \"Sivatagi Róka\"?",
        "level":"3",
        "answers":[
           {
@@ -1274,7 +1274,7 @@
     {
        "id":54,
        "category":"Történelem",
-       "question":"`Milyen \"hajósnak\" nevezik Wesselényi Miklós bárót?`",
+       "question":"Milyen \"hajósnak\" nevezik Wesselényi Miklós bárót?",
        "level":"3",
        "answers":[
           {
@@ -1634,7 +1634,7 @@
     {
        "id":69,
        "category":"Film és TV",
-       "question":"`Ki játszotta a főszerepet az \"Ace Ventura - állati nyomozó\" című filmben?`",
+       "question":"Ki játszotta a főszerepet az \"Ace Ventura - állati nyomozó\" című filmben?",
        "level":"3",
        "answers":[
           {
@@ -1730,7 +1730,7 @@
     {
        "id":73,
        "category":"Zene",
-       "question":"`Melyik együttes műve a \"Kölyköd voltam\" című dal?`",
+       "question":"Melyik együttes műve a \"Kölyköd voltam\" című dal?",
        "level":"3",
        "answers":[
           {
@@ -1802,7 +1802,7 @@
     {
        "id":76,
        "category":"Zene",
-       "question":"`Ki volt \"Paff, a bűvös...\"?`",
+       "question":"Ki volt \"Paff, a bűvös...\"?",
        "level":"3",
        "answers":[
           {
@@ -1850,7 +1850,7 @@
     {
        "id":78,
        "category":"Zene",
-       "question":"`Melyik évben jelent meg Michael Jackson \"Billie Jean\" című dala?`",
+       "question":"Melyik évben jelent meg Michael Jackson \"Billie Jean\" című dala?",
        "level":"5",
        "answers":[
           {
@@ -1946,7 +1946,7 @@
     {
        "id":82,
        "category":"Film és TV",
-       "question":"`Ki játszotta az \"Egyről a kettőre\" című sorozat főszerepét?`",
+       "question":"Ki játszotta az \"Egyről a kettőre\" című sorozat főszerepét?",
        "level":"4",
        "answers":[
           {
@@ -2006,7 +2006,7 @@
              "isCorrect":true
           },
           {
-             "text":"`Kecskés Tibor \"Kefir\"`",
+             "text":"Kecskés Tibor \"Kefir\"",
              "isCorrect":false
           },
           {
@@ -2066,7 +2066,7 @@
     {
        "id":87,
        "category":"Zene",
-       "question":"`Melyik zenekar énekli a \"Sajtból van a Hold\" című dalt?`",
+       "question":"Melyik zenekar énekli a \"Sajtból van a Hold\" című dalt?",
        "level":"3",
        "answers":[
           {
@@ -2210,7 +2210,7 @@
     {
        "id":93,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta a \"Vuk\" című regényt?`",
+       "question":"Ki írta a \"Vuk\" című regényt?",
        "level":"3",
        "answers":[
           {
@@ -2258,7 +2258,7 @@
     {
        "id":95,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta a \"Nemzeti dal\" című verset?`",
+       "question":"Ki írta a \"Nemzeti dal\" című verset?",
        "level":"",
        "answers":[
           {
@@ -2306,7 +2306,7 @@
     {
        "id":97,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta \"A legyek ura\" című regényt?`",
+       "question":"Ki írta \"A legyek ura\" című regényt?",
        "level":"3",
        "answers":[
           {
@@ -2330,7 +2330,7 @@
     {
        "id":98,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta \"Az ember tragádiája\" című művet?`",
+       "question":"Ki írta \"Az ember tragádiája\" című művet?",
        "level":"2",
        "answers":[
           {
@@ -2378,7 +2378,7 @@
     {
        "id":100,
        "category":"Irodalom és kultúra",
-       "question":"`Ki írta a \"Bűn és bűnhődés\" című regényt?`",
+       "question":"Ki írta a \"Bűn és bűnhődés\" című regényt?",
        "level":"3",
        "answers":[
           {
@@ -2400,51 +2400,483 @@
        ]
     },
     {
-       "id":101,
-       "category":"",
-       "question":"",
-       "level":"",
-       "answers":[
-          {
-             "text":"",
-             "isCorrect":false
-          },
-          {
-             "text":"",
-             "isCorrect":true
-          },
-          {
-             "text":"",
-             "isCorrect":false
-          },
-          {
-             "text":"",
-             "isCorrect":false
-          }
-       ]
-    },
-    {
-       "id":102,
-       "category":"",
-       "question":"",
-       "level":"",
-       "answers":[
-          {
-             "text":"",
-             "isCorrect":false
-          },
-          {
-             "text":"",
-             "isCorrect":true
-          },
-          {
-             "text":"",
-             "isCorrect":false
-          },
-          {
-             "text":"",
-             "isCorrect":false
-          }
-       ]
-    }
+      "id":101,
+      "category":"Bulvár",
+      "question":"Kivel nem volt kapcsolata Zámbó Jimmynek?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Csoma Veronika",
+            "isCorrect":false
+         },
+         {
+            "text":"Háfra Mari",
+            "isCorrect":false
+         },
+         {
+            "text":"Hulé Éva",
+            "isCorrect":true
+         },
+         {
+            "text":"Zámbó Edit",
+            "isCorrect":false
+         }
+      ]
+   },
+   {
+      "id":102,
+      "category":"Bulvár",
+      "question":"Ki volt Diana walesi hercegné szeretője?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Dodi al-Fajed",
+            "isCorrect":true
+         },
+         {
+            "text":"Elton John",
+            "isCorrect":false
+         },
+         {
+            "text":"Gianni Versace",
+            "isCorrect":false
+         },
+         {
+            "text":"Trevor Rees-Jones",
+            "isCorrect":false
+         }
+      ]
+   },
+   {
+      "id":103,
+      "category":"Élővilág",
+      "question":"Mi a csicsóka?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"alkoholos ital",
+            "isCorrect":false
+         },
+         {
+            "text":"madár",
+            "isCorrect":false
+         },
+         {
+            "text":"növény",
+            "isCorrect":true
+         },
+         {
+            "text":"étel",
+            "isCorrect":false
+         }
+      ]
+   },
+   {
+      "id":104,
+      "category":"Élővilág",
+      "question":"Melyik kategóriába tartozik a béka?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"emlősök",
+            "isCorrect":false
+         },
+         {
+            "text":"hüllők",
+            "isCorrect":false
+         },
+         {
+            "text":"kétéltűek",
+            "isCorrect":true
+         },
+         {
+            "text":"puhatestűek",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":105,
+      "category":"Élővilág",
+      "question":"Melyik kategóriába tartozik a gödény?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"emlősök",
+            "isCorrect":false
+         },
+         {
+            "text":"halak",
+            "isCorrect":false
+         },
+         {
+            "text":"hüllők",
+            "isCorrect":false
+         },
+         {
+            "text":"madarak",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":106,
+      "category":"Élővilág",
+      "question":"Melyik kategóriába tartozik a kecsege?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"halak",
+            "isCorrect":true
+         },
+         {
+            "text":"madarak",
+            "isCorrect":false
+         },
+         {
+            "text":"növények",
+            "isCorrect":false
+         },
+         {
+            "text":"rovarok",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":107,
+      "category":"Élővilág",
+      "question":"Melyik kategóriába tartozik a tarantula?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"gerincesek",
+            "isCorrect":false
+         },
+         {
+            "text":"ízeltlábúak",
+            "isCorrect":true
+         },
+         {
+            "text":"puhatestűek",
+            "isCorrect":false
+         },
+         {
+            "text":"rovarok",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":108,
+      "category":"Élővilág",
+      "question":"Hogyan szaporodnak a pókok?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"elevenszülők",
+            "isCorrect":false
+         },
+         {
+            "text":"ikrával",
+            "isCorrect":false
+         },
+         {
+            "text":"petével",
+            "isCorrect":false
+         },
+         {
+            "text":"tojásokkal",
+            "isCorrect":true
+         }
+      ]
+   },
+   {
+     "id":109,
+     "category":"Élővilág",
+     "question":"Milyen táplálkozású a vaddisznó?",
+     "level":"3",
+     "answers":[
+        {
+           "text":"növényevő",
+           "isCorrect":false
+        },
+        {
+           "text":"mindenevő",
+           "isCorrect":true
+        },
+        {
+           "text":"ragadozó",
+           "isCorrect":false
+        },
+        {
+           "text":"rágcsáló",
+           "isCorrect":false
+        }
+     ]
+  },
+  {
+      "id":110,
+      "category":"Élővilág",
+      "question":"Milyen állat a bölömbika?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"emlős",
+            "isCorrect":false
+         },
+         {
+            "text":"hüllő",
+            "isCorrect":false
+         },
+         {
+            "text":"madár",
+            "isCorrect":true
+         },
+         {
+            "text":"rovar",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":111,
+      "category":"Sport",
+      "question":"Melyik Formula-1-es csapatnál szerezte meg hetedik vb-címét Michael Schumacher?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Benetton",
+            "isCorrect":false
+         },
+         {
+            "text":"Ferrari",
+            "isCorrect":true
+         },
+         {
+            "text":"Jordan",
+            "isCorrect":false
+         },
+         {
+            "text":"McLaren",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":112,
+      "category":"Sport",
+      "question":"Hány Formula-1-es világbajnoki címet nyert Mika Häkkinen?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1",
+            "isCorrect":false
+         },
+         {
+            "text":"2",
+            "isCorrect":true
+         },
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"4",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":113,
+      "category":"Sport",
+      "question":"Melyik évben rendezték az első Forma-1-es Magyar Nagydíjat?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1985",
+            "isCorrect":false
+         },
+         {
+            "text":"1986",
+            "isCorrect":true
+         },
+         {
+            "text":"1988",
+            "isCorrect":false
+         },
+         {
+            "text":"1990",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":114,
+      "category":"Sport",
+      "question":"Melyik évben rendezték az első Forma-1-es autóversenyt?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1946",
+            "isCorrect":false
+         },
+         {
+            "text":"1948",
+            "isCorrect":false
+         },
+         {
+            "text":"1950",
+            "isCorrect":true
+         },
+         {
+            "text":"1952",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":115,
+      "category":"Sport",
+      "question":"Mennyi lett az 1953-as Anglia-Magyarország labdarúgó-mérkőzés végeredménye?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"2:3",
+            "isCorrect":false
+         },
+         {
+            "text":"3:6",
+            "isCorrect":true
+         },
+         {
+            "text":"4:2",
+            "isCorrect":false
+         },
+         {
+            "text":"4:6",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":116,
+      "category":"Sport",
+      "question":"Ki volt a Manchester United vezetőedzője az 1999-es BL-győzelemkor?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Jose Mourinho",
+            "isCorrect":false
+         },
+         {
+            "text":"Ron Atkinson",
+            "isCorrect":false
+         },
+         {
+            "text":"Sir Alex Ferguson",
+            "isCorrect":true
+         },
+         {
+            "text":"Sir Matt Busby",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":117,
+      "category":"Sport",
+      "question":"Melyik ország labdarúgó-válogatottjában játszott Zinedine Zidane?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Algéria",
+            "isCorrect":false
+         },
+         {
+            "text":"Franciaország",
+            "isCorrect":true
+         },
+         {
+            "text":"Marokkó",
+            "isCorrect":false
+         },
+         {
+            "text":"Olaszország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":118,
+      "category":"Sport",
+      "question":"Mi az Arsenal focicsapat beceneve?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Ágyúsok",
+            "isCorrect":true
+         },
+         {
+            "text":"Farkasok",
+            "isCorrect":false
+         },
+         {
+            "text":"Szarkák",
+            "isCorrect":false
+         },
+         {
+            "text":"Vörös ördögök",
+            "isCorrect":false
+         } 
+      ]
+   },
+  {
+      "id":119,
+      "category":"Sport",
+      "question":"Ki kapus az alábbi labdarúgók közül?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Casillas",
+            "isCorrect":true
+         },
+         {
+            "text":"Lampard",
+            "isCorrect":false
+         },
+         {
+            "text":"Messi",
+            "isCorrect":false
+         },
+         {
+            "text":"Ronaldinho",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":120,
+      "category":"Sport",
+      "question":"Hányszoros olimpiai bajnok Egerszegi Krisztina?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"2",
+            "isCorrect":false
+         },
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"4",
+            "isCorrect":false
+         },
+         {
+            "text":"5",
+            "isCorrect":true
+         }
+      ]
+   }
  ]
