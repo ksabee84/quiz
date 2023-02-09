@@ -64,6 +64,11 @@ let sportQuestions = [];
 let toriQuestions = [];
 let tudomanyQuestions = [];
 let zeneQuestions = [];
+let veryEasyQuestions = [];
+let easyQuestions = [];
+let normalQuestions = [];
+let hardQuestions = [];
+let veryHardQuestions = [];
 let categoryValues = [];
 let selectedQuestions = [];
 let shuffledQuestions = [];
@@ -84,7 +89,12 @@ const importQuestions = () => {
             sportQuestions = questionsObject.filter((e) => (e.category) == 'Sport');
             toriQuestions = questionsObject.filter((e) => (e.category) == 'Történelem');
             tudomanyQuestions = questionsObject.filter((e) => (e.category) == 'Tudomány és technika');
-            zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');     
+            zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');
+            veryEasyQuestions = questionsObject.filter((e) => (e.level) == '1');
+            easyQuestions = questionsObject.filter((e) => (e.level) == '2');
+            normalQuestions = questionsObject.filter((e) => (e.level) == '3');
+            hardQuestions = questionsObject.filter((e) => (e.level) == '4');
+            veryHardQuestions = questionsObject.filter((e) => (e.level) == '5');
         });
         
         console.log('questionsObject: ', questionsObject);
@@ -171,6 +181,26 @@ function selectLevels() {
     checkBoxes.forEach((levelInputs) => {
         levelValues.push(levelInputs.value);
     });
+
+    if(levelValues.includes('1')) {
+        selectedQuestions.push(...veryEasyQuestions);
+    }
+
+    if(levelValues.includes('2')) {
+        selectedQuestions.push(...easyQuestions);
+    }
+
+    if(levelValues.includes('3')) {
+        selectedQuestions.push(...normalQuestions);
+    }
+
+    if(levelValues.includes('4')) {
+        selectedQuestions.push(...hardQuestions);
+    }
+
+    if(levelValues.includes('5')) {
+        selectedQuestions.push(...veryHardQuestions);
+    }
 }
 
 function startQuiz() {
@@ -180,9 +210,16 @@ function startQuiz() {
             selectedBoxes.push(categoryInputs[i].value);
         }
     }
+
+    for (let i = 0; i < levelInputs.length; i++) {
+        if (levelInputs[i].checked) {
+            selectedBoxes.push(levelInputs[i].value)
+        }
+    }
     
     if(selectedBoxes.length > 0) {
         selectCategories();
+        selectLevels();
         navbar.style.display = 'block';
         selectorDiv.style.display = 'none';
         questionCategoriesDiv.style.display = 'none';
@@ -381,7 +418,9 @@ nextQuestionBtn.onclick = () => {
 restartButton.onclick = () => {
     questionDiv.style.display = 'none';
     restartButton.style.display = 'none';
-    selectorDiv.style.display = 'inline-block';
+    questionCategoriesDiv.style.display = 'inline-block';
+    questionLevelsDiv.style.display = 'inline-block';
+    startQuizBtn.style.display = 'inline-block';
     resetResult();
     resetState();
 }

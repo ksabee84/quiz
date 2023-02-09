@@ -794,7 +794,7 @@
     {
        "id":34,
        "category":"Sport",
-       "question":"Melyik évben halt meg Ayrton Senna Formula-1-es versenyző?",
+       "question":"Melyik évben halt meg Ayrton Senna Forma-1-es versenyző?",
        "level":"4",
        "answers":[
           {
@@ -2642,7 +2642,7 @@
   {
       "id":111,
       "category":"Sport",
-      "question":"Melyik Formula-1-es csapatnál szerezte meg hetedik vb-címét Michael Schumacher?",
+      "question":"Melyik Forma-1-es csapatnál szerezte meg hetedik vb-címét Michael Schumacher?",
       "level":"4",
       "answers":[
          {
@@ -2666,7 +2666,7 @@
   {
       "id":112,
       "category":"Sport",
-      "question":"Hány Formula-1-es világbajnoki címet nyert Mika Häkkinen?",
+      "question":"Hány Forma-1-es világbajnoki címet nyert Mika Häkkinen?",
       "level":"4",
       "answers":[
          {
@@ -2690,23 +2690,23 @@
   {
       "id":113,
       "category":"Sport",
-      "question":"Melyik évben rendezték az első Forma-1-es Magyar Nagydíjat?",
-      "level":"4",
+      "question":"Ki nyerte az első Forma-1-es Magyar Nagydíjat?",
+      "level":"5",
       "answers":[
          {
-            "text":"1985",
+            "text":"Ayrton Senna",
             "isCorrect":false
          },
          {
-            "text":"1986",
+            "text":"Michael Schumacher",
+            "isCorrect":false
+         },
+         {
+            "text":"Nelson Piquet",
             "isCorrect":true
          },
          {
-            "text":"1988",
-            "isCorrect":false
-         },
-         {
-            "text":"1990",
+            "text":"Thierry Boutsen",
             "isCorrect":false
          }
       ]
@@ -2859,7 +2859,7 @@
       "id":120,
       "category":"Sport",
       "question":"Hányszoros olimpiai bajnok Egerszegi Krisztina?",
-      "level":"4",
+      "level":"5",
       "answers":[
          {
             "text":"2",
@@ -2876,6 +2876,2670 @@
          {
             "text":"5",
             "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":121,
+      "category":"Matematika",
+      "question":"Hány éle van egy kockának?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"6",
+            "isCorrect":false
+         },
+         {
+            "text":"8",
+            "isCorrect":false
+         },
+         {
+            "text":"12",
+            "isCorrect":true
+         },
+         {
+            "text":"16",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":122,
+      "category":"Matematika",
+      "question":"Mi a kör átmérőjének jele?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"d",
+            "isCorrect":true
+         },
+         {
+            "text":"r",
+            "isCorrect":false
+         },
+         {
+            "text":"s",
+            "isCorrect":false
+         },
+         {
+            "text":"T",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":123,
+      "category":"Matematika",
+      "question":"Melyik nem síkidom az alábbiak közül?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"kocka",
+            "isCorrect":true
+         },
+         {
+            "text":"kör",
+            "isCorrect":false
+         },
+         {
+            "text":"téglalap",
+            "isCorrect":false
+         },
+         {
+            "text":"trapéz",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":124,
+      "category":"Matematika",
+      "question":"Hány fok a háromszög belső szögeinek összege?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"90",
+            "isCorrect":false
+         },
+         {
+            "text":"180",
+            "isCorrect":true
+         },
+         {
+            "text":"270",
+            "isCorrect":false
+         },
+         {
+            "text":"360",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":125,
+      "category":"Matematika",
+      "question":"Hány szögperc egy szögfok?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"10",
+            "isCorrect":false
+         },
+         {
+            "text":"12",
+            "isCorrect":false
+         },
+         {
+            "text":"60",
+            "isCorrect":true
+         },
+         {
+            "text":"100",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":126,
+      "category":"Matematika",
+      "question":"Az alábbiak közül melyik nem egy test?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"henger",
+            "isCorrect":false
+         },
+         {
+            "text":"kocka",
+            "isCorrect":false
+         },
+         {
+            "text":"rombusz",
+            "isCorrect":true
+         },
+         {
+            "text":"téglatest",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":127,
+      "category":"Matematika",
+      "question":"Melyik állítás igaz a trapézra az alábbiak közül?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Egyenlő oldalú háromszög",
+            "isCorrect":false
+         },
+         {
+            "text":"Konkáv négyszög",
+            "isCorrect":false
+         },
+         {
+            "text":"Olyan négyszög, melynek a csúcspontjai egy körön vannak",
+            "isCorrect":false
+         },
+         {
+            "text":"Olyan négyszög, melynek van két egymással párhuzamos oldala",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":128,
+      "category":"Matematika",
+      "question":"Melyik képlettel számoljuk ki a kör területét?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"T = r2*π",
+            "isCorrect":true
+         },
+         {
+            "text":"T = 2r*π",
+            "isCorrect":false
+         },
+         {
+            "text":"T = a*a",
+            "isCorrect":false
+         },
+         {
+            "text":"T = a*b",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":129,
+      "category":"Matematika",
+      "question":"Milyen térbeli alakzat a piramis?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"gúla",
+            "isCorrect":true
+         },
+         {
+            "text":"kocka",
+            "isCorrect":false
+         },
+         {
+            "text":"kúp",
+            "isCorrect":false
+         },
+         {
+            "text":"tetraéder",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":130,
+      "category":"Matematika",
+      "question":"Hány fokosak a szabályos háromszög belső szögei?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"30",
+            "isCorrect":false
+         },
+         {
+            "text":"45",
+            "isCorrect":false
+         },
+         {
+            "text":"60",
+            "isCorrect":true
+         },
+         {
+            "text":"90",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":131,
+      "category":"Irodalom és kultúra",
+      "question":"Mi a \"krav maga\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"étel",
+            "isCorrect":false
+         },
+         {
+            "text":"gépfegyver",
+            "isCorrect":false
+         },
+         {
+            "text":"harcművészeti ág",
+            "isCorrect":true
+         },
+         {
+            "text":"népi eposz",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":132,
+      "category":"Történelem",
+      "question":"Mi a Moszad?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"izraeli hírszerző titkosszolgálat",
+            "isCorrect":true
+         },
+         {
+            "text":"japán harcművészeti ág",
+            "isCorrect":false
+         },
+         {
+            "text":"magyar szociális segélyszervezet",
+            "isCorrect":false
+         },
+         {
+            "text":"mozambiki diplomáciai testület",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":133,
+      "category":"Zene",
+      "question":"Melyik évben halt meg John Lennon?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1975",
+            "isCorrect":false
+         },
+         {
+            "text":"1980",
+            "isCorrect":true
+         },
+         {
+            "text":"1982",
+            "isCorrect":false
+         },
+         {
+            "text":"1990",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":134,
+      "category":"Történelem",
+      "question":"Hogyan halt meg Hunyadi László?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"csatában elesett",
+            "isCorrect":false
+         },
+         {
+            "text":"felakasztották",
+            "isCorrect":false
+         },
+         {
+            "text":"lefejezték",
+            "isCorrect":true
+         },
+         {
+            "text":"megmérgezték",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":135,
+      "category":"Sport",
+      "question":"Milyen nemzetiségű David Beckham?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"angol",
+            "isCorrect":true
+         },
+         {
+            "text":"amerikai",
+            "isCorrect":false
+         },
+         {
+            "text":"ausztrál",
+            "isCorrect":false
+         },
+         {
+            "text":"német",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":136,
+      "category":"Sport",
+      "question":"Kinek a beceneve volt \"Pancho\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Bozsik József",
+            "isCorrect":false
+         },
+         {
+            "text":"Détári Lajos",
+            "isCorrect":false
+         },
+         {
+            "text":"Hidegkuti Nándor",
+            "isCorrect":false
+         },
+         {
+            "text":"Puskás Ferenc",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":137,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik népi hős nem európai?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Butch Cassidy",
+            "isCorrect":true
+         },
+         {
+            "text":"Robin Hood",
+            "isCorrect":false
+         },
+         {
+            "text":"Rózsa Sándor",
+            "isCorrect":false
+         },
+         {
+            "text":"Tell Vilmos (Wilhelm Tell)",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":138,
+      "category":"Irodalom és kultúra",
+      "question":"Minek a mestere volt Antonio Gaudí?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"építészet",
+            "isCorrect":true
+         },
+         {
+            "text":"festészet",
+            "isCorrect":false
+         },
+         {
+            "text":"irodalom",
+            "isCorrect":false
+         },
+         {
+            "text":"szobrászat",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":139,
+      "category":"Irodalom és kultúra",
+      "question":"Ki volt Petőfi Sándor felesége?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Boncza Berta",
+            "isCorrect":false
+         },
+         {
+            "text":"Brüll Adél",
+            "isCorrect":false
+         },
+         {
+            "text":"Gyarmati Fanni",
+            "isCorrect":false
+         },
+         {
+            "text":"Szendrey Júlia",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":140,
+      "category":"Zene",
+      "question":"Hány éves korában halt meg Michael Jackson?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"39",
+            "isCorrect":false
+         },
+         {
+            "text":"44",
+            "isCorrect":false
+         },
+         {
+            "text":"50",
+            "isCorrect":true
+         },
+         {
+            "text":"52",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":141,
+      "category":"Film és TV",
+      "question":"Melyik filmben nem szerepel Dwayne Johnson?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"A Boszorkány-hegy",
+            "isCorrect":false
+         },
+         {
+            "text":"Jumanji - Vár a dzsungel",
+            "isCorrect":false
+         },
+         {
+            "text":"Nagyfiúk",
+            "isCorrect":true
+         },
+         {
+            "text":"Törésvonal",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":142,
+      "category":"Történelem",
+      "question":"Melyik szigeten született Bonaparte Napóleon francia császár?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Korzika",
+            "isCorrect":true
+         },
+         {
+            "text":"Málta",
+            "isCorrect":false
+         },
+         {
+            "text":"Szent Ilona-sziget",
+            "isCorrect":false
+         },
+         {
+            "text":"Szicília",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":143,
+      "category":"Film és TV",
+      "question":"Ki az a korábbi színész, aki az amerikai Kalifornia állam kormányzója lett?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Arnold Schwarzenegger",
+            "isCorrect":true
+         },
+         {
+            "text":"Clint Eastwood",
+            "isCorrect":false
+         },
+         {
+            "text":"Eddie Murphy",
+            "isCorrect":false
+         },
+         {
+            "text":"Sylvester Stallone",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":144,
+      "category":"Irodalom és kultúra",
+      "question":"Ki készítette el az első tibeti-angol szótárt?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Kőrösi Csoma Sándor",
+            "isCorrect":true
+         },
+         {
+            "text":"Marco Polo",
+            "isCorrect":false
+         },
+         {
+            "text":"Teleki Sámuel",
+            "isCorrect":false
+         },
+         {
+            "text":"Walter Scott",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":145,
+      "category":"Tudomány és technika",
+      "question":"Mi fűződik Ivan Petrovics Pavlov nevéhez?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"A feltételes reflex működésének leírása",
+            "isCorrect":true
+         },
+         {
+            "text":"A relativitás-elmélet kidolgozása",
+            "isCorrect":false
+         },
+         {
+            "text":"Az első távírógép megalkotása",
+            "isCorrect":false
+         },
+         {
+            "text":"Tűzföld feltérképezése",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":146,
+      "category":"Történelem",
+      "question":"Hány évig ült a magyar trónon II. József király?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"5",
+            "isCorrect":false
+         },
+         {
+            "text":"8",
+            "isCorrect":false
+         },
+         {
+            "text":"10",
+            "isCorrect":true
+         },
+         {
+            "text":"20",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":147,
+      "category":"Történelem",
+      "question":"Mi köthető Mária Terézia nevéhez?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"a kettős vámrendszer",
+            "isCorrect":true
+         },
+         {
+            "text":"a \"numerus clausus\" törvény",
+            "isCorrect":false
+         },
+          {
+            "text":"az Aranybulla",
+            "isCorrect":false
+         },
+         {
+            "text":"nyelvtörvény",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":148,
+      "category":"Történelem",
+      "question":"Kit neveztek \"kalapos királynak\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"II. András",
+            "isCorrect":false
+         },
+         {
+            "text":"II. Béla",
+            "isCorrect":false
+         },
+         {
+            "text":"II. József",
+            "isCorrect":true
+         },
+         {
+            "text":"IV: László",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":149,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik nyelvcsaládba tartozik az észt nyelv?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"altaji",
+            "isCorrect":false
+         },
+         {
+            "text":"indoeurópai",
+            "isCorrect":false
+         },
+         {
+            "text":"kaukázusi",
+            "isCorrect":false
+         },
+         {
+            "text":"uráli",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":150,
+      "category":"Földrajz",
+      "question":"Melyik város nem a Balti-tenger partján fekszik?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Gdansk",
+            "isCorrect":false
+         },
+         {
+            "text":"Hamburg",
+            "isCorrect":true
+         },
+         {
+            "text":"Lübeck",
+            "isCorrect":false
+         },
+         {
+            "text":"Riga",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":151,
+      "category":"Történelem",
+      "question":"Milyen néven szokás emlegetni Attila hun vezért?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"\"a haza bölcse\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"a lovas íjász\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"Isten kardja\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"Isten ostora\"",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":152,
+      "category":"Sport",
+      "question":"Melyik nem egy harcművészeti ág az alábbiak közül?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"capoeira",
+            "isCorrect":false
+         },
+         {
+            "text":"dzsúdó",
+            "isCorrect":false
+         },
+         {
+            "text":"harakiri",
+            "isCorrect":true
+         },
+         {
+            "text":"taekwondo",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":153,
+      "category":"Földrajz",
+      "question":"Melyik nem egy japán sziget?",
+      "level":"4",
+      "answers":[
+          {
+            "text":"Hokkaidó",
+            "isCorrect":false
+         },
+         {
+            "text":"Honsú",
+            "isCorrect":false
+         },
+         {
+            "text":"Kjúsú",
+            "isCorrect":false
+         },
+         {
+            "text":"Szumátra",
+            "isCorrect":true
+         } 
+      ]
+   },
+  {
+      "id":154,
+      "category":"Földrajz",
+      "question":"Melyik folyó nem Oroszországban folyik?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Angara",
+            "isCorrect":false
+         },
+         {
+            "text":"Léna",
+            "isCorrect":false
+         },
+         {
+            "text":"Sárga-folyó",
+            "isCorrect":true
+         },
+         {
+            "text":"Volga",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":155,
+      "category":"Földrajz",
+      "question":"Melyik Európa leghosszabb folyója?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Duna",
+            "isCorrect":false
+         },
+         {
+            "text":"Rajna",
+            "isCorrect":false
+         },
+         {
+            "text":"Tisza",
+            "isCorrect":false
+         },
+         {
+            "text":"Volga",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":156,
+      "category":"Földrajz",
+      "question":"Melyik a világ leghosszabb folyója?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Amazonas",
+            "isCorrect":false
+         },
+          {
+            "text":"Mississippi",
+            "isCorrect":false
+         },
+         {
+            "text":"Nílus",
+            "isCorrect":true
+         },
+         {
+            "text":"Volga",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":157,
+      "category":"Irodalom és kultúra",
+      "question":"Kik voltak a szláv írásbeliség megteremtői?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Szent Cirill (Konstantin) és Szent Metód",
+            "isCorrect":true
+         },
+         {
+            "text":"Szent János és Szent Gusztáv",
+            "isCorrect":false
+         },
+         {
+            "text":"Szent Márk és Szent Pál",
+            "isCorrect":false
+         },
+         {
+            "text":"Szent Volodimir és Szent Szvjatoszláv",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":158,
+      "category":"Földrajz",
+      "question":"Melyik Európa legmagasabb hegycsúcsa?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Elbrusz",
+            "isCorrect":true
+         },
+         {
+            "text":"Jungfrau",
+            "isCorrect":false
+         },
+         {
+            "text":"Matterhorn",
+            "isCorrect":false
+         },
+         {
+            "text":"Mont Blanc",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":159,
+      "category":"Sport",
+      "question":"Melyik évben lett először Forma-1-es világbajnok Lewis Hamilton?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"2002",
+            "isCorrect":false
+         },
+         {
+            "text":"2005",
+            "isCorrect":false
+         },
+         {
+            "text":"2008",
+            "isCorrect":true
+         },
+         {
+            "text":"2010",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":160,
+      "category":"Tudomány és technika",
+      "question":"Mikor indult el Magyarországon az első Intercity-vonat?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1975",
+            "isCorrect":false
+         },
+         {
+            "text":"1981",
+            "isCorrect":false
+         },
+         {
+            "text":"1991",
+            "isCorrect":true
+         },
+         {
+            "text":"1996",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":161,
+      "category":"Tudomány és technika",
+      "question":"Melyik viszonylaton indultak el Magyarországon először az intercity-vonatok?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Budapest-Győr",
+            "isCorrect":false
+         },
+         {
+            "text":"Budapest-Miskolc",
+            "isCorrect":true
+         },
+         {
+            "text":"Budapest-Pécs",
+            "isCorrect":false
+         },
+         {
+            "text":"Budapest-Szeged",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":162,
+      "category":"Tudomány és technika",
+      "question":"Hány szénatomot tartalmaz a glükózmolekula?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"6",
+            "isCorrect":true
+         },
+         {
+            "text":"9",
+            "isCorrect":false
+         },
+         {
+            "text":"12",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":163,
+      "category":"Tudomány és technika",
+      "question":"Mi a konyhasó kémiai neve?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"fluorid",
+            "isCorrect":false
+         },
+         {
+            "text":"hidrogén-peroxid",
+            "isCorrect":false
+         },
+         {
+            "text":"nátrium-klorid",
+            "isCorrect":true
+         },
+         {
+            "text":"szén-dioxid",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":164,
+      "category":"Tudomány és technika",
+      "question":"Mi a kálium-nitrát hétköznapi neve?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"cukor",
+            "isCorrect":false
+         },
+         {
+            "text":"salétrom",
+            "isCorrect":true
+         },
+         {
+            "text":"só",
+            "isCorrect":false
+         },
+         {
+            "text":"szén",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":165,
+      "category":"Tudomány és technika",
+      "question":"Minek a vegyi képlete a HNO3?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"kénsav",
+            "isCorrect":false
+         },
+         {
+            "text":"királyvíz",
+            "isCorrect":false
+         },
+         {
+            "text":"salétromsav",
+            "isCorrect":true
+         },
+         {
+            "text":"sósav",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":166,
+      "category":"Tudomány és technika",
+      "question":"Minek a képlete az NaCl?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"konyhasó",
+            "isCorrect":true
+         },
+         {
+            "text":"salétromsav",
+            "isCorrect":false
+         },
+         {
+            "text":"sósav",
+            "isCorrect":false
+         },
+         {
+            "text":"víz",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":167,
+      "category":"Tudomány és technika",
+      "question":"Milyen atomokból épül fel az ózon?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"hidrogén",
+            "isCorrect":false
+         },
+         {
+            "text":"nitrogén és hidrogén",
+            "isCorrect":false
+         },
+         {
+            "text":"nitrogén és oxigén",
+            "isCorrect":false
+         },
+         {
+            "text":"oxigén",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":168,
+      "category":"Tudomány és technika",
+      "question":"Miből áll a szódavíz?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"víz és oxigén",
+            "isCorrect":false
+         },
+         {
+            "text":"víz és ózon",
+            "isCorrect":false
+         },
+         {
+            "text":"víz és szén-dioxid",
+            "isCorrect":true
+         },
+         {
+            "text":"víz és szén-monoxid",
+            "isCorrect":false
+         } 
+      ]
+   },
+  {
+      "id":169,
+      "category":"Tudomány és technika",
+      "question":"Mi a kén vegyjele?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"C",
+            "isCorrect":false
+         },
+         {
+            "text":"K",
+            "isCorrect":false
+         },
+         {
+            "text":"N",
+            "isCorrect":false
+         },
+         {
+            "text":"S",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":170,
+      "category":"Tudomány és technika",
+      "question":"Mi a vas vegyjele?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Al",
+            "isCorrect":false
+         },
+         {
+            "text":"Fe",
+            "isCorrect":true
+         },
+         {
+            "text":"S",
+            "isCorrect":false
+         },
+         {
+            "text":"Va",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":171,
+      "category":"Tudomány és technika",
+      "question":"Mi az ón vegyjele?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"O",
+            "isCorrect":false
+         },
+         {
+            "text":"Sb",
+            "isCorrect":false
+         },
+         {
+            "text":"Sn",
+            "isCorrect":true
+         },
+         {
+            "text":"Zn",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":172,
+      "category":"Tudomány és technika",
+      "question":"Mi az arany vegyjele?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Ag",
+            "isCorrect":false
+         },
+         {
+            "text":"Au",
+            "isCorrect":true
+         },
+         {
+            "text":"Pb",
+            "isCorrect":false
+         },
+         {
+            "text":"Sn",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":173,
+      "category":"Történelem",
+      "question":"Ki volt Geronimo?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"apacs törzsfőnök",
+            "isCorrect":true
+         },
+         {
+            "text":"brazil labdarúgó",
+            "isCorrect":false
+         },
+         {
+            "text":"norvég énekes",
+            "isCorrect":false
+         },
+         {
+            "text":"pun hadvezér",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":174,
+      "category":"Tudomány és technika",
+      "question":"Minek a vegyjele a C?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"cerubion",
+            "isCorrect":false
+         },
+         {
+            "text":"cézium",
+            "isCorrect":false
+         },
+         {
+            "text":"szelén",
+            "isCorrect":false
+         },
+         {
+            "text":"szén",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":175,
+      "category":"Tudomány és technika",
+      "question":"Mi a jód vegyjele?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"D",
+            "isCorrect":false
+         },
+         {
+            "text":"I",
+            "isCorrect":true
+         },
+         {
+            "text":"J",
+            "isCorrect":false
+         },
+         {
+            "text":"O",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":176,
+      "category":"Tudomány és technika",
+      "question":"Mi a higany vegyjele?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"H",
+            "isCorrect":false
+         },
+         {
+            "text":"Hg",
+            "isCorrect":true
+         },
+         {
+            "text":"Hi",
+            "isCorrect":false
+         },
+         {
+            "text":"Hn",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":177,
+      "category":"Tudomány és technika",
+      "question":"Melyik a leggyakoribb elem a világegyetemben?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"hélium",
+            "isCorrect":false
+         },
+         {
+            "text":"hidrogén",
+            "isCorrect":true
+         },
+         {
+            "text":"nitrogén",
+            "isCorrect":false
+         },
+         {
+            "text":"oxigén",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":178,
+      "category":"Tudomány és technika",
+      "question":"Melyik a leggyakoribb elem a Földön?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"hidrogén",
+            "isCorrect":false
+         },
+         {
+            "text":"nitrogén",
+            "isCorrect":false
+         },
+         {
+            "text":"oxigén",
+            "isCorrect":true
+         },
+         {
+            "text":"vas",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":179,
+      "category":"Tudomány és technika",
+      "question":"Melyik kémiai elem kristályosodott változata a gyémánt?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"higany",
+            "isCorrect":false
+         },
+         {
+            "text":"króm",
+            "isCorrect":false
+         },
+         {
+            "text":"szén",
+            "isCorrect":true
+         },
+         {
+            "text":"szilícium",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":180,
+      "category":"Tudomány és technika",
+      "question":"Mi a terpentin?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"éles kanyar",
+            "isCorrect":false
+         },
+         {
+            "text":"gyermekbetegség",
+            "isCorrect":false
+         },
+         {
+            "text":"lakásdísz",
+            "isCorrect":false
+         },
+         {
+            "text":"oldó- és tisztítószer",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":181,
+      "category":"Tudomány és technika",
+      "question":"Mi a faszesz kémiai neve?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"etil-alkohol",
+            "isCorrect":false
+         },
+         {
+            "text":"etil-klorid",
+            "isCorrect":false
+         },
+         {
+            "text":"metil-alkohol",
+            "isCorrect":true
+         },
+         {
+            "text":"propil-alkohol",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":182,
+      "category":"Tudomány és technika",
+      "question":"Mi a metanol (metil-alkohol) vegyi képlete?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"C2H4",
+            "isCorrect":false
+         },
+         {
+            "text":"C2H5OH",
+            "isCorrect":false
+         },
+         {
+            "text":"CH2OH",
+            "isCorrect":false
+         },
+         {
+            "text":"CH3OH",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":183,
+      "category":"Tudomány és technika",
+      "question":"Hány atomból áll egy ammónia-molekula?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"2",
+            "isCorrect":false
+         },
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"4",
+            "isCorrect":true
+         },
+         {
+            "text":"6",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":184,
+      "category":"Tudomány és technika",
+      "question":"Minek a képlete az O3?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"levegő",
+            "isCorrect":false
+         },
+         {
+            "text":"ózon",
+            "isCorrect":true
+         },
+         {
+            "text":"szén-monoxid",
+            "isCorrect":false
+         },
+         {
+            "text":"víz",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":185,
+      "category":"Tudomány és technika",
+      "question":"Mi a klór vegyjele?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"C",
+            "isCorrect":false
+         },
+         {
+            "text":"Cl",
+            "isCorrect":true
+         },
+         {
+            "text":"Co",
+            "isCorrect":false
+         },
+         {
+            "text":"Cr",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":186,
+      "category":"Tudomány és technika",
+      "question":"Mi a hélium vegyjele?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"H",
+            "isCorrect":false
+         },
+         {
+            "text":"He",
+            "isCorrect":true
+         },
+         {
+            "text":"Hl",
+            "isCorrect":false
+         },
+         {
+            "text":"Hn",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":187,
+      "category":"Tudomány és technika",
+      "question":"Mi a fő összetevője a földgáznak és a kőolajnak?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"benzin",
+            "isCorrect":false
+         },
+         {
+            "text":"műanyag",
+            "isCorrect":false
+         },
+         {
+            "text":"szénhidrogének",
+            "isCorrect":true
+         },
+         {
+            "text":"víz",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":188,
+      "category":"",
+      "question":"?",
+      "level":"",
+      "answers":[
+         {
+            "text":"",
+            "isCorrect":false
+         },
+         {
+            "text":"",
+            "isCorrect":false
+         },
+         {
+            "text":"",
+            "isCorrect":true
+         },
+         {
+            "text":"",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":189,
+      "category":"Tudomány és technika",
+      "question":"Mi a xenon vegyjele?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"X",
+            "isCorrect":false
+         },
+         {
+            "text":"Xe",
+            "isCorrect":true
+         },
+         {
+            "text":"Xn",
+            "isCorrect":false
+         },
+         {
+            "text":"Xr",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":190,
+      "category":"Tudomány és technika",
+      "question":"Mi a kripton?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"nemesgáz",
+            "isCorrect":true
+         },
+         {
+            "text":"Supermant gyengítő anyag",
+            "isCorrect":false
+         },
+         {
+            "text":"temetkezési hely",
+            "isCorrect":false
+         },
+         {
+            "text":"titkosírás",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":191,
+      "category":"Tudomány és technika",
+      "question":"Melyik az egyetlen fém, ami szobahőmérsékleten folyékony?",
+      "level":"4",
+      "answers":[
+          {
+            "text":"higany",
+            "isCorrect":true
+         },
+         {
+            "text":"kálium",
+            "isCorrect":false
+         },
+         {
+            "text":"ólom",
+            "isCorrect":false
+         },
+         {
+            "text":"vas",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":192,
+      "category":"Tudomány és technika",
+      "question":"Milyen anyag az azbeszt?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"golyóálló",
+            "isCorrect":false
+         },
+         {
+            "text":"hőálló",
+            "isCorrect":false
+         },
+         {
+            "text":"tűzálló",
+            "isCorrect":true
+         },
+         {
+            "text":"vízálló",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":193,
+      "category":"Tudomány és technika",
+      "question":"Melyik két elem az alapja a szerves kémiának?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"arany és gyémánt",
+            "isCorrect":false
+         },
+         {
+            "text":"jód és hélium",
+            "isCorrect":false
+         },
+         {
+            "text":"szén és hidrogén",
+            "isCorrect":true
+         },
+         {
+            "text":"urán és vas",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":194,
+      "category":"Földrajz",
+      "question":"Ki fedezte fel Amerikát?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Amerigo Vespucci",
+            "isCorrect":false
+         },
+         {
+            "text":"Kolumbusz Kristóf",
+            "isCorrect":true
+         },
+         {
+            "text":"Magellán",
+            "isCorrect":false
+         },
+         {
+            "text":"Vasco da Gama",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":195,
+      "category":"Földrajz",
+      "question":"Melyik a Föld legnagyobb tava?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Aral-tó",
+            "isCorrect":false
+         },
+         {
+            "text":"Kaszpi-tenger",
+            "isCorrect":true
+         },
+         {
+            "text":"Michigan-tó",
+            "isCorrect":false
+         },
+         {
+            "text":"Viktória-tó",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":196,
+      "category":"Földrajz",
+      "question":"Melyik a Föld legnagyobb sivataga?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Atacama",
+            "isCorrect":false
+         },
+         {
+            "text":"Góbi",
+            "isCorrect":false
+         },
+         {
+            "text":"Kalahári",
+            "isCorrect":false
+         },
+         {
+            "text":"Szahara",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":197,
+      "category":"Földrajz",
+      "question":"Melyik a legnépesebb földrész?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Afrika",
+            "isCorrect":false
+         },
+         {
+            "text":"Amerika",
+            "isCorrect":false
+         },
+         {
+            "text":"Ázsia",
+            "isCorrect":true
+         },
+         {
+            "text":"Európa",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":198,
+      "category":"Földrajz",
+      "question":"Hány aktív tűzhányó van a Földön?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"kb. 1000",
+            "isCorrect":false
+         },
+         {
+            "text":"kb. 1400",
+            "isCorrect":true
+         },
+         {
+            "text":"kb. 2000",
+            "isCorrect":false
+         },
+         {
+            "text":"kb. 3700",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":199,
+      "category":"Földrajz",
+      "question":"Milyen magas a Csomolungma?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"8116 m",
+            "isCorrect":false
+         },
+         {
+            "text":"8511 m",
+            "isCorrect":false
+         },
+         {
+            "text":"8848 m",
+            "isCorrect":true
+         },
+         {
+            "text":"8950 m",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":200,
+      "category":"Földrajz",
+      "question":"Mi okozza az apályt és a dagályt?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"A folyók tenger felé irányuló mozgása",
+            "isCorrect":false
+         },
+         {
+            "text":"A Hold tömegvonzása",
+            "isCorrect":true
+         },
+         {
+            "text":"A kéreglemezek mozgása",
+            "isCorrect":false
+         },
+         {
+            "text":"A szél ereje",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":201,
+      "category":"Bulvár",
+      "question":"Ki nem volt Madonna párja az alábbiak közül?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Carlos Leon",
+            "isCorrect":false
+         },
+         {
+            "text":"David Bowie",
+            "isCorrect":true
+         },
+         {
+            "text":"Guy Ritchie",
+            "isCorrect":false
+         },
+         {
+            "text":"Sean Penn",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":202,
+      "category":"Bulvár",
+      "question":"Melyik évben született Brad Pitt?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1960",
+            "isCorrect":false
+         },
+         {
+            "text":"1963",
+            "isCorrect":true
+         },
+         {
+            "text":"1965",
+            "isCorrect":false
+         },
+         {
+            "text":"1970",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":203,
+      "category":"Film és TV",
+      "question":"Ki nem játszott az Ocean's Eleven című filmben?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Brad Pitt",
+            "isCorrect":false
+         },
+         {
+            "text":"George Clooney",
+            "isCorrect":false
+         },
+         {
+            "text":"Julia Roberts",
+            "isCorrect":false
+         },
+         {
+            "text":"Michelle Pfeiffer",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":204,
+      "category":"Film és TV",
+      "question":"Hány Oscar-díjat nyert Katharine Hepburn?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1",
+            "isCorrect":false
+         },
+         {
+            "text":"2",
+            "isCorrect":false
+         },
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"4",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":205,
+      "category":"Film és TV",
+      "question":"Hány Oscar-díjat nyert eddig Tom Hanks?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1",
+            "isCorrect":false
+         },
+         {
+            "text":"2",
+            "isCorrect":true
+         },
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"egyet sem",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":206,
+      "category":"Bulvár",
+      "question":"Ki nem volt a párja Brad Pittnek?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Angelina Jolie",
+            "isCorrect":false
+         },
+         {
+            "text":"Gwyneth Paltrow",
+            "isCorrect":false
+         },
+         {
+            "text":"Jennifer Aniston",
+            "isCorrect":false
+         },
+         {
+            "text":"Julia Roberts",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":207,
+      "category":"Film és TV",
+      "question":"Az alábbiak közül melyik film nyerte el a legtöbb Oscar-díjat (11-et)?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Elfújta a szél",
+            "isCorrect":false
+         },
+         {
+            "text":"Gettómilliomos",
+            "isCorrect":false
+         },
+         {
+            "text":"My Fair Lady",
+            "isCorrect":false
+         },
+         {
+            "text":"Titanic",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":208,
+      "category":"Irodalom és kultúra",
+      "question":"Hol született Bartók Béla?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Kiskőrösön",
+            "isCorrect":false
+         },
+         {
+            "text":"Monokon",
+            "isCorrect":false
+         },
+         {
+            "text":"Nagyszentmiklóson",
+            "isCorrect":true
+         },
+         {
+            "text":"Szegeden",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":209,
+      "category":"Történelem",
+      "question":"Melyik magyar király tartotta fogságban III. Vladot (Drakulát)?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"I. Ulászló",
+            "isCorrect":false
+         },
+         {
+            "text":"II. Lajos",
+            "isCorrect":false
+         },
+         {
+            "text":"Hunyadi Mátyás",
+            "isCorrect":true
+         },
+         {
+            "text":"Luxemburgi Zsigmond",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":210,
+      "category":"Történelem",
+      "question":"Ki volt az első magyar kormány igazságügyi minisztere?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"gróf Batthyány Lajos",
+            "isCorrect":false
+         },
+         {
+            "text":"Deák Ferenc",
+            "isCorrect":true
+         },
+         {
+            "text":"Kossuth Lajos",
+            "isCorrect":false
+         },
+         {
+            "text":"Szemere Bertalan",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":211,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor szokták rendezni a debreceni Virágkarnevált?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"április 7.",
+            "isCorrect":false
+         },
+         {
+            "text":"május 1.",
+            "isCorrect":false
+         },
+         {
+            "text":"július 4.",
+            "isCorrect":false
+         },
+         {
+            "text":"augusztus 20.",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":212,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor van a Föld Napja?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"március 28.",
+            "isCorrect":false
+         },
+         {
+            "text":"április 11.",
+            "isCorrect":false
+         },
+         {
+            "text":"április 22.",
+            "isCorrect":true
+         },
+         {
+            "text":"május utolsó vasárnapja",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":213,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor ünneplik az USA-ban a Függetlenség napját?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"május utolsó hétfője",
+            "isCorrect":false
+         },
+         {
+            "text":"június 4.",
+            "isCorrect":false
+         },
+         {
+            "text":"július 4.",
+            "isCorrect":true
+         },
+         {
+            "text":"november negyedik csütörtökje",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":214,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor van az európai autómentes nap?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"május 9.",
+            "isCorrect":false
+         },
+         {
+            "text":"július 21.",
+            "isCorrect":false
+         },
+         {
+            "text":"augusztus 22.",
+            "isCorrect":false
+         },
+         {
+            "text":"szeptember 22.",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":215,
+      "category":"Tudomány és technika",
+      "question":"Hány másodpercből áll egy nap?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"36000",
+            "isCorrect":false
+         },
+         {
+            "text":"76400",
+            "isCorrect":false
+         },
+         {
+            "text":"86400",
+            "isCorrect":true
+         },
+         {
+            "text":"864000",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":216,
+      "category":"Történelem",
+      "question":"Mióta tagja a NATO-nak Magyarország?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"1985",
+            "isCorrect":false
+         },
+         {
+            "text":"1990",
+            "isCorrect":false
+         },
+         {
+            "text":"1999",
+            "isCorrect":true
+         },
+         {
+            "text":"2004",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":217,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor van a \"törülközőnap\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"március 14.",
+            "isCorrect":false
+         },
+         {
+            "text":"május 4.",
+            "isCorrect":false
+         },
+         {
+            "text":"május 25.",
+            "isCorrect":true
+         },
+         {
+            "text":"június 1.",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":218,
+      "category":"Irodalom és kultúra",
+      "question":"Milyen világnap van október 4-én?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"az állatok világnapja",
+            "isCorrect":true
+         },
+         {
+            "text":"a Föld Napja",
+            "isCorrect":false
+         },
+         {
+            "text":"a levegő világnapja",
+            "isCorrect":false
+         },
+         {
+            "text":"a vizek világnapja",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":219,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor van a költészet napja?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"március 15.",
+            "isCorrect":false
+         },
+         {
+            "text":"április 11.",
+            "isCorrect":false
+         },
+         {
+            "text":"május 10.",
+            "isCorrect":true
+         },
+         {
+            "text":"augusztus 20.",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":220,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik évben történt a csernobili atomkatasztrófa?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"1980",
+            "isCorrect":false
+         },
+         {
+            "text":"1985",
+            "isCorrect":false
+         },
+         {
+            "text":"1986",
+            "isCorrect":true
+         },
+         {
+            "text":"1991",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":221,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik hónapunk nevében van elrejtve a 7-es szám?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"augusztus",
+            "isCorrect":false
+         },
+         {
+            "text":"szeptember",
+            "isCorrect":true
+         },
+         {
+            "text":"október",
+            "isCorrect":false
+         },
+         {
+            "text":"december",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":222,
+      "category":"Történelem",
+      "question":"Mikor van a győzelem napja?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"március 15.",
+            "isCorrect":false
+         },
+         {
+            "text":"május 9.",
+            "isCorrect":true
+         },
+         {
+            "text":"augusztus 20.",
+            "isCorrect":false
+         },
+         {
+            "text":"november 1.",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":223,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik hónap nem 31 napos az alábbiak közül?",
+      "level":"1",
+      "answers":[
+         {
+            "text":"január",
+            "isCorrect":false
+         },
+         {
+            "text":"augusztus",
+            "isCorrect":false
+         },
+         {
+            "text":"szeptember",
+            "isCorrect":true
+         },
+         {
+            "text":"december",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":224,
+      "category":"Történelem",
+      "question":"Mikor állították üzembe a paksi atomerőművet?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1970",
+            "isCorrect":false
+         },
+         {
+            "text":"1980",
+            "isCorrect":false
+         },
+         {
+            "text":"1982",
+            "isCorrect":true
+         },
+         {
+            "text":"1990",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":225,
+      "category":"Tudomány és technika",
+      "question":"Hány másodpercből áll egy óra?",
+      "level":"",
+      "answers":[
+         {
+            "text":"360",
+            "isCorrect":false
+         },
+         {
+            "text":"3600",
+            "isCorrect":true
+         },
+         {
+            "text":"6000",
+            "isCorrect":false
+         },
+         {
+            "text":"36000",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":226,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor van Luca nap?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"szeptember 13.",
+            "isCorrect":false
+         },
+         {
+            "text":"október 6.",
+            "isCorrect":false
+         },
+         {
+            "text":"november 12.",
+            "isCorrect":false
+         },
+         {
+            "text":"december 13.",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":227,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor van a nemzetközi Pí-nap?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"január 10.",
+            "isCorrect":false
+         },
+         {
+            "text":"február 14.",
+            "isCorrect":false
+         },
+         {
+            "text":"március 14.",
+            "isCorrect":true
+         },
+         {
+            "text":"március 28.",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":228,
+      "category":"Irodalom és kultúra",
+      "question":"Mikor rendezték az első Oktoberfestet?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1810",
+            "isCorrect":true
+         },
+         {
+            "text":"1848",
+            "isCorrect":false
+         },
+         {
+            "text":"1910",
+            "isCorrect":false
+         },
+         {
+            "text":"1918",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":229,
+      "category":"Történelem",
+      "question":"Mióta tagja az Európai Uniónak Magyarország?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"1999",
+            "isCorrect":false
+         },
+         {
+            "text":"2001",
+            "isCorrect":false
+         },
+         {
+            "text":"2004",
+            "isCorrect":true
+         },
+         {
+            "text":"2006",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":230,
+      "category":"Tudomány és technika",
+      "question":"Hány perc van egy napban?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"600",
+            "isCorrect":false
+         },
+         {
+            "text":"1440",
+            "isCorrect":true
+         },
+         {
+            "text":"2400",
+            "isCorrect":false
+         },
+         {
+            "text":"3600",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":231,
+      "category":"",
+      "question":"?",
+      "level":"",
+      "answers":[
+         {
+            "text":"",
+            "isCorrect":false
+         },
+         {
+            "text":"",
+            "isCorrect":false
+         },
+         {
+            "text":"",
+            "isCorrect":true
+         },
+         {
+            "text":"",
+            "isCorrect":false
          }
       ]
    }
