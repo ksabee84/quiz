@@ -82,10 +82,10 @@
                         <label class="form-check-label" for="categoryCheckbox">Zene</label>
                     </div>
                     <div id="selectCategoryDiv" class="d-flex flex-wrap mt-4 mx-auto">
-                        <button id="selectAllCatBtn" type="button" class="btn btn-primary col-sm-10 col-lg-5 mx-auto my-2 shadow">
+                        <button id="selectAllCatBtn" type="button" class="btn btn-primary col-sm-10 col-xl-5 mx-auto my-2 shadow">
                             Mindet kiválaszt
                         </button>
-                        <button id="noCatBtn" type="button" class="btn btn-primary col-sm-10 col-lg-5 mx-auto my-2 shadow">
+                        <button id="noCatBtn" type="button" class="btn btn-primary col-sm-10 col-xl-5 mx-auto my-2 shadow">
                             Egyiket sem
                         </button>
                     </div>
@@ -117,14 +117,41 @@
                     </div>
                 </form>
                 <div id="selectLevelDiv" class="d-flex flex-wrap mt-4 mx-auto">
-                    <button id="selectAllLevelBtn" type="button" class="btn btn-primary col-sm-10 col-lg-5 mx-auto my-2 shadow">
+                    <button id="selectAllLevelBtn" type="button" class="btn btn-primary col-sm-10 col-xl-5 mx-auto my-2 shadow">
                         Mindet kiválaszt
                     </button>
-                    <button id="noLevelBtn" type="button" class="btn btn-primary col-sm-10 col-lg-5 mx-auto my-2 shadow">
+                    <button id="noLevelBtn" type="button" class="btn btn-primary col-sm-10 col-xl-5 mx-auto my-2 shadow">
                         Egyiket sem
                     </button>
                 </div>
             </div>
+
+            <div id="questionQuantDiv" class="col-2 me-3 px-2 bg-warning rounded shadow-sm">
+                <h2 class="text-center mt-4 fs-4 px-1">Válaszd ki a kérdések számát!</h2>
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" name="quantSelect" type="radio" value="10" id="select10" />
+                        <label class="form-check-label" for="quantSelect">10</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="quantSelect" type="radio" value="20" id="select20" />
+                        <label class="form-check-label" for="quantSelect">20</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="quantSelect" type="radio" value="50" id="select50" />
+                        <label class="form-check-label" for="quantSelect">50</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="quantSelect" type="radio" value="100" id="select100" />
+                        <label class="form-check-label" for="quantSelect">100</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="quantSelect" type="radio" value="all" id="selectAll" />
+                        <label class="form-check-label" for="quantSelect">Az összes</label>
+                    </div>
+                </form>
+            </div>
+
 
             <div class="col-3 mx-auto text-center">
                 <button id="startQuizBtn" type="submit" class="btn btn-success btn-lg py-5 px-5 fs-3">

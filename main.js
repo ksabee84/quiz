@@ -31,6 +31,13 @@ const veryHardCheckbox = document.getElementById('veryHardCheckbox');
 const selectAllLevelBtn = document.getElementById('selectAllLevelBtn');
 const noLevelBtn = document.getElementById('noLevelBtn');
 
+const questionQuantDiv = document.getElementById('questionQuantDiv');
+const question10 = document.getElementById('select10');
+const question20 = document.getElementById('select20');
+const question50 = document.getElementById('select50');
+const question100 = document.getElementById('select100');
+const questionAll = document.getElementById('selectAll');
+
 const startQuizBtn = document.getElementById('startQuizBtn');
 const questionDiv = document.getElementById('questionDiv');
 const noOfQuestUpper = document.getElementById('noOfQuestUpper');
@@ -73,6 +80,10 @@ let categoryValues = [];
 let selectedQuestions = [];
 let shuffledQuestions = [];
 let levelValues = [];
+let questionQuant10 = [];
+let questionQuant20 = [];
+let questionQuant50 = [];
+let questionQuant100 = [];
 
 const importQuestions = () => {
     fetch("./questions.json")
@@ -98,6 +109,7 @@ const importQuestions = () => {
         });
         
         console.log('questionsObject: ', questionsObject);
+        console.log('10 questions: ', questionQuant10);
     })
     .catch(error => console.log('error: ', error));
 };
@@ -174,7 +186,6 @@ function selectCategories() {
     }
 }
 
-
 function selectLevels() {
     let checkBoxes = document.querySelectorAll('input[name="levelCheckbox"]:checked');
 
@@ -203,6 +214,25 @@ function selectLevels() {
     }
 }
 
+function selectQuestQuant() {
+    if(question10.checked) {
+        questionQuant10 = [...questionsObject].sort(() => 0.5 - Math.random());
+    }
+
+    if(question20.checked) {
+        questionQuant20 = [...questionsObject].sort(() => 0.5 - Math.random());
+    }
+
+    if(question50.checked) {
+        questionQuant50 = [...questionsObject].sort(() => 0.5 - Math.random());
+    }
+
+    if(question100.checked) {
+        questionQuant100 = [...questionsObject].sort(() => 0.5 - Math.random());
+    }
+
+}
+
 function startQuiz() {
     let selectedBoxes = [];
     for (let i = 0; i < categoryInputs.length; i++) {
@@ -220,10 +250,12 @@ function startQuiz() {
     if(selectedBoxes.length > 0) {
         selectCategories();
         selectLevels();
+        selectQuestQuant();
         navbar.style.display = 'block';
         selectorDiv.style.display = 'none';
         questionCategoriesDiv.style.display = 'none';
         questionLevelsDiv.style.display = 'none';
+        questionQuantDiv.style.display = 'none';
         startQuizBtn.style.display = 'none';
         
         shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
@@ -418,9 +450,10 @@ nextQuestionBtn.onclick = () => {
 restartButton.onclick = () => {
     questionDiv.style.display = 'none';
     restartButton.style.display = 'none';
-    questionCategoriesDiv.style.display = 'inline-block';
-    questionLevelsDiv.style.display = 'inline-block';
-    startQuizBtn.style.display = 'inline-block';
+    questionCategoriesDiv.style.display = 'inline-flex';
+    questionLevelsDiv.style.display = 'inline-flex';
+    questionQuantDiv.style.display = 'inline-flex';
+    startQuizBtn.style.display = 'inline-flex';
     resetResult();
     resetState();
 }

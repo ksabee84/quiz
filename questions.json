@@ -5521,6 +5521,3126 @@
    },
   {
       "id":231,
+      "category":"Film és TV",
+      "question":"Melyik városban játszódik a \"Váratlan utazás\" című sorozat?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Avonlea",
+            "isCorrect":true
+         },
+          {
+            "text":"Boston",
+            "isCorrect":false
+         },
+         {
+            "text":"Charlottetown",
+            "isCorrect":false
+         },
+         {
+            "text":"Québec",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":232,
+      "category":"Irodalom és kultúra",
+      "question":"Ki nem alapító tagja a L'art pour l'art Társulatnak?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Galla Miklós",
+            "isCorrect":false
+         },
+         {
+            "text":"Laár András",
+            "isCorrect":false
+         },
+         {
+            "text":"Nagy Natália",
+            "isCorrect":false
+         },
+         {
+            "text":"Szászi Móni",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":233,
+      "category":"Film és TV",
+      "question":"Ki nyerte az első magyarországi Big Brothert?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bálint",
+            "isCorrect":false
+         },
+         {
+            "text":"Évi",
+            "isCorrect":true
+         },
+         {
+            "text":"Pongó",
+            "isCorrect":false
+         },
+         {
+            "text":"Renato",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":234,
+      "category":"Film és TV",
+      "question":"Ki nyerte az első Való Világot?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Lorenzo",
+            "isCorrect":false
+         },
+         {
+            "text":"Majka",
+            "isCorrect":false
+         },
+         {
+            "text":"Oki",
+            "isCorrect":false
+         },
+         {
+            "text":"Szabolcs",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":235,
+      "category":"Film és TV",
+      "question":"Ki nem a Való Világban szerepelt?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Aurelio",
+            "isCorrect":false
+         },
+         {
+            "text":"Linya",
+            "isCorrect":true
+         },
+         {
+            "text":"Majka",
+            "isCorrect":false
+         },
+         {
+            "text":"Soma",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":236,
+      "category":"Film és TV",
+      "question":"Mi a címe Cseke Eszter és S. Takács András dokusorozatának?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Állítólag...",
+            "isCorrect":false
+         },
+         {
+            "text":"Bábel",
+            "isCorrect":false
+         },
+         {
+            "text":"Dosszié",
+            "isCorrect":false
+         },
+         {
+            "text":"On The Spot",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":237,
+      "category":"Film és TV",
+      "question":"Mi a címe Al Ghaoui Hesna dokusorozatának?",
+      "level":"",
+      "answers":[
+         {
+            "text":"Bábel",
+            "isCorrect":true
+         },
+         {
+            "text":"Dosszié",
+            "isCorrect":false
+         },
+         {
+            "text":"On The Spot",
+            "isCorrect":false
+         },
+         {
+            "text":"Világfalu",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":238,
+      "category":"Történelem",
+      "question":"Melyik évben jött létre a Német Birodalom?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"1750",
+            "isCorrect":false
+         },
+         {
+            "text":"1864",
+            "isCorrect":false
+         },
+         {
+            "text":"1871",
+            "isCorrect":true
+         },
+         {
+            "text":"1910",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":239,
+      "category":"Történelem",
+      "question":"Mikor történt a \"kiegyezés\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"1849",
+            "isCorrect":false
+         },
+         {
+            "text":"1860",
+            "isCorrect":false
+         },
+         {
+            "text":"1867",
+            "isCorrect":true
+         },
+         {
+            "text":"1914",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":240,
+      "category":"Történelem",
+      "question":"Mikor zajlott a \"tatárjárás\"?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"896",
+            "isCorrect":false
+         },
+         {
+            "text":"1241-1242",
+            "isCorrect":true
+         },
+         {
+            "text":"1703-1711",
+            "isCorrect":false
+         },
+         {
+            "text":"1848-1849",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":241,
+      "category":"Zene",
+      "question":"Ki énekli az \"Emlékszem, Sopronban...\" című dalt?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Blahalouisiana",
+            "isCorrect":false
+         },
+         {
+            "text":"Irie Maffia",
+            "isCorrect":false
+         },
+         {
+            "text":"Kowalsky meg a Vega",
+            "isCorrect":false
+         },
+         {
+            "text":"Wellhello & Halott Pénz",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":242,
+      "category":"Zene",
+      "question":"Hogyan folytatódik a dal: \"Magas hegyek között, hol...\"?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"a korlát bilikék",
+            "isCorrect":false
+         },
+         {
+            "text":"a madárdal nyitnikék",
+            "isCorrect":false
+         },
+         {
+            "text":"a tenger hupikék",
+            "isCorrect":true
+         },
+         {
+            "text":"repkednek a tollpihék",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":243,
+      "category":"Tudomány és technika",
+      "question":"Mi a foton?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"a fény elemi részecskéje",
+            "isCorrect":true
+         },
+         {
+            "text":"az atom része",
+            "isCorrect":false
+         },
+         {
+            "text":"energiaforma",
+            "isCorrect":false
+         },
+         {
+            "text":"nukleáris hajtómű",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":244,
+      "category":"Tudomány és technika",
+      "question":"Mi a szivárvány?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"A levegő páratartalmának egyik megjelenési formája",
+            "isCorrect":false
+         },
+         {
+            "text":"A NASA egy kísérlete",
+            "isCorrect":false
+         },
+         {
+            "text":"Fénytörés a párán vagy esőcseppeken",
+            "isCorrect":true
+         },
+         {
+            "text":"Környezetszennyezés miatt kialakuló füstköd",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":245,
+      "category":"Tudomány és technika",
+      "question":"Hol nem terjed a hang?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"a levegőben",
+            "isCorrect":false
+         },
+         {
+            "text":"a földön",
+            "isCorrect":false
+         },
+         {
+            "text":"a vízben",
+            "isCorrect":false
+         },
+         {
+            "text":"az űrben",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":246,
+      "category":"Tudomány és technika",
+      "question":"Milyen gyors a fény (fénysebesség)?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"300.000 m/s",
+            "isCorrect":false
+         },
+         {
+            "text":"300.000 km/s",
+            "isCorrect":true
+         },
+         {
+            "text":"300.000 km/h",
+            "isCorrect":false
+         },
+         {
+            "text":"3.000.000 km/h",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":247,
+      "category":"Tudomány és technika",
+      "question":"Milyen sebességgel terjed a hang légüres térben?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"340 m/s",
+            "isCorrect":false
+         },
+         {
+            "text":"340 km/h",
+            "isCorrect":false
+         },
+         {
+            "text":"1000 km/h",
+            "isCorrect":false
+         },
+         {
+            "text":"nem terjed",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":248,
+      "category":"Tudomány és technika",
+      "question":"Hány mm esőnek felel meg 10 cm hó?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"5",
+            "isCorrect":false
+         },
+         {
+            "text":"10",
+            "isCorrect":true
+         },
+         {
+            "text":"20",
+            "isCorrect":false
+         },
+         {
+            "text":"100",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":249,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik nem egy híres amerikai egyetem?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Berkeley",
+            "isCorrect":false
+         },
+         {
+            "text":"Harvard",
+            "isCorrect":false
+         },
+         {
+            "text":"Oxfordi Egyetem",
+            "isCorrect":true
+         },
+         {
+            "text":"UCLA",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":250,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik nem egy híres angol egyetem?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Berkeley",
+            "isCorrect":true
+         },
+         {
+            "text":"Cambridge-i Egyetem",
+            "isCorrect":false
+         },
+         {
+            "text":"King's College London",
+            "isCorrect":false
+         },
+         {
+            "text":"Oxfordi Egyetem",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":251,
+      "category":"Tudomány és technika",
+      "question":"Melyik Németország nemzeti vasúttársasága?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"DB",
+            "isCorrect":true
+         },
+         {
+            "text":"DSB",
+            "isCorrect":false
+         },
+         {
+            "text":"ÖBB",
+            "isCorrect":false
+         },
+         {
+            "text":"SNCF",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":252,
+      "category":"Tudomány és technika",
+      "question":"Melyik Franciaország nemzeti vasúttársasága?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"DB",
+            "isCorrect":false
+         },
+         {
+            "text":"SJ",
+            "isCorrect":false
+         },
+         {
+            "text":"SNCB",
+            "isCorrect":false
+         },
+         {
+            "text":"SNCF",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":253,
+      "category":"Történelem",
+      "question":"Melyik latin mondás fűződik a Rákóczi-szabadságharchoz?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"\"Alea iacta est.\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"Ave Caesar, morituri te salutant!\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"Ceterum censeo Carthaginem esse delendam.\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"Cum Deo pro patria et libertate!\"",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":254,
+      "category":"Tudomány és technika",
+      "question":"Melyik város a Ferrari autógyár központja?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Bologna",
+            "isCorrect":false
+         },
+         {
+            "text":"Maranello",
+            "isCorrect":true
+         },
+         {
+            "text":"Milánó",
+            "isCorrect":false
+         },
+         {
+            "text":"Róma",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":255,
+      "category":"Tudomány és technika",
+      "question":"Melyik városban alapították a Ferrari autógyárat?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Bologna",
+            "isCorrect":false
+         },
+         {
+            "text":"Modena",
+            "isCorrect":true
+         },
+         {
+            "text":"Pisa",
+            "isCorrect":false
+         },
+         {
+            "text":"Torino",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":256,
+      "category":"Sport",
+      "question":"Milyen nemzetiségű Max Verstappen Forma-1-es világbajnok versenyző?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"belga",
+            "isCorrect":false
+         },
+         {
+            "text":"dán",
+            "isCorrect":false
+         },
+         {
+            "text":"holland",
+            "isCorrect":true
+         },
+         {
+            "text":"német",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":257,
+      "category":"Sport",
+      "question":"Milyen nemzetiségű az egykori Forma-1-es versenyző Giancarlo Fisichella?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"brazil",
+            "isCorrect":false
+         },
+         {
+            "text":"olasz",
+            "isCorrect":true
+         },
+         {
+            "text":"spanyol",
+            "isCorrect":false
+         },
+         {
+            "text":"svájci",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":258,
+      "category":"Tudomány és technika",
+      "question":"Ki a holográfia feltalálója?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bánki Donát",
+            "isCorrect":false
+         },
+         {
+            "text":"Gábor Dénes",
+            "isCorrect":true
+         },
+         {
+            "text":"Lénárd Fülöp",
+            "isCorrect":false
+         },
+         {
+            "text":"Wigner Jenő",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":259,
+      "category":"Irodalom és kultúra",
+      "question":"Mitől fél, aki nomofóbiás?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"a bezártságtól",
+            "isCorrect":false
+         },
+         {
+            "text":"a magasságtól",
+            "isCorrect":false
+         },
+         {
+            "text":"a mobiltelefon hiányától",
+            "isCorrect":true
+         },
+         {
+            "text":"a pókoktól",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":260,
+      "category":"Irodalom és kultúra",
+      "question":"Mit jelent a \"pádimentum\" szó?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"ablak",
+            "isCorrect":false
+         },
+         {
+            "text":"erkély",
+            "isCorrect":false
+         },
+         {
+            "text":"padló",
+            "isCorrect":true
+         },
+         {
+            "text":"tető",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":261,
+      "category":"Földrajz",
+      "question":"Melyik ország fővárosa Nouakchott?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Dél-afrikai Köztársaság",
+            "isCorrect":false
+         },
+         {
+            "text":"Gháha",
+            "isCorrect":false
+         },
+         {
+            "text":"Mauritánia",
+            "isCorrect":true
+         },
+         {
+            "text":"Zimbabwe",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":262,
+      "category":"Földrajz",
+      "question":"Melyik ország fővárosa Accra?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Etiópia",
+            "isCorrect":false
+         },
+         {
+            "text":"Ghána",
+            "isCorrect":true
+         },
+         {
+            "text":"Kenya",
+            "isCorrect":false
+         },
+         {
+            "text":"Zambia",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":263,
+      "category":"Földrajz",
+      "question":"Melyik ország fővárosa Tripoli?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Etiópia",
+            "isCorrect":false
+         },
+         {
+            "text":"Kenya",
+            "isCorrect":false
+         },
+         {
+            "text":"Líbia",
+            "isCorrect":true
+         },
+         {
+            "text":"Tunézia",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":264,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik hegyről írt novellát Ernest Hemingway?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Csomolungma",
+            "isCorrect":false
+         },
+         {
+            "text":"Kancsendzönga",
+            "isCorrect":false
+         },
+         {
+            "text":"Kilimandzsáró",
+            "isCorrect":true
+         },
+         {
+            "text":"Mont Blanc",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":265,
+      "category":"Földrajz",
+      "question":"Melyik nem egy vulkán az alábbiak közül?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Elbrusz",
+            "isCorrect":true
+         },
+         {
+            "text":"Etna",
+            "isCorrect":false
+         },
+         {
+            "text":"Kilimandzsáró",
+            "isCorrect":false
+         },
+         {
+            "text":"Mauna Kea",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":266,
+      "category":"Földrajz",
+      "question":"Kik mászták meg először a Mont Blanc-t?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Edmund Hillary és Tendzing Norgaj",
+            "isCorrect":false
+         },
+         {
+            "text":"Jacques Balmat és Michel Paccard",
+            "isCorrect":true
+         },
+          {
+            "text":"Maurice Herzog és Louis Lachenal",
+            "isCorrect":false
+         },
+         {
+            "text":"Teleki Sámuel",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":267,
+      "category":"Földrajz",
+      "question":"Ki mászta meg magyarként először a Mount Everestet?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Erőss Zsolt",
+            "isCorrect":true
+         },
+         {
+            "text":"Klein Dávid",
+            "isCorrect":false
+         },
+         {
+            "text":"Suhajda Szilárd",
+            "isCorrect":false
+         },
+         {
+            "text":"Teleki Sámuel",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":268,
+      "category":"Földrajz",
+      "question":"Melyik országon nem folyik át a Rajna folyó?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Ausztria",
+            "isCorrect":false
+         },
+         {
+            "text":"Csehország",
+            "isCorrect":true
+         },
+         {
+            "text":"Franciaország",
+            "isCorrect":false
+         },
+         {
+            "text":"Németország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":269,
+      "category":"Földrajz",
+      "question":"Melyik országon nem folyik át a Duna?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Románia",
+            "isCorrect":false
+         },
+         {
+            "text":"Szerbia",
+            "isCorrect":false
+         },
+         {
+            "text":"Szlovákia",
+            "isCorrect":false
+         },
+         {
+            "text":"Ukrajna",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":270,
+      "category":"Tudomány és technika",
+      "question":"Mikor állt forgalomba a MÁV első V43-as villanymozdonya?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1960",
+            "isCorrect":false
+         },
+         {
+            "text":"1963",
+            "isCorrect":true
+         },
+         {
+            "text":"1968",
+            "isCorrect":false
+         },
+         {
+            "text":"1970",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":271,
+      "category":"Tudomány és technika",
+      "question":"Mikor állt forgalomba a MÁV első V63-as villanymozdonya?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1965",
+            "isCorrect":false
+         },
+         {
+            "text":"1970",
+            "isCorrect":false
+         },
+         {
+            "text":"1975",
+            "isCorrect":true
+         },
+         {
+            "text":"1980",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":272,
+      "category":"Tudomány és technika",
+      "question":"Hányat gyártottak a legendás 424-es gőzmozdonyból a MÁV-nak?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"200",
+            "isCorrect":false
+         },
+         {
+            "text":"365",
+            "isCorrect":true
+         },
+         {
+            "text":"420",
+            "isCorrect":false
+         },
+         {
+            "text":"500",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":273,
+      "category":"Tudomány és technika",
+      "question":"Melyik az első olyan sorozatgyártású autó, ami képes a 400 km/órás sebességre?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Bugatti Veyron",
+            "isCorrect":true
+         },
+         {
+            "text":"Ferrari Enzo",
+            "isCorrect":false
+         },
+         {
+            "text":"McLaren F1",
+            "isCorrect":false
+         },
+         {
+            "text":"Porsche 959",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":274,
+      "category":"Film és TV",
+      "question":"Milyen márkájú a tipikus James Bond-autó?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Aston Martin",
+            "isCorrect":true
+         },
+         {
+            "text":"BMW",
+            "isCorrect":false
+         },
+         {
+            "text":"Mercedes-Benz",
+            "isCorrect":false
+         },
+         {
+            "text":"Rolls-Royce",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":275,
+      "category":"Tudomány és technika",
+      "question":"Melyik nem egy brit autómárka?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bentley",
+            "isCorrect":false
+         },
+         {
+            "text":"Rolls-Royce",
+            "isCorrect":false
+         },
+         {
+            "text":"Rover",
+            "isCorrect":false
+         },
+         {
+            "text":"Volvo",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":276,
+      "category":"Sport",
+      "question":"Melyik ország válogatottja nyerte meg az 1986-os labdarúgó vb-t?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Argentína",
+            "isCorrect":true
+         },
+         {
+            "text":"Brazília",
+            "isCorrect":false
+         },
+         {
+            "text":"Mexikó",
+            "isCorrect":false
+         },
+         {
+            "text":"NSZK",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":277,
+      "category":"Sport",
+      "question":"Melyik ország válogatottja nyerte meg az 1994-es labdarúgó-világbajnokságot?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Brazília",
+            "isCorrect":true
+         },
+         {
+            "text":"Egyesült Államok",
+            "isCorrect":false
+         },
+         {
+            "text":"Olaszország",
+            "isCorrect":false
+         },
+         {
+            "text":"Svédország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":278,
+      "category":"Sport",
+      "question":"Hol rendezték a 2002-es labdarúgó-világbajnokságot?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Dél-Korea és Japán",
+            "isCorrect":true
+         },
+         {
+            "text":"Egyesült Államok",
+            "isCorrect":false
+         },
+         {
+            "text":"Franciaország",
+            "isCorrect":false
+         },
+         {
+            "text":"Németország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":279,
+      "category":"Sport",
+      "question":"Hol rendezték az 1954-es labdarúgó-világbajnokságot?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"Brazília",
+            "isCorrect":false
+         },
+         {
+            "text":"Chile",
+            "isCorrect":false
+         },
+         {
+            "text":"Svájc",
+            "isCorrect":true
+         },
+         {
+            "text":"Svédország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":280,
+      "category":"Sport",
+      "question":"Melyik évben rendezték az első labdarúgó-világbajnokságot?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1920",
+            "isCorrect":false
+         },
+         {
+            "text":"1930",
+            "isCorrect":true
+         },
+         {
+            "text":"1938",
+            "isCorrect":false
+         },
+         {
+            "text":"1950",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":281,
+      "category":"Sport",
+      "question":"Kinek a beceneve a \"Madár\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Csapó Gábor",
+            "isCorrect":false
+         },
+         {
+            "text":"Erdei Zsolt",
+            "isCorrect":true
+         },
+         {
+            "text":"Kovács István",
+            "isCorrect":false
+         },
+         {
+            "text":"Nagy János",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":282,
+      "category":"Zene",
+      "question":"Kinek a beceneve \"Csipa\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bódi László",
+            "isCorrect":false
+         },
+         {
+            "text":"Kecskés Tibor",
+            "isCorrect":false
+         },
+         {
+            "text":"Ördög Tibor",
+            "isCorrect":true
+         },
+         {
+            "text":"Sidlovics Gábor",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":283,
+      "category":"Sport",
+      "question":"Hány pontot ért a 2010-es években egy Forma-1-es futamgyőzelem?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"9",
+            "isCorrect":false
+         },
+         {
+            "text":"10",
+            "isCorrect":false
+         },
+         {
+            "text":"25",
+            "isCorrect":true
+         },
+         {
+            "text":"50",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":284,
+      "category":"Sport",
+      "question":"A Forma-1-ben a verseny hány százalékát kell teljesítenie egy versenyzőnek ahhoz, hogy célba értnek számítson?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"75",
+            "isCorrect":false
+         },
+         {
+            "text":"80",
+            "isCorrect":false
+         },
+         {
+            "text":"90",
+            "isCorrect":true
+         },
+         {
+            "text":"100",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":285,
+      "category":"Sport",
+      "question":"Hány méterről dobják a büntetőket a kézilabdában?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"5",
+            "isCorrect":false
+         },
+         {
+            "text":"7",
+            "isCorrect":true
+         },
+         {
+            "text":"10",
+            "isCorrect":false
+         },
+         {
+            "text":"11",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":286,
+      "category":"Sport",
+      "question":"Hány méterről rúgják a büntetőrúgást a fociban?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"7",
+            "isCorrect":false
+         },
+         {
+            "text":"11",
+            "isCorrect":true
+         },
+         {
+            "text":"12",
+            "isCorrect":false
+         },
+         {
+            "text":"15",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":287,
+      "category":"Sport",
+      "question":"Minumum hány kilométer egy átlagos Forma-1-es verseny távja?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"200",
+            "isCorrect":false
+         },
+         {
+            "text":"305",
+            "isCorrect":true
+         },
+         {
+            "text":"322",
+            "isCorrect":false
+         },
+         {
+            "text":"500",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":288,
+      "category":"Tudomány és technika",
+      "question":"Melyik évben állt forgalomba az első 424-es gőzmozdony a MÁV-nál?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"1910",
+            "isCorrect":false
+         },
+         {
+            "text":"1924",
+            "isCorrect":true
+         },
+         {
+            "text":"1928",
+            "isCorrect":false
+         },
+         {
+            "text":"1930",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":289,
+      "category":"Tudomány és technika",
+      "question":"Melyik autótípus beceneve volt az \"Egérkamion\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Fiat 500",
+            "isCorrect":false
+         },
+         {
+            "text":"Morris Mini",
+            "isCorrect":false
+         },
+         {
+            "text":"Polski Fiat 126p",
+            "isCorrect":true
+         },
+         {
+            "text":"Trabant 601",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":290,
+      "category":"Tudomány és technika",
+      "question":"Melyik autótípus beceneve a \"Kacsa\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Citroën 2CV",
+            "isCorrect":true
+         },
+         {
+            "text":"Lada 2105",
+            "isCorrect":false
+         },
+         {
+            "text":"Morris Mini",
+            "isCorrect":false
+         },
+         {
+            "text":"Renault 4",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":291,
+      "category":"Zene",
+      "question":"Ki nem volt a Neoton Família énekesnője?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Csepregi Éva",
+            "isCorrect":false
+         },
+         {
+            "text":"Cserháti Zsuzsa",
+            "isCorrect":true
+         },
+         {
+            "text":"Fábián Éva",
+            "isCorrect":false
+         },
+         {
+            "text":"Pál Éva",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":292,
+      "category":"Biológia",
+      "question":"Melyik csont nem a lábban található?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"combcsont",
+            "isCorrect":false
+         },
+         {
+            "text":"orsócsont",
+            "isCorrect":true
+         },
+         {
+            "text":"sípcsont",
+            "isCorrect":false
+         },
+         {
+            "text":"szárkapocscsont",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":293,
+      "category":"Biológia",
+      "question":"Melyik nem egy hormon az alábbiak közül?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"adrenalin",
+            "isCorrect":false
+         },
+         {
+            "text":"hemoglobin",
+            "isCorrect":true
+         },
+         {
+            "text":"inzulin",
+            "isCorrect":false
+         },
+         {
+            "text":"oxitocin",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":294,
+      "category":"Biológia",
+      "question":"Átlagosan hány liter vére van egy felnőtt embernek?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"3",
+            "isCorrect":false
+         },
+         {
+            "text":"5",
+            "isCorrect":true
+         },
+         {
+            "text":"8",
+            "isCorrect":false
+         },
+         {
+            "text":"10",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":295,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"Cogito ergo sum.\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Descartes",
+            "isCorrect":true
+         },
+         {
+            "text":"Julius Caesar",
+            "isCorrect":false
+         },
+         {
+            "text":"Rousseau",
+            "isCorrect":false
+         },
+         {
+            "text":"Voltaire",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":296,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"Te is, fiam, Brutus?\"",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Cicero",
+            "isCorrect":false
+         },
+         {
+            "text":"Julius Caesar",
+            "isCorrect":true
+         },
+         {
+            "text":"Nero",
+            "isCorrect":false
+         },
+         {
+            "text":"Nietzsche",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":297,
+      "category":"Sport",
+      "question":"Kitől származik az idézet: \"Hová tűnt Damon Hill?!\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Héder Barna",
+            "isCorrect":false
+         },
+         {
+            "text":"Knézy Jenő",
+            "isCorrect":false
+         },
+         {
+            "text":"Palik László",
+            "isCorrect":true
+         },
+         {
+            "text":"Szujó Zoltán",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":298,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"A kocka el van vetve.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Arkhimédész",
+            "isCorrect":false
+         },
+         {
+            "text":"Julius Caesar",
+            "isCorrect":true
+         },
+         {
+            "text":"Nero",
+            "isCorrect":false
+         },
+         {
+            "text":"Püthagorasz",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":299,
+      "category":"Történelem",
+      "question":"Ki mondta: \"Párizs megér egy misét.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"IV. Henrik",
+            "isCorrect":true
+         },
+         {
+            "text":"Hunyadi Mátyás",
+            "isCorrect":false
+         },
+         {
+            "text":"Julius Caesar",
+            "isCorrect":false
+         },
+         {
+            "text":"III. Napóleon",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":300,
+      "category":"Irodalom és kultúra",
+      "question":"Mit jelent a latin mondás: \"In vino veritas.\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"A kocka el van vetve.",
+            "isCorrect":false
+         },
+         {
+            "text":"Borban az igazság.",
+            "isCorrect":true
+         },
+         {
+            "text":"Gondolkodom, tehát vagyok.",
+            "isCorrect":false
+         },
+         {
+            "text":"Jó bornak nem kell cégér.",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":301,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"A haza minden előtt.\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Kossuth Lajos",
+            "isCorrect":false
+         },
+         {
+            "text":"Kölcsey Ferenc",
+            "isCorrect":true
+         },
+         {
+            "text":"Napóleon",
+            "isCorrect":false
+         },
+         {
+            "text":"Petőfi Sándor",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":302,
+      "category":"Történelem",
+      "question":"Ki mondta: \"Az állam én vagyok.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"I. Ferenc József magyar király",
+            "isCorrect":false
+         },
+         {
+            "text":"XIV. Lajos francia király",
+            "isCorrect":true
+         },
+         {
+            "text":"I. Napóleon francia császár",
+            "isCorrect":false
+         },
+         {
+            "text":"II. Ramszesz fáraó",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":303,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"Nem adhatok mást, csak mi lényegem.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Karl May",
+            "isCorrect":false
+         },
+         {
+            "text":"Lucifer",
+            "isCorrect":true
+         },
+          {
+            "text":"Petőfi Sándor",
+            "isCorrect":false
+         },
+         {
+            "text":"Teller Ede",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":304,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik versből van az idézet: \"Még ifju szivemben a lángsugarú nyár S még benne virít az egész kikelet\"?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Csokonai Vitéz Mihály: A reményhez",
+            "isCorrect":false
+         },
+         {
+            "text":"Tóth Árpád: Körúti hajnal",
+            "isCorrect":false
+         },
+         {
+            "text":"Petőfi Sándor: Szeptember végén",
+            "isCorrect":true
+         },
+         {
+            "text":"Radnóti Miklós: Tétova óta",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":305,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik nem egy Petőfi-vers?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Anyám tyúkja",
+            "isCorrect":false
+         },
+         {
+            "text":"Egy gondolat bánt engemet...",
+            "isCorrect":false
+         },
+         {
+            "text":"Nemzeti dal",
+            "isCorrect":false
+         },
+         {
+            "text":"Tétova óda",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":306,
+      "category":"Irodalom és kultúra",
+      "question":"Mit jelent a latin \"vae victis\" szállóige?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"A győzelem útja",
+            "isCorrect":false
+         },
+         {
+            "text":"Győzelem vagy halál",
+            "isCorrect":false
+         },
+         {
+            "text":"Győzelmi mámor",
+            "isCorrect":false
+         },
+         {
+            "text":"Jajj a legyőzötteknek!",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":307,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"Azt nem tudom, hogy a harmadik világháborút milyen fegyverekkel fogják megvívni, de a negyediket biztosan botokkal és kövekkel.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Albert Einstein",
+            "isCorrect":true
+         },
+         {
+            "text":"Ronald Reagan",
+            "isCorrect":false
+         },
+         {
+            "text":"Teller Ede",
+            "isCorrect":false
+         },
+         {
+            "text":"Winston Churchill",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":308,
+      "category":"Történelem",
+      "question":"Kinek a híres mondása volt: \"Nem ígérthetek mást, csak vért, erőfeszítést, verítéket és könnyeket.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Adolf Hitler",
+            "isCorrect":false
+         },
+         {
+            "text":"Kossuth Lajos",
+            "isCorrect":false
+         },
+         {
+            "text":"Oliver Cromwell",
+            "isCorrect":false
+         },
+         {
+            "text":"Winston Churchill",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":309,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"Leborulok a nemzet nagysága előtt.\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Kossuth Lajos",
+            "isCorrect":true
+         },
+         {
+            "text":"Petőfi Sándor",
+            "isCorrect":false
+         },
+         {
+            "text":"II. Rákóczi Ferenc",
+            "isCorrect":false
+         },
+         {
+            "text":"gróf Széchenyi István",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":310,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"Bízz istenben, és tartsd szárazon a puskaport.\"?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"Klapka György",
+            "isCorrect":false
+         },
+         {
+            "text":"XIV. Lajos francia király",
+            "isCorrect":false
+         },
+         {
+            "text":"I. Napóleon francia császár",
+            "isCorrect":false
+         },
+         {
+            "text":"Oliver Cromwell",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":311,
+      "category":"Irodalom és kultúra",
+      "question":"Ki mondta: \"...és mégis mozog a Föld!\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Galileo Galilei",
+            "isCorrect":true
+         },
+         {
+            "text":"Giordano Bruno",
+            "isCorrect":false
+         },
+         {
+            "text":"Johannes Kepler",
+            "isCorrect":false
+         },
+         {
+            "text":"Leonardo da Vinci",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":312,
+      "category":"Film és TV",
+      "question":"Melyik filmben nem szerepel Leonardo di Caprio?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"A nagy Gatsby",
+            "isCorrect":false
+         },
+         {
+            "text":"Forrest Gump",
+            "isCorrect":true
+         },
+         {
+            "text":"Titanic",
+            "isCorrect":false
+         },
+         {
+            "text":"Véres gyémánt",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":313,
+      "category":"Film és TV",
+      "question":"Melyik filmben nem szerepel Tom Hanks?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Esőember",
+            "isCorrect":true
+         },
+         {
+            "text":"Forrest Gump",
+            "isCorrect":false
+         },
+         {
+            "text":"Pénznyelő",
+            "isCorrect":false
+         },
+         {
+            "text":"Ryan közlegény megmentése",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":314,
+      "category":"Film és TV",
+      "question":"Melyik filmben hangzik el: \"Az élet olyan, mint egy doboz bonbon. Sosem tudhatod, mit veszel ki belőle.\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"A tanú",
+            "isCorrect":false
+         },
+         {
+            "text":"Forrest Gump",
+            "isCorrect":true
+         },
+         {
+            "text":"Macskafogó",
+            "isCorrect":false
+         },
+         {
+            "text":"Reszkessetek, betörők!",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":315,
+      "category":"Film és TV",
+      "question":"Melyik filmben hangzik el: \"Az erő legyen veled!\"?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"A keresztapa",
+            "isCorrect":false
+         },
+         {
+            "text":"Csillagok háborúja",
+            "isCorrect":true
+         },
+         {
+            "text":"Terminátor",
+            "isCorrect":false
+         },
+         {
+            "text":"Titanic",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":316,
+      "category":"Irodalom és kultúra",
+      "question":"Mit jelent a \"l'art pour l'art\" kifejezés?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Életet életért",
+            "isCorrect":false
+         },
+         {
+            "text":"Fogat fogért",
+            "isCorrect":false
+         },
+         {
+            "text":"Művészet a művészetért",
+            "isCorrect":true
+         },
+         {
+            "text":"Szemet szemért",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":317,
+      "category":"Irodalom és kultúra",
+      "question":"Mi a szarkofág?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"bomló anyagokkal táplálkozó állat",
+            "isCorrect":false
+         },
+         {
+            "text":"gabona mérésére szolgáló faedény",
+            "isCorrect":false
+         },
+         {
+            "text":"koporsófajta",
+            "isCorrect":true
+         },
+         {
+            "text":"orosz női népviselet",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":318,
+      "category":"Irodalom és kultúra",
+      "question":"Mi az adaptáció?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"adatmentés",
+            "isCorrect":false
+         },
+         {
+            "text":"alkalmazkodás, átalakítás",
+            "isCorrect":true
+         },
+         {
+            "text":"juttatás, támogatás",
+            "isCorrect":false
+         },
+         {
+            "text":"örökbefogadás",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":319,
+      "category":"Biológia",
+      "question":"Mi a korall?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"apró, meszes vázú tengeri állat",
+            "isCorrect":true
+         },
+         {
+            "text":"kőzetféleség",
+            "isCorrect":false
+         },
+         {
+            "text":"tengeri vulkán",
+            "isCorrect":false
+         },
+         {
+            "text":"víz alatti dombság",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":320,
+      "category":"Történelem",
+      "question":"Hogy hívták a spanyol hódítókat, akik Közép- és Dél-Amerika területeit leigázták?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"konkvisztádorok",
+            "isCorrect":true
+         },
+         {
+            "text":"mecénások",
+            "isCorrect":false
+         },
+         {
+            "text":"terminátorok",
+            "isCorrect":false
+         },
+         {
+            "text":"torreádorok",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":321,
+      "category":"Tudomány és technika",
+      "question":"Melyik nem svéd márka?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Ikea",
+            "isCorrect":false
+         },
+         {
+            "text":"Lego",
+            "isCorrect":true
+         },
+         {
+            "text":"SAAB",
+            "isCorrect":false
+         },
+         {
+            "text":"Volvo",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":322,
+      "category":"Tudomány és technika",
+      "question":"Melyik volt a világon az első autótípus, amelyet futószalagon gyártottak?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Ford T-modell",
+            "isCorrect":true
+         },
+         {
+            "text":"Morris Mini",
+            "isCorrect":false
+         },
+         {
+            "text":"Opel Olimpia",
+            "isCorrect":false
+         },
+         {
+            "text":"Volkswagen Bogár",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":323,
+      "category":"Irodalom és kultúra",
+      "question":"Melyik gyorsétteremlánc kabalája egy bohóc?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Burger King",
+            "isCorrect":false
+         },
+         {
+            "text":"KFC",
+            "isCorrect":false
+         },
+         {
+            "text":"McDonald's",
+            "isCorrect":true
+         },
+         {
+            "text":"Subway",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":324,
+      "category":"Tudomány és technika",
+      "question":"Mi szerepel a Ferrari autómárka logójában?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"egy ágaskodó fekete ló",
+            "isCorrect":true
+         },
+         {
+            "text":"egy előrehajló női alak",
+            "isCorrect":false
+         },
+         {
+            "text":"körben egy villám",
+            "isCorrect":false
+         },
+         {
+            "text":"négy egymásba kapcsolódó karika",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":325,
+      "category":"Tudomány és technika",
+      "question":"Melyik autótípus nem Ford-gyártmány?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Astra",
+            "isCorrect":true
+         },
+         {
+            "text":"Fiesta",
+            "isCorrect":false
+         },
+         {
+            "text":"Focus",
+            "isCorrect":false
+         },
+         {
+            "text":"Mondeo",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":326,
+      "category":"Tudomány és technika",
+      "question":"Melyik nem egy Opel-autótípus?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Ascona",
+            "isCorrect":false
+         },
+         {
+            "text":"Meriva",
+            "isCorrect":false
+         },
+         {
+            "text":"Polo",
+            "isCorrect":true
+         },
+         {
+            "text":"Zafira",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":327,
+      "category":"Tudomány és technika",
+      "question":"Melyik országhoz köthető a SEAT autómárka?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Egyesült Királyság",
+            "isCorrect":false
+         },
+         {
+            "text":"Németország",
+            "isCorrect":false
+         },
+         {
+            "text":"Spanyolország",
+            "isCorrect":true
+         },
+         {
+            "text":"Svédország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":328,
+      "category":"Tudomány és technika",
+      "question":"Mi az AXN?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"gyógyszer",
+            "isCorrect":false
+         },
+         {
+            "text":"motormárka",
+            "isCorrect":false
+         },
+         {
+            "text":"német bank",
+            "isCorrect":false
+         },
+         {
+            "text":"televíziócsatorna",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":329,
+      "category":"Tudomány és technika",
+      "question":"Melyik autómárka nem francia?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Citroën",
+            "isCorrect":false
+         },
+         {
+            "text":"Peugeot",
+            "isCorrect":false
+         },
+         {
+            "text":"Renault",
+            "isCorrect":false
+         },
+         {
+            "text":"SEAT",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":330,
+      "category":"Tudomány és technika",
+      "question":"Melyik autómárka emblémája a 3 gyémánt?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Mercedes-Benz",
+            "isCorrect":false
+         },
+         {
+            "text":"Mitsubishi",
+            "isCorrect":true
+         },
+         {
+            "text":"Opel",
+            "isCorrect":false
+         },
+         {
+            "text":"Suzuki",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":331,
+      "category":"Film és TV",
+      "question":"Ki nem volt a Szerencsekerék műsorvezetője?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Gajdos Tamás",
+            "isCorrect":false
+         },
+         {
+            "text":"Kasza Tibor",
+            "isCorrect":false
+         },
+         {
+            "text":"Klausmann Viktor",
+            "isCorrect":false
+         },
+         {
+            "text":"Rózsa György",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":332,
+      "category":"Film és TV",
+      "question":"Milyen fajtájú élőlény Shrek?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"ogre",
+            "isCorrect":true
+         },
+         {
+            "text":"óriás",
+            "isCorrect":false
+         },
+         {
+            "text":"törpe",
+            "isCorrect":false
+         },
+         {
+            "text":"troll",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":333,
+      "category":"Film és TV",
+      "question":"Melyik karakter nem szerepel a Mátrix című filmben?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Morpheus",
+            "isCorrect":false
+         },
+         {
+            "text":"Neo",
+            "isCorrect":false
+         },
+         {
+            "text":"Sarah Connor",
+            "isCorrect":true
+         },
+         {
+            "text":"Trinity",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":334,
+      "category":"Film és TV",
+      "question":"Melyik sorozat szereplője volt Vágási Feri?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Barátok közt",
+            "isCorrect":false
+         },
+         {
+            "text":"Família Kft.",
+            "isCorrect":false
+         },
+         {
+            "text":"Jóban-rosszban",
+            "isCorrect":false
+         },
+         {
+            "text":"Szomszédok",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":335,
+      "category":"Film és TV",
+      "question":"Milyen jelzővel illették Sandokant?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"\"a görög félisten\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"a maláj tigris\"",
+            "isCorrect":true
+         },
+         {
+            "text":"\"a tibeti oroszlán\"",
+            "isCorrect":false
+         },
+         {
+            "text":"\"a vietnámi farkas\"",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":336,
+      "category":"Film és TV",
+      "question":"Mi a keresztneve Jockey Ewing öccsének?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Bobby",
+            "isCorrect":true
+         },
+         {
+            "text":"Clayton",
+            "isCorrect":false
+         },
+         {
+            "text":"Cliff",
+            "isCorrect":false
+         },
+         {
+            "text":"Ray",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":337,
+      "category":"Film és TV",
+      "question":"Hogy hívják az \"A tanú\" című film főhősét?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bacsó Péter",
+            "isCorrect":false
+         },
+         {
+            "text":"Pelikán József",
+            "isCorrect":true
+         },
+         {
+            "text":"Vágási Ferenc",
+            "isCorrect":false
+         },
+         {
+            "text":"Virág Árpád",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":338,
+      "category":"Film és TV",
+      "question":"Ki nem szerepel \"A Mézga család\" című rajzfilmsorozatban?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Dorka",
+            "isCorrect":true
+         },
+         {
+            "text":"Kriszta",
+            "isCorrect":false
+         },
+         {
+            "text":"Máris szomszéd",
+            "isCorrect":false
+         },
+         {
+            "text":"Paula",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":339,
+      "category":"Film és TV",
+      "question":"Mi a valódi neve Pókembernek?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Carey Mahoney",
+            "isCorrect":false
+         },
+         {
+            "text":"Mitch Buchanan",
+            "isCorrect":false
+         },
+         {
+            "text":"Peter Jackson",
+            "isCorrect":false
+         },
+         {
+            "text":"Peter Parker",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":340,
+      "category":"Film és TV",
+      "question":"Hogy hívják a Mézga család macskáját?",
+      "level":"2",
+      "answers":[
+         {
+            "text":"Cirmi",
+            "isCorrect":false
+         },
+         {
+            "text":"Lukrécia",
+            "isCorrect":false
+         },
+         {
+            "text":"Maffia",
+            "isCorrect":true
+         },
+         {
+            "text":"Szerénke",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":341,
+      "category":"Film és TV",
+      "question":"Milyen lény Gimli?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"hobbit",
+            "isCorrect":false
+         },
+         {
+            "text":"ork",
+            "isCorrect":false
+         },
+         {
+            "text":"törpe",
+            "isCorrect":true
+         },
+         {
+            "text":"tünde",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":342,
+      "category":"Film és TV",
+      "question":"Ki volt Vuk apja a \"Vuk\" című rajzfilmben?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Frakk",
+            "isCorrect":false
+         },
+         {
+            "text":"Íny",
+            "isCorrect":false
+         },
+         {
+            "text":"Kag",
+            "isCorrect":true
+         },
+         {
+            "text":"Karak",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":343,
+      "category":"Film és TV",
+      "question":"Ki \"a macskák réme\"?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Frakk",
+            "isCorrect":true
+         },
+         {
+            "text":"Jerry",
+            "isCorrect":false
+         },
+         {
+            "text":"Kántor",
+            "isCorrect":false
+         },
+         {
+            "text":"Vuk",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":344,
+      "category":"Film és TV",
+      "question":"Ki nem egy Jóbarátok-karakter?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bernie",
+            "isCorrect":true
+         },
+         {
+            "text":"Chandler",
+            "isCorrect":false
+         },
+         {
+            "text":"Phoebe",
+            "isCorrect":false
+         },
+         {
+            "text":"Rachel",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":345,
+      "category":"Film és TV",
+      "question":"Ki az \"Ál/arc\" című film két főszereplője?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Bud Spencer és Terence Hill",
+            "isCorrect":false
+         },
+         {
+            "text":"Elijah Wood és Orlando Bloom",
+            "isCorrect":false
+         },
+         {
+            "text":"Nicholas Cage és John Travolta",
+            "isCorrect":true
+         },
+         {
+            "text":"Richard Gere és Harrison Ford",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":346,
+      "category":"Film és TV",
+      "question":"Ki a főszereplője a \"Két pasi meg egy kicsi\" című sorozatnak?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Charlie Sheen",
+            "isCorrect":true
+         },
+         {
+            "text":"Jim Parsons",
+            "isCorrect":false
+         },
+         {
+            "text":"Patrick Duffy",
+            "isCorrect":false
+         },
+         {
+            "text":"Wentworth Miller",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":347,
+      "category":"Film és TV",
+      "question":"Mi Han Solo űrhajójának neve?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Apolló 11",
+            "isCorrect":false
+         },
+         {
+            "text":"Enterprise",
+            "isCorrect":false
+         },
+         {
+            "text":"Ezeréves Sólyom",
+            "isCorrect":true
+         },
+         {
+            "text":"Nostromo",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":348,
+      "category":"Bulvár",
+      "question":"Mi a keresztneve Barack Obama amerikai elnök feleségének?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Barbara",
+            "isCorrect":false
+         },
+         {
+            "text":"Hilary",
+            "isCorrect":false
+         },
+         {
+            "text":"Laura",
+            "isCorrect":false
+         },
+         {
+            "text":"Michelle",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":349,
+      "category":"Bulvár",
+      "question":"Milyen diplomája van Hajós Andrásnak?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"fizikusi",
+            "isCorrect":false
+         },
+         {
+            "text":"jogi",
+            "isCorrect":false
+         },
+         {
+            "text":"orvosi",
+            "isCorrect":false
+         },
+         {
+            "text":"szociológiai",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":350,
+      "category":"Bulvár",
+      "question":"Hány évig volt házas Brad Pitt és Angelina Jolie?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"2",
+            "isCorrect":false
+         },
+         {
+            "text":"5",
+            "isCorrect":true
+         },
+         {
+            "text":"6",
+            "isCorrect":false
+         },
+         {
+            "text":"8",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":351,
+      "category":"Bulvár",
+      "question":"Milyen származású Kim Kardashian?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"ausztrál",
+            "isCorrect":false
+         },
+         {
+            "text":"grúz",
+            "isCorrect":false
+         },
+         {
+            "text":"indiai",
+            "isCorrect":false
+         },
+         {
+            "text":"örmény",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":352,
+      "category":"Bulvár",
+      "question":"Milyen származású az énekesnő Cher?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"azeri",
+            "isCorrect":false
+         },
+         {
+            "text":"kínai",
+            "isCorrect":false
+         },
+         {
+            "text":"maláj",
+            "isCorrect":false
+         },
+         {
+            "text":"örmény",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":353,
+      "category":"Bulvár",
+      "question":"Milyen származású Natalie Portman színésznő?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"ausztrál",
+            "isCorrect":false
+         },
+         {
+            "text":"izraeli",
+            "isCorrect":true
+         },
+         {
+            "text":"német",
+            "isCorrect":false
+         },
+         {
+            "text":"skót",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":354,
+      "category":"Történelem",
+      "question":"Hol halt meg II. Rákóczi Ferenc?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Budapesten",
+            "isCorrect":false
+         },
+         {
+            "text":"Isztambulban",
+            "isCorrect":false
+         },
+         {
+            "text":"Kassán",
+            "isCorrect":false
+         },
+         {
+            "text":"Rodostóban",
+            "isCorrect":true
+         }
+      ]
+   },
+  {
+      "id":355,
+      "category":"Történelem",
+      "question":"Milyen nemzetiségű volt Bem József?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"cseh",
+            "isCorrect":false
+         },
+         {
+            "text":"lengyel",
+            "isCorrect":true
+         },
+         {
+            "text":"német",
+            "isCorrect":false
+         },
+         {
+            "text":"osztrák",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":356,
+      "category":"Történelem",
+      "question":"Mivel foglalkozott Mata Hari?",
+      "level":"4",
+      "answers":[
+         {
+            "text":"építészet",
+            "isCorrect":false
+         },
+         {
+            "text":"kémkedés",
+            "isCorrect":true
+         },
+         {
+            "text":"opera",
+            "isCorrect":false
+         },
+         {
+            "text":"politika",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":357,
+      "category":"Tudomány és technika",
+      "question":"Melyik országban születetett Marie Curie?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Franciaország",
+            "isCorrect":false
+         },
+         {
+            "text":"Lengyelország",
+            "isCorrect":true
+         },
+         {
+            "text":"Németország",
+            "isCorrect":false
+         },
+         {
+            "text":"Olaszország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":358,
+      "category":"Irodalom és kultúra",
+      "question":"Hol élt a legendák szerint Drakula gróf?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Erdélyben",
+            "isCorrect":true
+         },
+         {
+            "text":"Skandináviában",
+            "isCorrect":false
+         },
+         {
+            "text":"Skóciában",
+            "isCorrect":false
+         },
+         {
+            "text":"Vajdaságban",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":359,
+      "category":"Bulvár",
+      "question":"Hogy halt meg Jimi Hendrix?",
+      "level":"5",
+      "answers":[
+         {
+            "text":"agydaganatban",
+            "isCorrect":false
+         },
+         {
+            "text":"altató-túladagolásban",
+            "isCorrect":true
+         },
+         {
+            "text":"autóbalesetben",
+            "isCorrect":false
+         },
+         {
+            "text":"természetes halállal",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":360,
+      "category":"Történelem",
+      "question":"Melyik ország uralkodója volt Nagy Katalin?",
+      "level":"3",
+      "answers":[
+         {
+            "text":"Anglia",
+            "isCorrect":false
+         },
+         {
+            "text":"Magyarország",
+            "isCorrect":false
+         },
+         {
+            "text":"Oroszország",
+            "isCorrect":true
+         },
+         {
+            "text":"Poroszország",
+            "isCorrect":false
+         }
+      ]
+   },
+  {
+      "id":361,
       "category":"",
       "question":"?",
       "level":"",
