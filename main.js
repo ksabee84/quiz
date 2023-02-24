@@ -1,4 +1,3 @@
-
 const startBtn = document.getElementById('startBtn');
 
 const mainContainer = document.getElementById('mainContainer');
@@ -9,11 +8,11 @@ const selectorDiv = document.getElementById('selectorDiv');
 const questionCategoriesDiv = document.getElementById('questionCategoriesDiv');
 const categoryInputs = document.getElementsByName('categoryCheckbox');
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
+const eletmodCheckbox = document.getElementById('eletmodCheckbox');
 const elovilagCheckbox = document.getElementById('elovilagCheckbox');
 const filmCheckbox = document.getElementById('filmCheckbox');
 const foldrajzCheckbox = document.getElementById('foldrajzCheckbox');
 const irodalomCheckbox = document.getElementById('irodalomCheckbox');
-const matekCheckbox = document.getElementById('matekCheckbox');
 const sportCheckbox = document.getElementById('sportCheckbox');
 const toriCheckbox = document.getElementById('toriCheckbox');
 const tudomanyCheckbox = document.getElementById('tudomanyCheckbox');
@@ -32,6 +31,7 @@ const selectAllLevelBtn = document.getElementById('selectAllLevelBtn');
 const noLevelBtn = document.getElementById('noLevelBtn');
 
 const questionQuantDiv = document.getElementById('questionQuantDiv');
+let questionQuantInputs = document.querySelectorAll('input[name="quantselect"]');
 const question10 = document.getElementById('select10');
 const question20 = document.getElementById('select20');
 const question50 = document.getElementById('select50');
@@ -41,6 +41,7 @@ const questionAll = document.getElementById('selectAll');
 const startQuizBtn = document.getElementById('startQuizBtn');
 const questionDiv = document.getElementById('questionDiv');
 const noOfQuestUpper = document.getElementById('noOfQuestUpper');
+const countdownDiv = document.getElementById('countdownDiv');
 const questionNumber = document.getElementById('questionNo');
 const categoryDiv = document.getElementById('categoryDiv');
 const categoryText = document.getElementById('categoryText');
@@ -54,19 +55,19 @@ const points = document.getElementById('points');
 const nextQuestionBtn = document.getElementById('nextBtn');
 const restartButton = document.getElementById('restartBtn');
 
-categoryDiv.style.display = 'none';
 questionDiv.style.display = 'none';
+categoryDiv.style.display = 'none';
 resultDiv.style.display = 'none';
 pointsDiv.style.display = 'none';
 nextQuestionBtn.style.display = 'none';
 
 let questionsObject = [];
 let bulvarQuestions = [];
+let eletmodQuestions = [];
 let elovilagQuestions = [];
 let filmQuestions = [];
 let foldrajzQuestions = [];
 let irodalomQuestions = [];
-let matekQuestions = [];
 let sportQuestions = [];
 let toriQuestions = [];
 let tudomanyQuestions = [];
@@ -92,13 +93,13 @@ const importQuestions = () => {
         data.map(item => {
             questionsObject.push(item);
             bulvarQuestions = questionsObject.filter((e) => (e.category) == 'Bulvár');
+            eletmodQuestions = questionsObject.filter((e) => (e.category) == 'Életmód');
             elovilagQuestions = questionsObject.filter((e) => (e.category) == 'Élővilág');
             filmQuestions = questionsObject.filter((e) => (e.category) == 'Film és TV');
             foldrajzQuestions = questionsObject.filter((e) => (e.category) == 'Földrajz');
             irodalomQuestions = questionsObject.filter((e) => (e.category) == 'Irodalom és kultúra');
-            matekQuestions = questionsObject.filter((e) => (e.category) == 'Matematika');
             sportQuestions = questionsObject.filter((e) => (e.category) == 'Sport');
-            toriQuestions = questionsObject.filter((e) => (e.category) == 'Történelem');
+            toriQuestions = questionsObject.filter((e) => (e.category) == 'Történelem és közélet');
             tudomanyQuestions = questionsObject.filter((e) => (e.category) == 'Tudomány és technika');
             zeneQuestions = questionsObject.filter((e) => (e.category) == 'Zene');
             veryEasyQuestions = questionsObject.filter((e) => (e.level) == '1');
@@ -109,7 +110,6 @@ const importQuestions = () => {
         });
         
         console.log('questionsObject: ', questionsObject);
-        console.log('10 questions: ', questionQuant10);
     })
     .catch(error => console.log('error: ', error));
 };
@@ -123,7 +123,7 @@ const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
 
 let playSounds;
 let currentQuestionIndex;
-let count = 1;
+let questionCount = 1;
 let pointsValue = 0;
 
 function toggleSounds() {
@@ -149,6 +149,10 @@ function selectCategories() {
         selectedQuestions.push(...bulvarQuestions);
     }
 
+    if(categoryValues.includes('Életmód')) {
+        selectedQuestions.push(...eletmodQuestions);
+    }
+
     if(categoryValues.includes('Élővilág')) {
         selectedQuestions.push(...elovilagQuestions);
     }
@@ -165,15 +169,11 @@ function selectCategories() {
         selectedQuestions.push(...irodalomQuestions);
     }
 
-    if(categoryValues.includes('Matematika')) {
-        selectedQuestions.push(...matekQuestions);
-    }
-
     if(categoryValues.includes('Sport')) {
         selectedQuestions.push(...sportQuestions);
     }
 
-    if(categoryValues.includes('Történelem')) {
+    if(categoryValues.includes('Történelem és közélet')) {
         selectedQuestions.push(...toriQuestions);
     }
 
@@ -214,7 +214,50 @@ function selectLevels() {
     }
 }
 
+console.log('selected questions: ', selectedQuestions);
+
+/*
 function selectQuestQuant() {
+    
+    console.log(questionQuant10);
+};
+*/
+
+question10.addEventListener("change", function() {
+    for(let i = 0; i < 10; i++) {
+        let idx = Math.floor(Math.random() * shuffledQuestions.length);
+        questionQuant10.push(shuffledQuestions[idx]);
+        shuffledQuestions.splice(idx,1);
+    }
+
+    console.log('shuffled: ', shuffledQuestions);
+    console.log('shuffle 10: ', questionQuant10);
+});
+
+
+if(document.querySelector('input[name="quantSelect"]')) {
+    document.querySelectorAll('input[name="quantSelect"]').forEach((elem) => {
+        elem.addEventListener("change", function(event) {
+            let item = event.target.value;
+
+            console.log(item);
+        });
+    });
+}
+    
+/*
+function checkRadioValues() {
+    if(question10.checked == true) {
+        console.log('10 checked');
+    } else {
+        console.log('not checked');
+    }
+}
+
+checkRadioValues();
+*/
+
+ /*   
     if(question10.checked) {
         questionQuant10 = [...questionsObject].sort(() => 0.5 - Math.random());
     }
@@ -230,7 +273,64 @@ function selectQuestQuant() {
     if(question100.checked) {
         questionQuant100 = [...questionsObject].sort(() => 0.5 - Math.random());
     }
+*/
 
+/*
+let count = 300;
+let counter = setInterval(startTimer, 100);
+
+function startTimer() {
+    if(count <= 0) {
+        clearInterval(counter);
+        tickingBuzzer.pause();
+        wrongAnswerSound.play();
+        return;
+    }
+    count--;
+    countdownDiv.innerHTML = count /10;
+}
+
+function stopTimer() {
+    if(count < 300) {
+        countdownDiv.innerHTML = count /10;
+        console.log(count);
+    }
+}
+
+function resetTimer() {
+    stopTimer();
+    count = 300;
+}
+
+*/
+
+let countdown;
+let secondsLeft = 20;
+
+function startCountdown(seconds) {
+  clearInterval(countdown);
+  secondsLeft = seconds;
+  displayTimeLeft(secondsLeft);
+
+  countdown = setInterval(() => {
+    secondsLeft -= 0.1;
+    if (secondsLeft < 0) {
+      clearInterval(countdown);
+      countdownDiv.textContent = '0.0';
+      return;
+    }
+    displayTimeLeft(secondsLeft);
+  }, 100);
+}
+
+function displayTimeLeft(seconds) {
+  const display = `${seconds.toFixed(1)}`;
+  countdownDiv.textContent = display;
+}
+
+function stopCountdown() {
+  clearInterval(countdown);
+  displayTimeLeft(secondsLeft);
 }
 
 function startQuiz() {
@@ -250,7 +350,8 @@ function startQuiz() {
     if(selectedBoxes.length > 0) {
         selectCategories();
         selectLevels();
-        selectQuestQuant();
+        //selectQuestQuant();
+        startCountdown();
         navbar.style.display = 'block';
         selectorDiv.style.display = 'none';
         questionCategoriesDiv.style.display = 'none';
@@ -266,8 +367,8 @@ function startQuiz() {
         noOfQuestFooter.innerHTML = noOfQuest;
         currentQuestionIndex = 0;
         
-        categoryDiv.style.display = 'block';
         questionDiv.style.display = 'block';
+        categoryDiv.style.display = 'block';
         answerBtnsContainer.style.display = 'inline-flex';
         resultDiv.style.display = 'block';
 
@@ -276,8 +377,8 @@ function startQuiz() {
 }
 
 function increaseQuestionNumbers() {
-    count +=1;
-    questionNumber.innerHTML = count;
+    questionCount +=1;
+    questionNumber.innerHTML = questionCount;
 }
 
 function resetState() {
@@ -298,6 +399,7 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
     tickingBuzzer.play();
     tickingBuzzer.loop = true;
+    startCountdown();
 }
 
 function showQuestion(shuffledQuestions) {
@@ -338,6 +440,7 @@ function selectAnswer(e) {
     selectedButton.classList.add('correct');
 
     tickingBuzzer.pause();
+    stopCountdown();
         
     if(selectedButton.dataset.isCorrect) {
         correctAnswerSound.play();

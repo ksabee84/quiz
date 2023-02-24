@@ -9,7 +9,7 @@
     <title>A nagy kvízjáték v0.9</title>
 </head>
 <body class="bg-secondary">
-    <div id="mainContainer" class="container row col-xs-12 col-md-8 mx-auto py-3 mt-2 rounded">
+    <div id="mainContainer" class="container col-xs-12 col-md-8 mx-auto py-3 mt-2 rounded">
         <div id="navbarDiv" class="col-xs-12 col-md-12 mx-auto">
             <nav class="navbar navbar-expand-lg navbar-light bg-warning rounded">
                 <a class="navbar-brand mx-3" href="index.html">A nagy kvízjáték</a>
@@ -37,13 +37,17 @@
             </nav>
         </div>
 
-        <div id="selectorDiv" class="col-xs-12 col-md-12 d-flex flex-wrap justify-content-around mt-1">
-            <div id="questionCategoriesDiv" class="col-3 me-3 px-2 bg-warning rounded shadow-sm">
-                <h2 class="text-center mt-4 fs-4 px-1">Válassz a kérdéskategóriák közül!</h2>
+        <div id="selectorDiv" class="col-12 d-flex flex-wrap justify-content-around mt-2">
+            <div id="questionCategoriesDiv" class="col-3 px-3 bg-warning rounded">
+                <p class="text-center mt-1 fs-4 px-1 text-wrap">Válassz a kategóriák közül!</p>
                 <form>
                     <div class="form-check">
                         <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Bulvár" id="bulvarCheckbox" />
                         <label class="form-check-label" for="categoryCheckbox">Bulvár</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Életmód" id="eletmodCheckbox" />
+                        <label class="form-check-label" for="categoryCheckbox">Életmód</label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Élővilág" id="elovilagCheckbox" />
@@ -62,16 +66,12 @@
                         <label class="form-check-label" for="categoryCheckbox">Irodalom és kultúra</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Matematika" id="matekCheckbox" />
-                        <label class="form-check-label" for="categoryCheckbox">Matematika</label>
-                    </div>
-                    <div class="form-check">
                         <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Sport" id="sportCheckbox" />
                         <label class="form-check-label" for="categoryCheckbox">Sport</label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Történelem" id="toriCheckbox" />
-                        <label class="form-check-label" for="categoryCheckbox">Történelem</label>
+                        <label class="form-check-label" for="categoryCheckbox">Történelem és közélet</label>
                     </div>
                     <div class="form-check">
                         <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Tudomány és technika" id="tudomanyCheckbox" />
@@ -81,7 +81,8 @@
                         <input class="form-check-input" name="categoryCheckbox" type="checkbox" value="Zene" id="zeneCheckbox" />
                         <label class="form-check-label" for="categoryCheckbox">Zene</label>
                     </div>
-                    <div id="selectCategoryDiv" class="d-flex flex-wrap mt-4 mx-auto">
+
+                    <div id="selectCategoryDiv" class="d-flex flex-wrap mt-1 mx-auto">
                         <button id="selectAllCatBtn" type="button" class="btn btn-primary col-sm-10 col-xl-5 mx-auto my-2 shadow">
                             Mindet kiválaszt
                         </button>
@@ -92,8 +93,8 @@
                 </form>
             </div>
 
-            <div id="questionLevelsDiv" class="col-3 me-3 px-2 bg-warning rounded shadow-sm">
-                <h2 class="text-center mt-4 fs-4 px-1">Válassz a nehézségi szintek közül!</h2>
+            <div id="questionLevelsDiv" class="col-3 px-3 bg-warning rounded">
+                <p class="text-center mt-1 fs-4 px-1">Válassz a nehézségi szintek közül!</p>
                 <form>
                     <div class="form-check">
                         <input class="form-check-input" name="levelCheckbox" type="checkbox" value="1" id="veryEasyCheckbox" />
@@ -116,7 +117,8 @@
                         <label class="form-check-label" for="levelCheckbox">Nagyon nehéz</label>
                     </div>
                 </form>
-                <div id="selectLevelDiv" class="d-flex flex-wrap mt-4 mx-auto">
+
+                <div id="selectLevelDiv" class="d-flex flex-wrap mt-3 mx-auto">
                     <button id="selectAllLevelBtn" type="button" class="btn btn-primary col-sm-10 col-xl-5 mx-auto my-2 shadow">
                         Mindet kiválaszt
                     </button>
@@ -126,8 +128,8 @@
                 </div>
             </div>
 
-            <div id="questionQuantDiv" class="col-2 me-3 px-2 bg-warning rounded shadow-sm">
-                <h2 class="text-center mt-4 fs-4 px-1">Válaszd ki a kérdések számát!</h2>
+            <div id="questionQuantDiv" class="col-3 px-3 bg-warning rounded">
+                <p class="text-center mt-1 fs-4 px-1">Válaszd ki a kérdések számát!</p>
                 <form>
                     <div class="form-check">
                         <input class="form-check-input" name="quantSelect" type="radio" value="10" id="select10" />
@@ -151,19 +153,25 @@
                     </div>
                 </form>
             </div>
+        </div>
 
-
-            <div class="col-3 mx-auto text-center">
-                <button id="startQuizBtn" type="submit" class="btn btn-success btn-lg py-5 px-5 fs-3">
-                    Kérem az első kérdést!
-                </button>
-            </div>
+        <div id="startQuizDiv" class="col-12 mx-auto text-center">
+            <button id="startQuizBtn" type="submit" class="btn btn-success btn-lg col-4 px-2 fs-3">
+                Kérem az első kérdést!
+            </button>
         </div>
 
         <div id="questionDiv" class="col-8 mx-auto mb-3 rounded" >
-            <div class="col-4 col-sm-4 px-3 mb-2 border rounded">Kérdések száma:
-                <span id="noOfQuestUpper">0</span>/<span id="questionNo">1</span>
+            <div id="headerDiv" class="col-12 d-flex justify-content-between">
+                <div class="col-4 px-3 mb-2 border rounded">
+                    Kérdések száma:
+                    <span id="noOfQuestUpper">0</span>/<span id="questionNo">1</span>
+                </div>
+                <div id="countdownDiv" class="col-2 border rounded fs-2 text-center">
+
+                </div>
             </div>
+            
             <div id="categoryDiv" class="col-8 mx-auto mt-3 pt-1 px-3 bg-warning text-center rounded shadow fs-2" >
                 <p id="categoryText">Kategória</p>
             </div>
