@@ -38,6 +38,11 @@ body .container #selectorDiv #questionQuantDiv {
     50% {background-color: greenyellow;}
 }
 
+@keyframes wrong {
+    0% {background-color: red;}
+    50% {background-color: orangered;}
+}
+
 div .correct {
     animation-name: correct;
     animation-duration: 1s;

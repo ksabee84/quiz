@@ -6,7 +6,9 @@ const soundBtn = document.getElementById('soundBtn');
 
 const selectorDiv = document.getElementById('selectorDiv');
 const questionCategoriesDiv = document.getElementById('questionCategoriesDiv');
-const categoryInputs = document.getElementsByName('categoryCheckbox');
+//const categories = Array.from(document.getElementsByName('categoryCheckbox'));
+const categoryInputs = document.querySelectorAll('input[name=categoryCheckbox]');
+
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
 const eletmodCheckbox = document.getElementById('eletmodCheckbox');
 const elovilagCheckbox = document.getElementById('elovilagCheckbox');
@@ -21,7 +23,8 @@ const selectAllCatBtn = document.getElementById('selectAllCatBtn');
 const noCatBtn = document.getElementById('noCatBtn');
 
 const questionLevelsDiv = document.getElementById('questionLevelsDiv');
-const levelInputs = document.getElementsByName('levelCheckbox');
+//const levels = Array.from(document.getElementsByName('levelCheckbox'));
+const levelInputs = document.querySelectorAll('input[name=levelCheckbox]');
 const veryEasyCheckbox = document.getElementById('veryEasyCheckbox');
 const easyCheckbox = document.getElementById('easyCheckbox');
 const normalCheckbox = document.getElementById('normalCheckbox');
@@ -31,7 +34,7 @@ const selectAllLevelBtn = document.getElementById('selectAllLevelBtn');
 const noLevelBtn = document.getElementById('noLevelBtn');
 
 const questionQuantDiv = document.getElementById('questionQuantDiv');
-let questionQuantInputs = document.querySelectorAll('input[name="quantselect"]');
+const questionQuantInputs = document.querySelectorAll('input[name="quantselect"]');
 const question10 = document.getElementById('select10');
 const question20 = document.getElementById('select20');
 const question50 = document.getElementById('select50');
@@ -86,6 +89,16 @@ let questionQuant20 = [];
 let questionQuant50 = [];
 let questionQuant100 = [];
 
+const startQuizSound = new Audio("./sounds/startthequiz.mp3");
+const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
+const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
+const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
+
+let playSounds;
+let currentQuestionIndex;
+let questionCount = 1;
+let pointsValue = 0;
+
 const importQuestions = () => {
     fetch("./questions.json")
     .then((response) => response.json())
@@ -107,24 +120,20 @@ const importQuestions = () => {
             normalQuestions = questionsObject.filter((e) => (e.level) == '3');
             hardQuestions = questionsObject.filter((e) => (e.level) == '4');
             veryHardQuestions = questionsObject.filter((e) => (e.level) == '5');
+            
+            //console.log('items: ', item);
         });
-        
+
         console.log('questionsObject: ', questionsObject);
+        console.log('bulvár betölt: ', bulvarQuestions);
     })
     .catch(error => console.log('error: ', error));
 };
 
 importQuestions();
 
-const startQuizSound = new Audio("./sounds/startthequiz.mp3");
-const tickingBuzzer = new Audio("./sounds/tickingbuzzer.mp3");
-const correctAnswerSound = new Audio("./sounds/correctanswer.mp3");
-const wrongAnswerSound = new Audio("./sounds/wronganswer.mp3");
+console.log('bulvár: ', bulvarQuestions);
 
-let playSounds;
-let currentQuestionIndex;
-let questionCount = 1;
-let pointsValue = 0;
 
 function toggleSounds() {
     playSounds = !playSounds;
@@ -137,6 +146,126 @@ function toggleSounds() {
         soundBtn.style.backgroundImage = "url('./imgs/sound-off.png')";
     }
 }
+
+
+categoryInputs.forEach((checkbox) => {
+    checkbox.addEventListener('change', () => {
+        if(checkbox.checked) {
+            console.log(checkbox.value, 'checked');
+      /*
+      let selected = '';
+      categoryCheckboxes.forEach((checkbox) => {
+        if (checkbox.checked) {
+            selected += checkbox.value + ', ';
+        }
+    */
+
+        /*categoryCheckboxes.forEach((categoryInputs) => {
+            categoryValues.push(categoryInputs.value);
+        });
+        */
+    
+        if(categoryValues.includes('Bulvár')) {
+            selectedQuestions.push(...bulvarQuestions);
+            console.log('selected: ', selectedQuestions);
+        }
+    
+        if(categoryValues.includes('Életmód')) {
+            selectedQuestions.push(...eletmodQuestions);
+        }
+    
+        if(categoryValues.includes('Élővilág')) {
+            selectedQuestions.push(...elovilagQuestions);
+        }
+    
+        if(categoryValues.includes('Film és TV')) {
+            selectedQuestions.push(...filmQuestions);
+        }
+    
+        if(categoryValues.includes('Földrajz')) {
+            selectedQuestions.push(...foldrajzQuestions);
+        }
+    
+        if(categoryValues.includes('Irodalom és kultúra')) {
+            selectedQuestions.push(...irodalomQuestions);
+        }
+    
+        if(categoryValues.includes('Sport')) {
+            selectedQuestions.push(...sportQuestions);
+        }
+    
+        if(categoryValues.includes('Történelem és közélet')) {
+            selectedQuestions.push(...toriQuestions);
+        }
+    
+        if(categoryValues.includes('Tudomány és technika')) {
+            selectedQuestions.push(...tudomanyQuestions);
+        }
+    
+        if(categoryValues.includes('Zene')) {
+            selectedQuestions.push(...zeneQuestions);
+        }
+    } else {
+        if(categoryValues.includes('Bulvár')) {
+            selectedQuestions.slice(0, -2);
+            console.log(selectedQuestions);
+        }
+
+        console.log(checkbox.value, 'unchecked');
+    }
+      });
+      //console.log(selected.slice(0, -2));
+    });
+// });
+
+levelInputs.forEach((checkbox) => {
+    checkbox.addEventListener('change', () => {
+        if(checkbox.checked) {
+            console.log(checkbox.value, 'checked');
+
+        } else {
+            console.log(checkbox.value, 'unchecked');
+
+        }
+    })
+})
+
+questionQuantInputs.forEach((checkbox) => {
+    checkbox.addEventListener('change', () => {
+        if(checkbox.checked) {
+            console.log(checkbox.value, 'checked');
+
+        } else {
+            console.log(checkbox.value, 'unchecked');
+
+        }
+    })
+})
+
+
+/*
+categories.forEach(category => {
+    category.addEventListener('change', () => {
+        selectedCategories = categories.filter(category => category.checked).map(category => category.value);
+        filterItems();
+    });
+});
+
+levels.forEach(level => {
+    level.addEventListener('change', () => {
+        selectedLevels = levels.filter(level => level.checked).map(level => level.value);
+        filterItems();
+    });
+});
+
+function filterItems() {
+    const result = items.filter(item => 
+        (selectedCategories.includes(item.category) && selectedLevels.includes(item.level))
+    );
+  
+    displayResult(result);
+}
+*/
 
 function selectCategories() {
     let checkBoxes = document.querySelectorAll('input[name="categoryCheckbox"]:checked');
@@ -216,12 +345,6 @@ function selectLevels() {
 
 console.log('selected questions: ', selectedQuestions);
 
-/*
-function selectQuestQuant() {
-    
-    console.log(questionQuant10);
-};
-*/
 
 question10.addEventListener("change", function() {
     for(let i = 0; i < 10; i++) {
@@ -239,12 +362,65 @@ if(document.querySelector('input[name="quantSelect"]')) {
     document.querySelectorAll('input[name="quantSelect"]').forEach((elem) => {
         elem.addEventListener("change", function(event) {
             let item = event.target.value;
-
+            if(event.target.value === '10') {
+                console.log('value: ', event.target.value);
+            }
             console.log(item);
         });
     });
 }
-    
+
+
+const addedItems = {};
+
+questionsObject.forEach((item) => {
+  if((item.category === "Bulvár"
+        || item.category === "Életmód"
+        || item.category === "Élővilág"
+        || item.category === "Film és TV"
+        || item.category === "Földrajz"
+        || item.category === "Irodalom és kultúra"
+        || item.category === "Sport"
+        || item.category === "Történelem és közélet"  
+        || item.category === "Tudomány és technika" 
+        || item.category === "Zene"
+    )
+    &&
+    (item.level === "1"
+        || item.level === "2"
+        || item.level === "3"
+        || item.level === "4"
+        || item.level === "5"
+    )) {
+        const key = `${item.id}_${item.category}_${item.level}`;
+        if(!addedItems[key]) {
+            if(item.category === "Bulvár") {
+                bulvarQuestions.push(item);
+            } else if(item.category === "Életmód") {
+                eletmodQuestions.push(item);
+            } else if(item.category === "Élővilág") {
+                elovilagQuestions.push(item);
+            } else if(item.category === "Film és TV") {
+                filmQuestions.push(item);
+            } else if(item.category === "Földrajz") {
+                foldrajzQuestions.push(item);
+            } else if(item.category === "Irodalom és kultúra") {
+                irodalomQuestions.push(item);
+            } else if(item.category === "Sport") {
+                sportQuestions.push(item);
+            } else if(item.category === "Történelem és közélet") {
+                toriQuestions.push(item);
+            } else if(item.category === "Tudomány és technika") {
+                tudomanyQuestions.push(item);
+            } else if(item.category === "Zene") {
+                zeneQuestions.push(item);
+            }
+            addedItems[key] = true;
+        }
+    }
+});
+
+
 /*
 function checkRadioValues() {
     if(question10.checked == true) {
@@ -275,62 +451,42 @@ checkRadioValues();
     }
 */
 
-/*
-let count = 300;
-let counter = setInterval(startTimer, 100);
-
-function startTimer() {
-    if(count <= 0) {
-        clearInterval(counter);
-        tickingBuzzer.pause();
-        wrongAnswerSound.play();
-        return;
-    }
-    count--;
-    countdownDiv.innerHTML = count /10;
-}
-
-function stopTimer() {
-    if(count < 300) {
-        countdownDiv.innerHTML = count /10;
-        console.log(count);
-    }
-}
-
-function resetTimer() {
-    stopTimer();
-    count = 300;
-}
-
-*/
-
 let countdown;
-let secondsLeft = 20;
+let secondsLeft = 0;
 
 function startCountdown(seconds) {
-  clearInterval(countdown);
-  secondsLeft = seconds;
-  displayTimeLeft(secondsLeft);
-
-  countdown = setInterval(() => {
-    secondsLeft -= 0.1;
-    if (secondsLeft < 0) {
-      clearInterval(countdown);
-      countdownDiv.textContent = '0.0';
-      return;
-    }
+    countdownDiv.classList.remove('text-danger', 'border-danger');
+    countdownDiv.classList.add('text-light');
+    clearInterval(countdown);
+    secondsLeft = seconds;
     displayTimeLeft(secondsLeft);
-  }, 100);
+
+    countdown = setInterval(() => {
+        secondsLeft -= 0.1;
+        if(secondsLeft <= 5) {
+            countdownDiv.classList.remove('text-light');
+            countdownDiv.classList.add('text-danger', 'border-danger');
+        }
+        if(secondsLeft <= 0) {
+            clearInterval(countdown);
+            countdownDiv.textContent = '0.0';
+            tickingBuzzer.pause();
+            wrongAnswerSound.play();
+            setStatusClass();
+            return;
+        }
+        displayTimeLeft(secondsLeft);
+    }, 100);
 }
 
 function displayTimeLeft(seconds) {
-  const display = `${seconds.toFixed(1)}`;
-  countdownDiv.textContent = display;
+    const display = `${seconds.toFixed(1)}`;
+    countdownDiv.textContent = display;
 }
 
 function stopCountdown() {
-  clearInterval(countdown);
-  displayTimeLeft(secondsLeft);
+    clearInterval(countdown);
+    displayTimeLeft(secondsLeft);
 }
 
 function startQuiz() {
@@ -351,7 +507,7 @@ function startQuiz() {
         selectCategories();
         selectLevels();
         //selectQuestQuant();
-        startCountdown();
+        startCountdown(20);
         navbar.style.display = 'block';
         selectorDiv.style.display = 'none';
         questionCategoriesDiv.style.display = 'none';
@@ -399,7 +555,7 @@ function setNextQuestion() {
     showQuestion(shuffledQuestions[currentQuestionIndex]);
     tickingBuzzer.play();
     tickingBuzzer.loop = true;
-    startCountdown();
+    startCountdown(15);
 }
 
 function showQuestion(shuffledQuestions) {
@@ -437,13 +593,12 @@ function selectAnswer(e) {
         restartButton.style.display = 'block'; 
     }
 
-    selectedButton.classList.add('correct');
-
     tickingBuzzer.pause();
     stopCountdown();
         
     if(selectedButton.dataset.isCorrect) {
         correctAnswerSound.play();
+        selectedButton.classList.add('correct');
         resultDiv.innerHTML = 'Helyes válasz!';
         resultDiv.classList.add('border', 'border-success', 'bg-success'),
         pointsDiv.style.display = 'block';
