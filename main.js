@@ -7,7 +7,7 @@ const soundBtn = document.getElementById('soundBtn');
 const selectorDiv = document.getElementById('selectorDiv');
 const questionCategoriesDiv = document.getElementById('questionCategoriesDiv');
 //const categories = Array.from(document.getElementsByName('categoryCheckbox'));
-const categoryInputs = document.querySelectorAll('input[name=categoryCheckbox]');
+const categoryCheckboxes = document.querySelectorAll('input[name=categoryCheckbox]');
 
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
 const eletmodCheckbox = document.getElementById('eletmodCheckbox');
@@ -24,7 +24,7 @@ const noCatBtn = document.getElementById('noCatBtn');
 
 const questionLevelsDiv = document.getElementById('questionLevelsDiv');
 //const levels = Array.from(document.getElementsByName('levelCheckbox'));
-const levelInputs = document.querySelectorAll('input[name=levelCheckbox]');
+const levelCheckboxes = document.querySelectorAll('input[name=levelCheckbox]');
 const veryEasyCheckbox = document.getElementById('veryEasyCheckbox');
 const easyCheckbox = document.getElementById('easyCheckbox');
 const normalCheckbox = document.getElementById('normalCheckbox');
@@ -81,9 +81,11 @@ let normalQuestions = [];
 let hardQuestions = [];
 let veryHardQuestions = [];
 let categoryValues = [];
+let filteredCategories = [];
 let selectedQuestions = [];
 let shuffledQuestions = [];
 let levelValues = [];
+let filteredLevels = [];
 let questionQuant10 = [];
 let questionQuant20 = [];
 let questionQuant50 = [];
@@ -147,89 +149,198 @@ function toggleSounds() {
     }
 }
 
+categoryCheckboxes.forEach((checkbox) => {
+    categoryValues.push(checkbox.value);
 
-categoryInputs.forEach((checkbox) => {
+    console.log('cat. values', categoryValues);
+
     checkbox.addEventListener('change', () => {
-        if(checkbox.checked) {
-            console.log(checkbox.value, 'checked');
-      /*
-      let selected = '';
-      categoryCheckboxes.forEach((checkbox) => {
-        if (checkbox.checked) {
-            selected += checkbox.value + ', ';
-        }
-    */
+        const selectedCategories = getSelectedCheckboxes(categoryCheckboxes);
+        const selectedLevels = getSelectedCheckboxes(levelCheckboxes);
 
-        /*categoryCheckboxes.forEach((categoryInputs) => {
-            categoryValues.push(categoryInputs.value);
+        const filteredData = questionsObject.filter((obj) => {
+            return selectedCategories.includes(obj.category) && selectedLevels.includes(obj.level);
         });
-        */
-    
-        if(categoryValues.includes('Bulvár')) {
-            selectedQuestions.push(...bulvarQuestions);
-            console.log('selected: ', selectedQuestions);
-        }
-    
-        if(categoryValues.includes('Életmód')) {
-            selectedQuestions.push(...eletmodQuestions);
-        }
-    
-        if(categoryValues.includes('Élővilág')) {
-            selectedQuestions.push(...elovilagQuestions);
-        }
-    
-        if(categoryValues.includes('Film és TV')) {
-            selectedQuestions.push(...filmQuestions);
-        }
-    
-        if(categoryValues.includes('Földrajz')) {
-            selectedQuestions.push(...foldrajzQuestions);
-        }
-    
-        if(categoryValues.includes('Irodalom és kultúra')) {
-            selectedQuestions.push(...irodalomQuestions);
-        }
-    
-        if(categoryValues.includes('Sport')) {
-            selectedQuestions.push(...sportQuestions);
-        }
-    
-        if(categoryValues.includes('Történelem és közélet')) {
-            selectedQuestions.push(...toriQuestions);
-        }
-    
-        if(categoryValues.includes('Tudomány és technika')) {
-            selectedQuestions.push(...tudomanyQuestions);
-        }
-    
-        if(categoryValues.includes('Zene')) {
-            selectedQuestions.push(...zeneQuestions);
-        }
-    } else {
-        if(categoryValues.includes('Bulvár')) {
-            selectedQuestions.slice(0, -2);
-            console.log(selectedQuestions);
-        }
 
-        console.log(checkbox.value, 'unchecked');
-    }
-      });
-      //console.log(selected.slice(0, -2));
+        filteredData.forEach(() => {
+            filteredCategories.push(filteredData);
+            selectedQuestions.push(filteredData);
+        });
+
+        console.log('selected categories: ', selectedCategories);
+        console.log('selected levels: ', selectedLevels);
+        console.log('filtered data: ', filteredData);
+        console.log('filtered categories: ', filteredCategories);
     });
-// });
+});
 
-levelInputs.forEach((checkbox) => {
-    checkbox.addEventListener('change', () => {
+/*
         if(checkbox.checked) {
             console.log(checkbox.value, 'checked');
 
+            if(categoryValues.includes('Bulvár')) {
+                selectedQuestions.push(...bulvarQuestions);
+                console.log('selected belső: ', selectedQuestions);
+            }
+*/
+
+        /*
+            if(categoryValues.includes('Életmód')) {
+                selectedQuestions.push(...eletmodQuestions);
+            }
+        
+            if(categoryValues.includes('Élővilág')) {
+                selectedQuestions.push(...elovilagQuestions);
+            }
+        
+            if(categoryValues.includes('Film és TV')) {
+                selectedQuestions.push(...filmQuestions);
+            }
+        
+            if(categoryValues.includes('Földrajz')) {
+                selectedQuestions.push(...foldrajzQuestions);
+            }
+        
+            if(categoryValues.includes('Irodalom és kultúra')) {
+                selectedQuestions.push(...irodalomQuestions);
+            }
+        
+            if(categoryValues.includes('Sport')) {
+                selectedQuestions.push(...sportQuestions);
+            }
+        
+            if(categoryValues.includes('Történelem és közélet')) {
+                selectedQuestions.push(...toriQuestions);
+            }
+        
+            if(categoryValues.includes('Tudomány és technika')) {
+                selectedQuestions.push(...tudomanyQuestions);
+            }
+        
+            if(categoryValues.includes('Zene')) {
+                selectedQuestions.push(...zeneQuestions);
+            }
+        */
+
+        /*
+            //selectedQuestions.push(...bulvarQuestions);
+            console.log('selected külső: ', selectedQuestions);
+        */
+
+        /*
+            let selected = '';
+            categoryCheckboxes.forEach((checkbox) => {
+                if (checkbox.checked) {
+                    selected += checkbox.value + ', ';
+                }
+        */
+
+        /*
+            categoryCheckboxes.forEach((categoryCheckboxes) => {
+                categoryValues.push(categoryChechboxes.value);
+            });
+        */
+        
+        /*
+            if(categoryValues.includes('Bulvár')) {
+                selectedQuestions.push(...bulvarQuestions);
+                console.log('selected: ', selectedQuestions);
+            }
+        
+            if(categoryValues.includes('Életmód')) {
+                selectedQuestions.push(...eletmodQuestions);
+            }
+        
+            if(categoryValues.includes('Élővilág')) {
+                selectedQuestions.push(...elovilagQuestions);
+            }
+        
+            if(categoryValues.includes('Film és TV')) {
+                selectedQuestions.push(...filmQuestions);
+            }
+        
+            if(categoryValues.includes('Földrajz')) {
+                selectedQuestions.push(...foldrajzQuestions);
+            }
+        
+            if(categoryValues.includes('Irodalom és kultúra')) {
+                selectedQuestions.push(...irodalomQuestions);
+            }
+        
+            if(categoryValues.includes('Sport')) {
+                selectedQuestions.push(...sportQuestions);
+            }
+        
+            if(categoryValues.includes('Történelem és közélet')) {
+                selectedQuestions.push(...toriQuestions);
+            }
+        
+            if(categoryValues.includes('Tudomány és technika')) {
+                selectedQuestions.push(...tudomanyQuestions);
+            }
+        
+            if(categoryValues.includes('Zene')) {
+                selectedQuestions.push(...zeneQuestions);
+            }
+        */
+
+/*
+        } else {
+            if(!categoryValues.includes('Bulvár')) {
+                selectedQuestions.slice(0, -1);
+                console.log('selectedSliced: ', selectedQuestions);
+            }
+
+            console.log(checkbox.value, 'unchecked');
+        }
+    });
+});
+*/
+
+levelCheckboxes.forEach((checkbox) => {
+    checkbox.addEventListener('change', () => {
+        const selectedCategories = getSelectedCheckboxes(categoryCheckboxes);
+        const selectedLevels = getSelectedCheckboxes(levelCheckboxes);
+
+        const filteredData = questionsObject.filter((obj) => {
+            return selectedCategories.includes(obj.category) && selectedLevels.includes(obj.level);
+        });
+
+        filteredData.forEach(() => {
+            filteredLevels.push(filteredData);
+            selectedQuestions.push(filteredData);
+        });
+
+        console.log('selected categories: ', selectedCategories);
+        console.log('selected levels: ', selectedLevels);
+        console.log('filtered data: ', filteredData);
+        console.log('filtered levels: ', filteredLevels);
+        console.log('selected questions: ', selectedQuestions);
+
+    /*
+        if(checkbox.checked) {
+            console.log(checkbox.value, 'checked');
         } else {
             console.log(checkbox.value, 'unchecked');
-
         }
-    })
-})
+    */
+    });
+});
 
+function getSelectedCheckboxes(checkBoxes) {
+    const selectedCheckboxes = [];
+    checkBoxes.forEach((checkbox) => {
+        if(checkbox.checked) {
+            selectedCheckboxes.push(checkbox.value);
+        }
+    });
+
+    return selectedCheckboxes;
+}
+
+
+
+/*
 questionQuantInputs.forEach((checkbox) => {
     checkbox.addEventListener('change', () => {
         if(checkbox.checked) {
@@ -241,6 +352,7 @@ questionQuantInputs.forEach((checkbox) => {
         }
     })
 })
+*/
 
 
 /*
@@ -267,11 +379,13 @@ function filterItems() {
 }
 */
 
+
+/*
 function selectCategories() {
     let checkBoxes = document.querySelectorAll('input[name="categoryCheckbox"]:checked');
     
-    checkBoxes.forEach((categoryInputs) => {
-        categoryValues.push(categoryInputs.value);
+    checkBoxes.forEach((categoryCheckboxes) => {
+        categoryValues.push(categoryCheckboxes.value);
     });
 
     if(categoryValues.includes('Bulvár')) {
@@ -314,12 +428,14 @@ function selectCategories() {
         selectedQuestions.push(...zeneQuestions);
     }
 }
+*/
 
+/*
 function selectLevels() {
     let checkBoxes = document.querySelectorAll('input[name="levelCheckbox"]:checked');
 
-    checkBoxes.forEach((levelInputs) => {
-        levelValues.push(levelInputs.value);
+    checkBoxes.forEach((levelCheckboxes) => {
+        levelValues.push(levelCheckboxes.value);
     });
 
     if(levelValues.includes('1')) {
@@ -342,10 +458,12 @@ function selectLevels() {
         selectedQuestions.push(...veryHardQuestions);
     }
 }
+*/
 
 console.log('selected questions: ', selectedQuestions);
 
 
+/*
 question10.addEventListener("change", function() {
     for(let i = 0; i < 10; i++) {
         let idx = Math.floor(Math.random() * shuffledQuestions.length);
@@ -356,24 +474,26 @@ question10.addEventListener("change", function() {
     console.log('shuffled: ', shuffledQuestions);
     console.log('shuffle 10: ', questionQuant10);
 });
-
+*/
 
 if(document.querySelector('input[name="quantSelect"]')) {
     document.querySelectorAll('input[name="quantSelect"]').forEach((elem) => {
         elem.addEventListener("change", function(event) {
             let item = event.target.value;
             if(event.target.value === '10') {
-                console.log('value: ', event.target.value);
+                const questions10 = shuffledQuestions.slice(0,10);
+                console.log('10 questions: ', questions10);
             }
-            console.log(item);
+            console.log('item:', item);
         });
     });
 }
 
+/*
+//chatgpt alapján:
+const addedItems = [];
 
-const addedItems = {};
-
-questionsObject.forEach((item) => {
+selectedQuestions.forEach((item) => {
   if((item.category === "Bulvár"
         || item.category === "Életmód"
         || item.category === "Élővilág"
@@ -419,6 +539,7 @@ questionsObject.forEach((item) => {
         }
     }
 });
+*/
 
 
 /*
@@ -432,6 +553,7 @@ function checkRadioValues() {
 
 checkRadioValues();
 */
+
 
  /*   
     if(question10.checked) {
@@ -489,23 +611,26 @@ function stopCountdown() {
     displayTimeLeft(secondsLeft);
 }
 
+
+//shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
+
 function startQuiz() {
     let selectedBoxes = [];
-    for (let i = 0; i < categoryInputs.length; i++) {
-        if (categoryInputs[i].checked) {
-            selectedBoxes.push(categoryInputs[i].value);
+    for (let i = 0; i < categoryCheckboxes.length; i++) {
+        if (categoryCheckboxes[i].checked) {
+            selectedBoxes.push(categoryCheckboxes[i].value);
         }
     }
 
-    for (let i = 0; i < levelInputs.length; i++) {
-        if (levelInputs[i].checked) {
-            selectedBoxes.push(levelInputs[i].value)
+    for (let i = 0; i < levelCheckboxes.length; i++) {
+        if (levelCheckboxes[i].checked) {
+            selectedBoxes.push(levelCheckboxes[i].value)
         }
     }
     
     if(selectedBoxes.length > 0) {
-        selectCategories();
-        selectLevels();
+        //selectCategories();
+        //selectLevels();
         //selectQuestQuant();
         startCountdown(20);
         navbar.style.display = 'block';
@@ -666,25 +791,25 @@ startBtn.onclick = () => {
 */
 
 selectAllCatBtn.onclick = () => {
-    for (const checkbox of categoryInputs) {
+    for (const checkbox of categoryCheckboxes) {
         checkbox.checked = true;
     }
 }
 
 noCatBtn.onclick = () => {
-    for (const checkbox of categoryInputs) {
+    for (const checkbox of categoryCheckboxes) {
         checkbox.checked = false;
     }
 }
 
 selectAllLevelBtn.onclick = () => {
-    for (const checkbox of levelInputs) {
+    for (const checkbox of levelCheckboxes) {
         checkbox.checked = true;
     }
 }
 
 noLevelBtn.onclick = () => {
-    for (const checkbox of levelInputs) {
+    for (const checkbox of levelCheckboxes) {
         checkbox.checked = false;
     }
 }
