@@ -6,7 +6,6 @@ const soundBtn = document.getElementById('soundBtn');
 
 const selectorDiv = document.getElementById('selectorDiv');
 const questionCategoriesDiv = document.getElementById('questionCategoriesDiv');
-//const categories = Array.from(document.getElementsByName('categoryCheckbox'));
 const categoryCheckboxes = document.querySelectorAll('input[name=categoryCheckbox]');
 
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
@@ -23,7 +22,6 @@ const selectAllCatBtn = document.getElementById('selectAllCatBtn');
 const noCatBtn = document.getElementById('noCatBtn');
 
 const questionLevelsDiv = document.getElementById('questionLevelsDiv');
-//const levels = Array.from(document.getElementsByName('levelCheckbox'));
 const levelCheckboxes = document.querySelectorAll('input[name=levelCheckbox]');
 const veryEasyCheckbox = document.getElementById('veryEasyCheckbox');
 const easyCheckbox = document.getElementById('easyCheckbox');
@@ -122,23 +120,18 @@ const importQuestions = () => {
             normalQuestions = questionsObject.filter((e) => (e.level) == '3');
             hardQuestions = questionsObject.filter((e) => (e.level) == '4');
             veryHardQuestions = questionsObject.filter((e) => (e.level) == '5');
-            
-            //console.log('items: ', item);
         });
 
         console.log('questionsObject: ', questionsObject);
-        console.log('bulvár betölt: ', bulvarQuestions);
     })
     .catch(error => console.log('error: ', error));
 };
 
 importQuestions();
 
-console.log('bulvár: ', bulvarQuestions);
-
-
 function toggleSounds() {
     playSounds = !playSounds;
+
     if(playSounds) {
         soundBtn.style.backgroundImage = "url('./imgs/sound-on.png')";
     } else {
@@ -152,25 +145,22 @@ function toggleSounds() {
 categoryCheckboxes.forEach((checkbox) => {
     categoryValues.push(checkbox.value);
 
-    console.log('cat. values', categoryValues);
-
     checkbox.addEventListener('change', () => {
         const selectedCategories = getSelectedCheckboxes(categoryCheckboxes);
         const selectedLevels = getSelectedCheckboxes(levelCheckboxes);
 
-        const filteredData = questionsObject.filter((obj) => {
+        selectedQuestions = questionsObject.filter((obj) => {
             return selectedCategories.includes(obj.category) && selectedLevels.includes(obj.level);
         });
 
-        filteredData.forEach(() => {
-            filteredCategories.push(filteredData);
-            selectedQuestions.push(filteredData);
+        selectedQuestions.forEach(() => {
+            filteredCategories.push(selectedQuestions);
         });
 
         console.log('selected categories: ', selectedCategories);
         console.log('selected levels: ', selectedLevels);
-        console.log('filtered data: ', filteredData);
         console.log('filtered categories: ', filteredCategories);
+        console.log('selected questions: ', selectedQuestions);
     });
 });
 
@@ -182,9 +172,7 @@ categoryCheckboxes.forEach((checkbox) => {
                 selectedQuestions.push(...bulvarQuestions);
                 console.log('selected belső: ', selectedQuestions);
             }
-*/
 
-        /*
             if(categoryValues.includes('Életmód')) {
                 selectedQuestions.push(...eletmodQuestions);
             }
@@ -220,10 +208,8 @@ categoryCheckboxes.forEach((checkbox) => {
             if(categoryValues.includes('Zene')) {
                 selectedQuestions.push(...zeneQuestions);
             }
-        */
-
-        /*
-            //selectedQuestions.push(...bulvarQuestions);
+            
+            selectedQuestions.push(...bulvarQuestions);
             console.log('selected külső: ', selectedQuestions);
         */
 
@@ -233,15 +219,10 @@ categoryCheckboxes.forEach((checkbox) => {
                 if (checkbox.checked) {
                     selected += checkbox.value + ', ';
                 }
-        */
 
-        /*
             categoryCheckboxes.forEach((categoryCheckboxes) => {
                 categoryValues.push(categoryChechboxes.value);
             });
-        */
-        
-        /*
             if(categoryValues.includes('Bulvár')) {
                 selectedQuestions.push(...bulvarQuestions);
                 console.log('selected: ', selectedQuestions);
@@ -282,9 +263,6 @@ categoryCheckboxes.forEach((checkbox) => {
             if(categoryValues.includes('Zene')) {
                 selectedQuestions.push(...zeneQuestions);
             }
-        */
-
-/*
         } else {
             if(!categoryValues.includes('Bulvár')) {
                 selectedQuestions.slice(0, -1);
@@ -299,33 +277,27 @@ categoryCheckboxes.forEach((checkbox) => {
 
 levelCheckboxes.forEach((checkbox) => {
     checkbox.addEventListener('change', () => {
-        const selectedCategories = getSelectedCheckboxes(categoryCheckboxes);
+        getSelectedQuestions();
+    });
+});
+
+function getSelectedQuestions() {
+    const selectedCategories = getSelectedCheckboxes(categoryCheckboxes);
         const selectedLevels = getSelectedCheckboxes(levelCheckboxes);
 
-        const filteredData = questionsObject.filter((obj) => {
+        selectedQuestions = questionsObject.filter((obj) => {
             return selectedCategories.includes(obj.category) && selectedLevels.includes(obj.level);
         });
 
-        filteredData.forEach(() => {
-            filteredLevels.push(filteredData);
-            selectedQuestions.push(filteredData);
+        selectedQuestions.forEach(() => {
+            filteredLevels.push(selectedQuestions);
         });
 
         console.log('selected categories: ', selectedCategories);
         console.log('selected levels: ', selectedLevels);
-        console.log('filtered data: ', filteredData);
         console.log('filtered levels: ', filteredLevels);
         console.log('selected questions: ', selectedQuestions);
-
-    /*
-        if(checkbox.checked) {
-            console.log(checkbox.value, 'checked');
-        } else {
-            console.log(checkbox.value, 'unchecked');
-        }
-    */
-    });
-});
+}
 
 function getSelectedCheckboxes(checkBoxes) {
     const selectedCheckboxes = [];
@@ -338,7 +310,19 @@ function getSelectedCheckboxes(checkBoxes) {
     return selectedCheckboxes;
 }
 
+/*
+const checkIt = () => {
+    if(document.getElementById("bulvarCheckbox").checked) {
+        console.log(id, "CHECKED");
+    } else {
+        console.log(id, "NOT CHECKED");
+    };
+}
 
+bulvarCheckbox.onclick = () => {
+    checkIt();
+}
+*/
 
 /*
 questionQuantInputs.forEach((checkbox) => {
@@ -353,32 +337,6 @@ questionQuantInputs.forEach((checkbox) => {
     })
 })
 */
-
-
-/*
-categories.forEach(category => {
-    category.addEventListener('change', () => {
-        selectedCategories = categories.filter(category => category.checked).map(category => category.value);
-        filterItems();
-    });
-});
-
-levels.forEach(level => {
-    level.addEventListener('change', () => {
-        selectedLevels = levels.filter(level => level.checked).map(level => level.value);
-        filterItems();
-    });
-});
-
-function filterItems() {
-    const result = items.filter(item => 
-        (selectedCategories.includes(item.category) && selectedLevels.includes(item.level))
-    );
-  
-    displayResult(result);
-}
-*/
-
 
 /*
 function selectCategories() {
@@ -460,9 +418,6 @@ function selectLevels() {
 }
 */
 
-console.log('selected questions: ', selectedQuestions);
-
-
 /*
 question10.addEventListener("change", function() {
     for(let i = 0; i < 10; i++) {
@@ -490,59 +445,6 @@ if(document.querySelector('input[name="quantSelect"]')) {
 }
 
 /*
-//chatgpt alapján:
-const addedItems = [];
-
-selectedQuestions.forEach((item) => {
-  if((item.category === "Bulvár"
-        || item.category === "Életmód"
-        || item.category === "Élővilág"
-        || item.category === "Film és TV"
-        || item.category === "Földrajz"
-        || item.category === "Irodalom és kultúra"
-        || item.category === "Sport"
-        || item.category === "Történelem és közélet"  
-        || item.category === "Tudomány és technika" 
-        || item.category === "Zene"
-    )
-    &&
-    (item.level === "1"
-        || item.level === "2"
-        || item.level === "3"
-        || item.level === "4"
-        || item.level === "5"
-    )) {
-        const key = `${item.id}_${item.category}_${item.level}`;
-        if(!addedItems[key]) {
-            if(item.category === "Bulvár") {
-                bulvarQuestions.push(item);
-            } else if(item.category === "Életmód") {
-                eletmodQuestions.push(item);
-            } else if(item.category === "Élővilág") {
-                elovilagQuestions.push(item);
-            } else if(item.category === "Film és TV") {
-                filmQuestions.push(item);
-            } else if(item.category === "Földrajz") {
-                foldrajzQuestions.push(item);
-            } else if(item.category === "Irodalom és kultúra") {
-                irodalomQuestions.push(item);
-            } else if(item.category === "Sport") {
-                sportQuestions.push(item);
-            } else if(item.category === "Történelem és közélet") {
-                toriQuestions.push(item);
-            } else if(item.category === "Tudomány és technika") {
-                tudomanyQuestions.push(item);
-            } else if(item.category === "Zene") {
-                zeneQuestions.push(item);
-            }
-            addedItems[key] = true;
-        }
-    }
-});
-*/
-
-
-/*
 function checkRadioValues() {
     if(question10.checked == true) {
         console.log('10 checked');
@@ -554,8 +456,7 @@ function checkRadioValues() {
 checkRadioValues();
 */
 
-
- /*   
+/*   
     if(question10.checked) {
         questionQuant10 = [...questionsObject].sort(() => 0.5 - Math.random());
     }
@@ -611,7 +512,6 @@ function stopCountdown() {
     displayTimeLeft(secondsLeft);
 }
 
-
 //shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
 
 function startQuiz() {
@@ -629,9 +529,6 @@ function startQuiz() {
     }
     
     if(selectedBoxes.length > 0) {
-        //selectCategories();
-        //selectLevels();
-        //selectQuestQuant();
         startCountdown(20);
         navbar.style.display = 'block';
         selectorDiv.style.display = 'none';
@@ -794,24 +691,32 @@ selectAllCatBtn.onclick = () => {
     for (const checkbox of categoryCheckboxes) {
         checkbox.checked = true;
     }
+
+    getSelectedQuestions();
 }
 
 noCatBtn.onclick = () => {
     for (const checkbox of categoryCheckboxes) {
         checkbox.checked = false;
     }
+
+    getSelectedQuestions();
 }
 
 selectAllLevelBtn.onclick = () => {
     for (const checkbox of levelCheckboxes) {
         checkbox.checked = true;
     }
+
+    getSelectedQuestions();
 }
 
 noLevelBtn.onclick = () => {
     for (const checkbox of levelCheckboxes) {
         checkbox.checked = false;
     }
+
+    getSelectedQuestions();
 }
 
 soundBtn.onclick = () => {

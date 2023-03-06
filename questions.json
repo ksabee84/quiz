@@ -4489,25 +4489,25 @@
    },
    {
       "id": 188,
-      "category": "Történelem és közélet",
-      "question": "Melyik évben lett az ENSZ tagja Magyarország?",
+      "category": "Film és TV",
+      "question": "Ki rendezte a \"Saul fia\" című, Golden Globe- és Oscar-díjat is elnyert háborús filmdrámát?",
       "level": "4",
       "answers": [
          {
-            "text": "1955",
+            "text": "Bacsó Péter",
+            "isCorrect": false
+         },
+         {
+            "text": "Dyga Zsombor",
+            "isCorrect": false
+         },
+         {
+            "text": "Enyedi Ildikó",
+            "isCorrect": false
+         },
+         {
+            "text": "Nemes Jeles László",
             "isCorrect": true
-         },
-         {
-            "text": "1989",
-            "isCorrect": false
-         },
-         {
-            "text": "1999",
-            "isCorrect": false
-         },
-         {
-            "text": "2004",
-            "isCorrect": false
          }
       ]
    },
@@ -20524,126 +20524,846 @@
    },
    {
       "id": 856,
-      "category": "",
-      "question": "?",
-      "level": "",
+      "category": "Történelem és közélet",
+      "question": "Melyik évben lett az ENSZ tagja Magyarország?",
+      "level": "4",
       "answers": [
          {
-            "text": "",
-            "isCorrect": false
-         },
-         {
-            "text": "",
-            "isCorrect": false
-         },
-         {
-            "text": "",
+            "text": "1955",
             "isCorrect": true
          },
          {
-            "text": "",
+            "text": "1989",
+            "isCorrect": false
+         },
+         {
+            "text": "1999",
+            "isCorrect": false
+         },
+         {
+            "text": "2004",
             "isCorrect": false
          }
       ]
    },
    {
       "id": 857,
-      "category": "",
-      "question": "?",
-      "level": "",
+      "category": "Földrajz",
+      "question": "A történelmi Magyarország melyik része található ma Ukrajnában?",
+      "level": "3",
       "answers": [
          {
-            "text": "",
+            "text": "Erdély",
             "isCorrect": false
          },
          {
-            "text": "",
+            "text": "Felvidék",
             "isCorrect": false
          },
          {
-            "text": "",
+            "text": "Kárpátalja",
             "isCorrect": true
          },
          {
-            "text": "",
+            "text": "Vajdaság",
             "isCorrect": false
          }
       ]
    },
    {
       "id": 858,
-      "category": "",
-      "question": "?",
-      "level": "",
+      "category": "Földrajz",
+      "question": "A történelmi Magyarország melyik része található a jelenlegi Szerbiában?",
+      "level": "3",
       "answers": [
          {
-            "text": "",
+            "text": "Erdély",
             "isCorrect": false
          },
          {
-            "text": "",
+            "text": "Felvidék",
             "isCorrect": false
          },
          {
-            "text": "",
+            "text": "Kárpátalja",
+            "isCorrect": false
+         },
+         {
+            "text": "Vajdaság",
             "isCorrect": true
-         },
-         {
-            "text": "",
-            "isCorrect": false
          }
       ]
    },
    {
       "id": 859,
-      "category": "",
-      "question": "?",
-      "level": "",
+      "category": "Földrajz",
+      "question": "A történelmi Magyarország melyik része fekszik ma Romániában?",
+      "level": "2",
       "answers": [
          {
-            "text": "",
-            "isCorrect": false
-         },
-         {
-            "text": "",
-            "isCorrect": false
-         },
-         {
-            "text": "",
+            "text": "Erdély",
             "isCorrect": true
          },
          {
-            "text": "",
+            "text": "Felvidék",
+            "isCorrect": false
+         },
+         {
+            "text": "Kárpátalja",
+            "isCorrect": false
+         },
+         {
+            "text": "Vajdaság",
             "isCorrect": false
          }
       ]
    },
    {
       "id": 860,
-      "category": "",
-      "question": "?",
-      "level": "",
+      "category": "Földrajz",
+      "question": "Az egykori nagy Magyaroszág melyik része található napjaikban Szlovákiában?",
+      "level": "3",
       "answers": [
          {
-            "text": "",
+            "text": "Erdély",
             "isCorrect": false
          },
          {
-            "text": "",
-            "isCorrect": false
-         },
-         {
-            "text": "",
+            "text": "Felvidék",
             "isCorrect": true
          },
          {
-            "text": "",
+            "text": "Kárpátalja",
+            "isCorrect": false
+         },
+         {
+            "text": "Vajdaság",
             "isCorrect": false
          }
       ]
    },
    {
       "id": 861,
+      "category": "Sport",
+      "question": "Melyik évben avatták a túraautó-világkupa győztesévé Michelisz Norbertet?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "2010",
+            "isCorrect": false
+         },
+         {
+            "text": "2016",
+            "isCorrect": false
+         },
+         {
+            "text": "2019",
+            "isCorrect": true
+         },
+         {
+            "text": "2020",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 862,
+      "category": "Tudomány és technika",
+      "question": "Melyik szám következik a Fibonacci-számsorban az 5-ös után?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "7",
+            "isCorrect": false
+         },
+         {
+            "text": "8",
+            "isCorrect": true
+         },
+         {
+            "text": "9",
+            "isCorrect": false
+         },
+         {
+            "text": "15",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 863,
+      "category": "Tudomány és technika",
+      "question": "Melyik uralkodó adományozott grófi rangot Alessandro Volta feltalálónak?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bonaparte Napóleon francia császár",
+            "isCorrect": true
+         },
+         {
+            "text": "I. Ferenc József magyar király",
+            "isCorrect": false
+         },
+         {
+            "text": "XVI. Lajos francia király",
+            "isCorrect": false
+         },
+         {
+            "text": "I. Miklós orosz császár",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 864,
+      "category": "Tudomány és technika",
+      "question": "Melyik betegség ellen hozott létre védőoltást 1885-ben Louis Pasteur?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "gyermekbénulás",
+            "isCorrect": false
+         },
+         {
+            "text": "tífusz",
+            "isCorrect": false
+         },
+         {
+            "text": "tuberkulózis (tbc)",
+            "isCorrect": false
+         },
+         {
+            "text": "veszettség",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 865,
+      "category": "Tudomány és technika",
+      "question": "Melyik a legkisebb kétjegyű prímszám?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "10",
+            "isCorrect": false
+         },
+         {
+            "text": "11",
+            "isCorrect": true
+         },
+         {
+            "text": "13",
+            "isCorrect": false
+         },
+         {
+            "text": "17",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 866,
+      "category": "Tudomány és technika",
+      "question": "Hogy hívták az első űrutazó macskát?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Félicette",
+            "isCorrect": true
+         },
+         {
+            "text": "Lajka",
+            "isCorrect": false
+         },
+         {
+            "text": "Lukrécia",
+            "isCorrect": false
+         },
+         {
+            "text": "Rin Tin Tin",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 867,
+      "category": "Tudomány és technika",
+      "question": "Melyik vitamin a tokoferol?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "A",
+            "isCorrect": false
+         },
+         {
+            "text": "B6",
+            "isCorrect": false
+         },
+         {
+            "text": "B12",
+            "isCorrect": false
+         },
+         {
+            "text": "E",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 868,
+      "category": "Tudomány és technika",
+      "question": "Egész számra kerekítve hány Celsius fokon legsűrűbb a víz?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "-273",
+            "isCorrect": false
+         },
+         {
+            "text": "0",
+            "isCorrect": false
+         },
+         {
+            "text": "4",
+            "isCorrect": true
+         },
+         {
+            "text": "100",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 869,
+      "category": "Tudomány és technika",
+      "question": "Melyik égitest felszínének része a Nyugalom tengere és a Bolyai-kráter?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Hold",
+            "isCorrect": true
+         },
+         {
+            "text": "Jupiter",
+            "isCorrect": false
+         },
+         {
+            "text": "Mars",
+            "isCorrect": false
+         },
+         {
+            "text": "Vénusz",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 870,
+      "category": "Tudomány és technika",
+      "question": "Melyik számjegy következik a Pí értékében a 3,14 után?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "0",
+            "isCorrect": false
+         },
+         {
+            "text": "1",
+            "isCorrect": true
+         },
+         {
+            "text": "5",
+            "isCorrect": false
+         },
+         {
+            "text": "6",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 871,
+      "category": "Tudomány és technika",
+      "question": "Melyik mai ország területén született a pszichoanalitikus iskola megteremtője, Sigmund Freud?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Ausztria",
+            "isCorrect": false
+         },
+         {
+            "text": "Csehország",
+            "isCorrect": true
+         },
+         {
+            "text": "Németország",
+            "isCorrect": false
+         },
+         {
+            "text": "Svájc",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 872,
+      "category": "Tudomány és technika",
+      "question": "Melyik tömény sav elnevezése a \"választóvíz\"?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "kénsav",
+            "isCorrect": false
+         },
+         {
+            "text": "királyvíz",
+            "isCorrect": false
+         },
+         {
+            "text": "salétromsav",
+            "isCorrect": true
+         },
+         {
+            "text": "sósav",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 873,
+      "category": "Tudomány és technika",
+      "question": "Melyik állat 128 példányát küldte a NASA a Nemzetközi Űrállomásra egy 2021-es kísérlet során?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "egér",
+            "isCorrect": false
+         },
+         {
+            "text": "medveállatka",
+            "isCorrect": false
+         },
+         {
+            "text": "pók",
+            "isCorrect": false
+         },
+         {
+            "text": "tintahal",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 874,
+      "category": "Tudomány és technika",
+      "question": "Mi a neve a réz- vagy bronztárgyakon keletkező \"nemes rozsdának\"?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "csillagpor",
+            "isCorrect": false
+         },
+         {
+            "text": "hamu",
+            "isCorrect": false
+         },
+         {
+            "text": "patina",
+            "isCorrect": true
+         },
+         {
+            "text": "platina",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 875,
+      "category": "Tudomány és technika",
+      "question": "Melyik tudományágban kapott 1994-ben Nobel-díjat Oláh György?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "fizika",
+            "isCorrect": false
+         },
+         {
+            "text": "kémia",
+            "isCorrect": true
+         },
+         {
+            "text": "közgazdaság",
+            "isCorrect": false
+         },
+         {
+            "text": "orvostudomány",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 876,
+      "category": "Tudomány és technika",
+      "question": "Melyik betegség elleni védőoltás lett kötelező a gyermekek számára Magyarországon 2019-ben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "bárányhimlő",
+            "isCorrect": true
+         },
+         {
+            "text": "gyermekbénulás",
+            "isCorrect": false
+         },
+         {
+            "text": "rotavírus",
+            "isCorrect": false
+         },
+         {
+            "text": "tuberkulózis",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 877,
+      "category": "Tudomány és technika",
+      "question": "Kinek a párizsi cége tervezte a budapesti Nyugati pályaudvart?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Antoni Gaudí",
+            "isCorrect": false
+         },
+         {
+            "text": "Gustave Eiffel",
+            "isCorrect": true
+         },
+         {
+            "text": "Le Corbusier",
+            "isCorrect": false
+         },
+         {
+            "text": "Zaha Hadid",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 878,
+      "category": "Zene",
+      "question": "Kivel közösen írta Presser Gábor a \"Gyöngyhajú lány\" című dalt?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Adamis Anna",
+            "isCorrect": false
+         },
+         {
+            "text": "Kóbor János",
+            "isCorrect": true
+         },
+         {
+            "text": "Koncz Zsuzsa",
+            "isCorrect": false
+         },
+         {
+            "text": "Laux József",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 879,
+      "category": "Irodalom és kultúra",
+      "question": "Mi a foglalkozása a széles tenyerű Fejenagynak Petőfi Sándor \"A helység kalapácsa\" című vígeposzában?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "ács",
+            "isCorrect": false
+         },
+         {
+            "text": "kocsis",
+            "isCorrect": false
+         },
+         {
+            "text": "kovács",
+            "isCorrect": true
+         },
+         {
+            "text": "pék",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 880,
+      "category": "Élővilág",
+      "question": "Melyik állatfaj a ma élő legnagyobb testű gyíkféle?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "komodói varánusz",
+            "isCorrect": true
+         },
+         {
+            "text": "krokodilfarkú bütykösgyík",
+            "isCorrect": false
+         },
+         {
+            "text": "leopárdgekkó",
+            "isCorrect": false
+         },
+         {
+            "text": "óriás zebragyík",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 881,
+      "category": "Film és TV",
+      "question": "Ki volt Hugh Grant filmbeli partnere a \"Négy esküvő és egy temetés\" című 1994-es vígjátékban?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Andie MacDowell",
+            "isCorrect": true
+         },
+         {
+            "text": "Julia Roberts",
+            "isCorrect": false
+         },
+         {
+            "text": "Nicole Kidman",
+            "isCorrect": false
+         },
+         {
+            "text": "Sandra Bullock",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 882,
+      "category": "Sport",
+      "question": "Melyik sportág kiválósága volt a 2020-ban elhunyt Wichmann Tamás?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "kenu",
+            "isCorrect": true
+         },
+         {
+            "text": "úszás",
+            "isCorrect": false
+         },
+         {
+            "text": "tőrvívás",
+            "isCorrect": false
+         },
+         {
+            "text": "vízilabda",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 883,
+      "category": "Élővilág",
+      "question": "Melyik bagolyfajt nevezték régen halálmadárnak?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "fülesbagoly",
+            "isCorrect": false
+         },
+         {
+            "text": "hóbagoly",
+            "isCorrect": false
+         },
+         {
+            "text": "kuvik",
+            "isCorrect": true
+         },
+         {
+            "text": "uhu",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 884,
+      "category": "Zene",
+      "question": "Melyik Puccini-opera librettója készült Antoine François Prévost regénye nyomán?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bohémélet",
+            "isCorrect": false
+         },
+         {
+            "text": "Manon Lescaut",
+            "isCorrect": true
+         },
+          {
+            "text": "Tosca",
+            "isCorrect": false
+         },
+         {
+            "text": "Turandot",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 885,
+      "category": "Élővilág",
+      "question": "Melyik ázsiai ország nemzeti virága egy orchideafajta?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Indonézia",
+            "isCorrect": false
+         },
+         {
+            "text": "Japán",
+            "isCorrect": false
+         },
+         {
+            "text": "Malajzia",
+            "isCorrect": false
+         },
+         {
+            "text": "Szingapúr",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 886,
+      "category": "Élővilág",
+      "question": "Melyik mérgeskígyófaj él csak Magyarországon és Erdélyben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "fekete mamba",
+            "isCorrect": false
+         },
+         {
+            "text": "pápaszemes kobra",
+            "isCorrect": false
+         },
+         {
+            "text": "puffogó vipera",
+            "isCorrect": false
+         },
+         {
+            "text": "rákosi vipera",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 887,
+      "category": "Film és TV",
+      "question": "Mi a gyűjtőneve az Olaszországban készített, vadnyugati témájú filmeknek?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "makarónifilm",
+            "isCorrect": false
+         },
+         {
+            "text": "pesztófilm",
+            "isCorrect": false
+         },
+         {
+            "text": "pizzawestern",
+            "isCorrect": false
+         },
+         {
+            "text": "spagettiwestern",
+            "isCorrect": true
+         }     
+      ]
+   },
+   {
+      "id": 888,
+      "category": "Földrajz",
+      "question": "Melyik ország zászlóján látható egy juharlevél?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Kanada",
+            "isCorrect": true
+         },
+         {
+            "text": "Nepál",
+            "isCorrect": false
+         },
+         {
+            "text": "Svájc",
+            "isCorrect": false
+         },
+         {
+            "text": "Szingapúr",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 889,
+      "category": "Sport",
+      "question": "Melyik sakkbábu áll alapállásban az e8 mezőn?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "sötét bástya",
+            "isCorrect": false
+         },
+         {
+            "text": "sötét király",
+            "isCorrect": true
+         },
+         {
+            "text": "világos gyalog",
+            "isCorrect": false
+         },
+         {
+            "text": "világos királynő",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 890,
+      "category": "Bulvár",
+      "question": "Melyik amerikai filmsztár felesége Rita Wilson?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Patrick Duffy",
+            "isCorrect": false
+         },
+         {
+            "text": "Tom Cruise",
+            "isCorrect": false
+         },
+         {
+            "text": "Tom Hanks",
+            "isCorrect": true
+         },
+         {
+            "text": "Tom Selleck",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 891,
       "category": "",
       "question": "?",
       "level": "",
