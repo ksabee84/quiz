@@ -50,7 +50,7 @@
    {
       "id": 3,
       "category": "Földrajz",
-      "question": "Hány lakosa van Budapestnek?",
+      "question": "Körülbelül hány lakosa van Budapestnek?",
       "level": "2",
       "answers": [
          {
@@ -122,7 +122,7 @@
    {
       "id": 6,
       "category": "Irodalom és kultúra",
-      "question": "Hogy hívják A vágy villamosa című könyv/film főhősét?",
+      "question": "Hogy hívják \"A vágy villamosa\" című színdarab főhősét?",
       "level": "4",
       "answers": [
          {
@@ -194,7 +194,7 @@
    {
       "id": 9,
       "category": "Film és TV",
-      "question": "Hány epizódja volt a Dallas című filmsorozatnak?",
+      "question": "Hány epizódja volt a \"Dallas\" című filmsorozatnak?",
       "level": "4",
       "answers": [
          {
@@ -219,7 +219,7 @@
       "id": 10,
       "category": "Történelem és közélet",
       "question": "Ki volt az Amerikai Egyesült Államok 40. elnöke?",
-      "level": "4",
+      "level": "5",
       "answers": [
          {
             "text": "Barack Obama",
@@ -290,8 +290,8 @@
    {
       "id": 13,
       "category": "Tudomány és technika",
-      "question": "Mi volt a híres magyar gőzmozdony, a Bivaly sorozatszáma?",
-      "level": "3",
+      "question": "Mi a híres magyar gőzmozdony, a Bivaly sorozatszáma?",
+      "level": "4",
       "answers": [
          {
             "text": "242",
@@ -339,7 +339,7 @@
       "id": 15,
       "category": "Sport",
       "question": "Mikor rendezték az első Forma-1-es Magyar Nagydíjat?",
-      "level": "3",
+      "level": "4",
       "answers": [
          {
             "text": "1983",
@@ -363,7 +363,7 @@
       "id": 16,
       "category": "Történelem és közélet",
       "question": "Melyik év április 15-én süllyedt el a Titanic?",
-      "level": "3",
+      "level": "4",
       "answers": [
          {
             "text": "1890",
@@ -387,7 +387,7 @@
       "id": 17,
       "category": "Földrajz",
       "question": "Mi Portugália fővárosa?",
-      "level": "2",
+      "level": "3",
       "answers": [
          {
             "text": "Lisszabon",
@@ -435,7 +435,7 @@
       "id": 19,
       "category": "Élővilág",
       "question": "A következők közül melyik a legkisebb madár?",
-      "level": "3",
+      "level": "4",
       "answers": [
          {
             "text": "méhkolibri",
@@ -459,7 +459,7 @@
       "id": 20,
       "category": "Tudomány és technika",
       "question": "Hivatalosan ki találta fel a telefont?",
-      "level": "2",
+      "level": "3",
       "answers": [
          {
             "text": "Alexander Graham Bell",
@@ -771,7 +771,7 @@
       "id": 33,
       "category": "Sport",
       "question": "Melyik válogatott nyerte meg az 1998-as labdarúgó-világbajnokságot?",
-      "level": "3",
+      "level": "4",
       "answers": [
          {
             "text": "Anglia",
@@ -843,7 +843,7 @@
       "id": 36,
       "category": "Sport",
       "question": "Melyik országban rendezték meg a 2010-es labdarúgó-világbajnokságot?",
-      "level": "3",
+      "level": "4",
       "answers": [
          {
             "text": "Argentína",
@@ -1794,7 +1794,7 @@
             "isCorrect": false
          },
          {
-            "text": "Péterffy Bori",
+            "text": "Péterfy Bori",
             "isCorrect": false
          }
       ]
@@ -8162,7 +8162,7 @@
    {
       "id": 341,
       "category": "Film és TV",
-      "question": "Milyen lény Gimli?",
+      "question": "Milyen lény Gimli \"A Gyűrűk Ura\"-filmekben?",
       "level": "4",
       "answers": [
          {
@@ -10177,7 +10177,7 @@
    },
    {
       "id": 425,
-      "category": "Tudomány és technika",
+      "category": "Életmód",
       "question": "Hány nap van egy szökőévben?",
       "level": "1",
       "answers": [
@@ -10322,7 +10322,7 @@
    {
       "id": 431,
       "category": "Film és TV",
-      "question": "Melyik karakter nem hobbit A Gyűrűk Urában?",
+      "question": "Melyik karakter nem hobbit \"A Gyűrűk Ura\" című filmtrilógiában?",
       "level": "4",
       "answers": [
          {
@@ -14570,7 +14570,7 @@
    {
       "id": 608,
       "category": "Életmód",
-      "question": "melyik forró ital egyik fajtája a puer?",
+      "question": "Melyik forró ital egyik fajtája a puer?",
       "level": "5",
       "answers": [
          {
@@ -19445,7 +19445,7 @@
    {
       "id": 811,
       "category": "Földrajz",
-      "question": "Melyik az Egyesült Államok legkisebb terüleű állama?",
+      "question": "Melyik az Egyesült Államok legkisebb területű állama?",
       "level": "4",
       "answers": [
          {
@@ -20093,7 +20093,7 @@
    {
       "id": 838,
       "category": "Tudomány és technika",
-      "question": "melyik betűt jelöli a nemzetközi morzeábécében a három hosszú jel?",
+      "question": "Melyik betűt jelöli a nemzetközi morzeábécében a három hosszú jel?",
       "level": "4",
       "answers": [
          {
@@ -21364,6 +21364,5766 @@
    },
    {
       "id": 891,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik napszak szerepel Stephenie Meyer első vámpírregényének címében?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "alkonyat",
+            "isCorrect": true
+         },
+         {
+            "text": "este",
+            "isCorrect": false
+         },
+         {
+            "text": "éjszaka",
+            "isCorrect": false
+         },
+         {
+            "text": "pirkadat",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 892,
+      "category": "Földrajz",
+      "question": "Melyik folyóba ömlik a Csele-patak?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Duna",
+            "isCorrect": true
+         },
+         {
+            "text": "Dráva",
+            "isCorrect": false
+         },
+         {
+            "text": "Sajó",
+            "isCorrect": false
+         },
+         {
+            "text": "Tisza",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 893,
+      "category": "Földrajz",
+      "question": "Melyik országban van az afrikai kontinens legdélibb pontja?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Botswana",
+            "isCorrect": false
+         },
+         {
+            "text": "Dél-afrikai Köztársaság",
+            "isCorrect": true
+         },
+         {
+            "text": "Lesotho",
+            "isCorrect": false
+         },
+         {
+            "text": "Namíbia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 894,
+      "category": "Földrajz",
+      "question": "Melyik az afrikai kontinens legdélibb pontja?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Jóreménység foka",
+            "isCorrect": false
+         },
+         {
+            "text": "Tű-fok (Agulhas-fok)",
+            "isCorrect": true
+         },
+         {
+            "text": "Tűzföld",
+            "isCorrect": false
+         },
+         {
+            "text": "Wilson-fok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 895,
+      "category": "Földrajz",
+      "question": "Melyik település ismert medveotthonáról és asszonykórusáról?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Gyöngyös",
+            "isCorrect": false
+         },
+         {
+            "text": "Nyíregyháza",
+            "isCorrect": false
+         },
+         {
+            "text": "Vácduka",
+            "isCorrect": false
+         },
+         {
+            "text": "Veresegyház",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 896,
+      "category": "Földrajz",
+      "question": "Melyik országban található Erdenet városa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Azerbajdzsán",
+            "isCorrect": false
+         },
+         {
+            "text": "India",
+            "isCorrect": false
+         },
+         {
+            "text": "Mongólia",
+            "isCorrect": true
+         },
+         {
+            "text": "Törökország",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 897,
+      "category": "Földrajz",
+      "question": "Melyik országban található Darkhan városa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Afganisztán",
+            "isCorrect": false
+         },
+         {
+            "text": "Mongólia",
+            "isCorrect": true
+         },
+         {
+            "text": "Pakisztán",
+            "isCorrect": false
+         },
+         {
+            "text": "Törökország",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 898,
+      "category": "Földrajz",
+      "question": "Melyik ország fővárosa Ulánbátor?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Afganisztán",
+            "isCorrect": false
+         },
+         {
+            "text": "Kazahsztán",
+            "isCorrect": false
+         },
+         {
+            "text": "Mongólia",
+            "isCorrect": true
+         },
+         {
+            "text": "Türkmenisztán",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 899,
+      "category": "Földrajz",
+      "question": "Melyik hegy látható Szlovénia zászlóján és címerében is?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Mont Blanc",
+            "isCorrect": false
+         },
+         {
+            "text": "Razor",
+            "isCorrect": false
+         },
+         {
+            "text": "Schneeberg",
+            "isCorrect": false
+         },
+         {
+            "text": "Triglav",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 900,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik magyar író nevét viseli Szeged legfontosabb múzeuma?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Babits Mihály",
+            "isCorrect": false
+         },
+         {
+            "text": "Mikszáth Kálmán",
+            "isCorrect": false
+         },
+         {
+            "text": "Móra Ferenc",
+            "isCorrect": true
+         },
+         {
+            "text": "Tömörkény István",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 901,
+      "category": "Földrajz",
+      "question": "Melyik ókori országút vezetett évszázadokon keresztül Észak-Európából a Földközi-tengerig?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Borostyánút",
+            "isCorrect": true
+         },
+         {
+            "text": "\"Könnyek útja\"",
+            "isCorrect": false
+         },
+         {
+            "text": "Selyemút",
+            "isCorrect": false
+         },
+         {
+            "text": "Via Regia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 902,
+      "category": "Földrajz",
+      "question": "Melyik magyar város nevezetessége a túzokrezervátum?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Dévaványa",
+            "isCorrect": true
+         },
+         {
+            "text": "Makó",
+            "isCorrect": false
+         },
+         {
+            "text": "Szarvas",
+            "isCorrect": false
+         },
+         {
+            "text": "Veresegyház",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 903,
+      "category": "Földrajz",
+      "question": "Melyik magyarországi nemzeti parkot alapították elsőként?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Aggteleki",
+            "isCorrect": false
+         },
+         {
+            "text": "Bükki",
+            "isCorrect": false
+         },
+         {
+            "text": "Hortobágyi",
+            "isCorrect": true
+         },
+         {
+            "text": "Kiskunsági",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 904,
+      "category": "Irodalom és kultúra",
+      "question": "Mit igéz a malacra Bóbita Weöres Sándor \"A tündér\" című versében?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "álmot",
+            "isCorrect": false
+         },
+         {
+            "text": "lábat",
+            "isCorrect": false
+         },
+         {
+            "text": "szárnyat",
+            "isCorrect": true
+         },
+         {
+            "text": "varázslatot",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 905,
+      "category": "Film és TV",
+      "question": "Ki játssza Szabó Győzőt a színész életéről szóló \"Toxikoma\" című filmben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bányai Kelemen Barna",
+            "isCorrect": false
+         },
+         {
+            "text": "Csuja Imre",
+            "isCorrect": false
+         },
+         {
+            "text": "Molnár Áron",
+            "isCorrect": true
+         },
+         {
+            "text": "Szabó Győző",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 906,
+      "category": "Film és TV",
+      "question": "Melyik romantikus film szerelmespárja volt Vivian, az utcalány és Edward, az üzletember?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Micsoda nő!",
+            "isCorrect": true
+         },
+         {
+            "text": "Oltári nő",
+            "isCorrect": false
+         },
+         {
+            "text": "Randiguru",
+            "isCorrect": false
+         },
+         {
+            "text": "Üvöltő szelek",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 907,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik párizsi múzeumban találják holtan Jacques Saunière-t \"A Da Vinci kód\" című regényben?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Louvre",
+            "isCorrect": true
+         },
+         {
+            "text": "Musée d'Orsay",
+            "isCorrect": false
+         },
+         {
+            "text": "Palais de Tokyo",
+            "isCorrect": false
+         },
+         {
+            "text": "Pompidou központ",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 908,
+      "category": "Irodalom és kultúra",
+      "question": "Mit árul az elátkozott Bagaméri a \"Keménykalap és krumpliorr\" című regényben?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "cirkuszjegyet",
+            "isCorrect": false
+         },
+         {
+            "text": "fagylaltot",
+            "isCorrect": true
+         },
+         {
+            "text": "kenyeret",
+            "isCorrect": false
+         },
+         {
+            "text": "krumplit",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 909,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik orosz író színművében próbálnak megkenni valakit korrupt tiszviselők, mert revizornak vélik?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Alekszandr Szergejevics Puskin",
+            "isCorrect": false
+         },
+         {
+            "text": "Fjodor Mihajlovics Dosztojevszkij",
+            "isCorrect": false
+         },
+         {
+            "text": "Lev Nyikolajevics Tolsztoj",
+            "isCorrect": false
+         },
+         {
+            "text": "Nyikolaj Vasziljevics Gogol",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 910,
+      "category": "Irodalom és kultúra",
+      "question": "Kinek a rémtetteiről szól Bram Stoker leghíresebb, 1897-ben kiadott regénye?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Báthory Erzsébet",
+            "isCorrect": false
+         },
+         {
+            "text": "Drakula",
+            "isCorrect": true
+         },
+         {
+            "text": "Ed Kemper",
+            "isCorrect": false
+         },
+         {
+            "text": "Hasfelmetsző Jack",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 911,
+      "category": "Film és TV",
+      "question": "Milyen rovarnak kölcsönzte a hangját Woody Allen egy amerikai rajzfilmben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "darázs",
+            "isCorrect": false
+         },
+         {
+            "text": "hangya",
+            "isCorrect": true
+         },
+         {
+            "text": "légy",
+            "isCorrect": false
+         },
+         {
+            "text": "pók",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 912,
+      "category": "Film és TV",
+      "question": "Ki az a milliárdos feltaláló, aki saját magát alakítja a \"Vasember\"-filmek második részében?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bill Gates",
+            "isCorrect": false
+         },
+         {
+            "text": "Charles Simonyi",
+            "isCorrect": false
+         },
+         {
+            "text": "Elon Musk",
+            "isCorrect": true
+         },
+         {
+            "text": "Udvarházy Ferenc István",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 913,
+      "category": "Film és TV",
+      "question": "Hogy hívják a labdát a \"Számkivetett\" című filmben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Péntek",
+            "isCorrect": false
+         },
+         {
+            "text": "Pöttyös",
+            "isCorrect": false
+         },
+         {
+            "text": "Sanyi",
+            "isCorrect": false
+         },
+         {
+            "text": "Wilson",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 914,
+      "category": "Irodalom és kultúra",
+      "question": "Milyen színű a csillag Amerika Kapitány korong alakú pajzsán a képregényekben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "fehér",
+            "isCorrect": true
+         },
+         {
+            "text": "kék",
+            "isCorrect": false
+         },
+         {
+            "text": "piros",
+            "isCorrect": false
+         },
+         {
+            "text": "zöld",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 915,
+      "category": "Irodalom és kultúra",
+      "question": "Milyen lábbelije van tele annak, aki már nagyon un valamit?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "félcipője",
+            "isCorrect": false
+         },
+         {
+            "text": "hócipője",
+            "isCorrect": true
+         },
+         {
+            "text": "hótaposója",
+            "isCorrect": false
+         },
+         {
+            "text": "tornacipője",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 916,
+      "category": "Irodalom és kultúra",
+      "question": "Kinek a novellahőse Esti Kornél?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Karinthy Frigyes",
+            "isCorrect": false
+         },
+         {
+            "text": "Kosztolányi Dezső",
+            "isCorrect": true
+         },
+         {
+            "text": "Mikszáth Kálmán",
+            "isCorrect": false
+         },
+         {
+            "text": "Örkény István",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 917,
+      "category": "Film és TV",
+      "question": "Melyik évtizedbe utazott vissza Marty McFly a \"Vissza a jövőbe\" című filmben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "1880-as évek",
+            "isCorrect": false
+         },
+         {
+            "text": "1950-es évek",
+            "isCorrect": true
+         },
+         {
+            "text": "1960-as évek",
+            "isCorrect": false
+         },
+         {
+            "text": "1980-as évek",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 918,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik állatfajhoz tartozik Felix Salten mesehőse, Bambi?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "kutya",
+            "isCorrect": false
+         },
+         {
+            "text": "medve",
+            "isCorrect": false
+         },
+         {
+            "text": "őz",
+            "isCorrect": true
+         },
+         {
+            "text": "szarvas",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 919,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik Verne-regény hősei Báthory István, Sárkány és Torontál Simon?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Nemo kapitány",
+            "isCorrect": false
+         },
+         {
+            "text": "Nyolcvan nap alatt a Föld körül",
+            "isCorrect": false
+         },
+         {
+            "text": "Sándor Mátyás",
+            "isCorrect": true
+         },
+         {
+            "text": "Sztrogof Mihály",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 920,
+      "category": "Film és TV",
+      "question": "Melyik James Bond-film betétdalát énekelte Tina Turner?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Aranyszem",
+            "isCorrect": true
+         },
+         {
+            "text": "A világ nem elég",
+            "isCorrect": false
+         },
+         {
+            "text": "Casino Royale",
+            "isCorrect": false
+         },
+         {
+            "text": "Halj meg máskor",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 921,
+      "category": "Irodalom és kultúra",
+      "question": "Milyen nemzetiségű gyerek vágta meg a gólya lábát a gyerekmondókában?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "magyar",
+            "isCorrect": false
+         },
+         {
+            "text": "német",
+            "isCorrect": false
+         },
+         {
+            "text": "osztrák",
+            "isCorrect": false
+         },
+         {
+            "text": "török",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 922,
+      "category": "Irodalom és kultúra",
+      "question": "Stephen King melyik híres regényének folytatása az \"Álom doktor\"?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "A halálsoron",
+            "isCorrect": false
+         },
+         {
+            "text": "Álomcsapda",
+            "isCorrect": false
+         },
+         {
+            "text": "A ragyogás",
+            "isCorrect": true
+         },
+         {
+            "text": "Az",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 923,
+      "category": "Irodalom és kultúra",
+      "question": "Mi az újperzsa nyelv másik, ismertebb neve?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "dari",
+            "isCorrect": false
+         },
+         {
+            "text": "fárszi",
+            "isCorrect": true
+         },
+         {
+            "text": "pastu",
+            "isCorrect": false
+         },
+         {
+            "text": "szanszkrit",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 924,
+      "category": "Film és TV",
+      "question": "Melyik filmsorozat főhőse a cipőárus Al Bundy?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Egy rém rendes család",
+            "isCorrect": true
+         },
+         {
+            "text": "Egyről a kettőre",
+            "isCorrect": false
+         },
+         {
+            "text": "Jóbarátok",
+            "isCorrect": false
+         },
+         {
+            "text": "Váratlan utazás",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 925,
+      "category": "Film és TV",
+      "question": "Ki vezette legendássá vált pöttyös labdáival a \"Három kívánság\" című gyerekműsort?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "B. Tóth László",
+            "isCorrect": false
+         },
+         {
+            "text": "Dévényi Tibor",
+            "isCorrect": true
+         },
+         {
+            "text": "Jáksó László",
+            "isCorrect": false
+         },
+         {
+            "text": "Stohl András",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 926,
+      "category": "Film és TV",
+      "question": "Milyen fajtájú kutya Scooby-Doo?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "bernáthegyi",
+            "isCorrect": false
+         },
+         {
+            "text": "Jack Russell terrier",
+            "isCorrect": false
+         },
+         {
+            "text": "német dog",
+            "isCorrect": true
+         },
+         {
+            "text": "németjuhász",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 927,
+      "category": "Irodalom és kultúra",
+      "question": "Mit csinál apa Zelk Zoltán \"Este jó, este jó\" című versében?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "alszik",
+            "isCorrect": false
+         },
+         {
+            "text": "főz",
+            "isCorrect": false
+         },
+         {
+            "text": "mosdik",
+            "isCorrect": true
+         },
+         {
+            "text": "vacsorázik",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 928,
+      "category": "Irodalom és kultúra",
+      "question": "Milyen lények közé tartozik a \"A Gyűrűk Ura\" című fantasyregényből ismert Zsákos Frodó?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "ent",
+            "isCorrect": false
+         },
+         {
+            "text": "hobbit",
+            "isCorrect": true
+         },
+         {
+            "text": "ork",
+            "isCorrect": false
+         },
+         {
+            "text": "tünde",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 929,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik növény termését hiszik csikótojásnak a rátótiak a mesében?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "almafa",
+            "isCorrect": false
+         },
+         {
+            "text": "görögdinnye",
+            "isCorrect": false
+         },
+         {
+            "text": "sárgadinnye",
+            "isCorrect": false
+         },
+         {
+            "text": "tök",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 930,
+      "category": "Film és TV",
+      "question": "Melyik alkotás nyerte a 2020-as legjobb filmnek járó Oscar-díjat?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "A nomádok földje",
+            "isCorrect": true
+         },
+         {
+            "text": "Az aszfalt királyai",
+            "isCorrect": false
+         },
+         {
+            "text": "Csillag születik",
+            "isCorrect": false
+         },
+         {
+            "text": "Dűne",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 931,
+      "category": "Film és TV",
+      "question": "Melyik amerikai államban bérelnek lakást az Agymenők című sorozat főszereplői?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Florida",
+            "isCorrect": false
+         },
+         {
+            "text": "Kalifornia",
+            "isCorrect": true
+         },
+         {
+            "text": "Texas",
+            "isCorrect": false
+         },
+         {
+            "text": "Utah",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 932,
+      "category": "Tudomány és technika",
+      "question": "Mik a pixelek a számítástechnikában?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "a képernyőn megjelenő képek apró alkotóelemei",
+            "isCorrect": true
+         },
+         {
+            "text": "a mátix négyzetrács együtthatói",
+            "isCorrect": false
+         },
+         {
+            "text": "a nyomtatott áramkör elemei",
+            "isCorrect": false
+         },
+         {
+            "text": "apró tranzisztorok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 933,
+      "category": "Tudomány és technika",
+      "question": "Mi a számítógép \"agya\"?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "memória (RAM)",
+            "isCorrect": false
+         },
+         {
+            "text": "merevlemez (HDD/SSD)",
+            "isCorrect": false
+         },
+         {
+            "text": "processzor (CPU)",
+            "isCorrect": true
+         },
+         {
+            "text": "videókártya (VGA)",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 934,
+      "category": "Tudomány és technika",
+      "question": "Milyen memória a ROM?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "csak írható",
+            "isCorrect": false
+         },
+         {
+            "text": "csak olvasható",
+            "isCorrect": true
+         },
+         {
+            "text": "írható és olvasható",
+            "isCorrect": false
+         },
+         {
+            "text": "törölhető és programozható",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 935,
+      "category": "Tudomány és technika",
+      "question": "Melyik nem a számítógép része?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "alaplap",
+            "isCorrect": false
+         },
+         {
+            "text": "memória (RAM)",
+            "isCorrect": false
+         },
+         {
+            "text": "pendrive",
+            "isCorrect": true
+         },
+         {
+            "text": "processzor (CPU)",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 936,
+      "category": "Tudomány és technika",
+      "question": "Melyik gyümölcs egy számítógépeket és mobiltelefonokat is gyártó cég logója?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "alma",
+            "isCorrect": true
+         },
+         {
+            "text": "banán",
+            "isCorrect": false
+         },
+         {
+            "text": "citrom",
+            "isCorrect": false
+         },
+         {
+            "text": "körte",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 937,
+      "category": "Tudomány és technika",
+      "question": "Mekkora a szabványos CD-lemez átmérője?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "80 mm",
+            "isCorrect": false
+         },
+         {
+            "text": "110 mm",
+            "isCorrect": false
+         },
+         {
+            "text": "115 mm",
+            "isCorrect": false
+         },
+         {
+            "text": "120 mm",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 938,
+      "category": "Tudomány és technika",
+      "question": "Hány gigabyte (GB) a névleges adattartalma egy egyoldalú DVD-lemeznek?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "3",
+            "isCorrect": false
+         },
+         {
+            "text": "4,4",
+            "isCorrect": false
+         },
+         {
+            "text": "4,7",
+            "isCorrect": true
+         },
+         {
+            "text": "5,2",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 939,
+      "category": "Tudomány és technika",
+      "question": "Mekkora a szabványos tárolókapacitása a kicsi, 3,5 hüvelykes floppylemeznek?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "720 kB",
+            "isCorrect": false
+         },
+         {
+            "text": "1,44 MB",
+            "isCorrect": true
+         },
+         {
+            "text": "2 MB",
+            "isCorrect": false
+         },
+         {
+            "text": "600 MB",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 940,
+      "category": "Tudomány és technika",
+      "question": "Minek a rövidítése a számítástechnikában a WLAN?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "optikai kábelt használó helyi hálózat",
+            "isCorrect": false
+         },
+         {
+            "text": "rádióhullámot használó, vezeték nélküli helyi hálózat",
+            "isCorrect": true
+         },
+         {
+            "text": "szélessávú internetkapcsolat",
+            "isCorrect": false
+         },
+         {
+            "text": "virtuális hálózat",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 941,
+      "category": "Tudomány és technika",
+      "question": "Hány megabyte (MB) egy gigabyte (GB) a számítástechnikában?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "8",
+            "isCorrect": false
+         },
+         {
+            "text": "100",
+            "isCorrect": false
+         },
+         {
+            "text": "1000",
+            "isCorrect": false
+         },
+         {
+            "text": "1024",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 942,
+      "category": "Tudomány és technika",
+      "question": "Mi a VGA a számítógépben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "alaplap",
+            "isCorrect": false
+         },
+         {
+            "text": "DVD-olvasó",
+            "isCorrect": false
+         },
+         {
+            "text": "processzor",
+            "isCorrect": false
+         },
+         {
+            "text": "videókártya",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 943,
+      "category": "Tudomány és technika",
+      "question": "Melyik nem a számítógép kimeneti perifériája?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "hangszóró",
+            "isCorrect": false
+         },
+         {
+            "text": "lapolvasó (scanner)",
+            "isCorrect": true
+         },
+         {
+            "text": "monitor",
+            "isCorrect": false
+         },
+         {
+            "text": "nyomtató",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 944,
+      "category": "Tudomány és technika",
+      "question": "Mikor alapították a Google-t?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "1990",
+            "isCorrect": false
+         },
+         {
+            "text": "1995",
+            "isCorrect": false
+         },
+         {
+            "text": "1998",
+            "isCorrect": true
+         },
+         {
+            "text": "2001",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 945,
+      "category": "Tudomány és technika",
+      "question": "Hány értéke lehet egy bitnek a számítástechnikában?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "1",
+            "isCorrect": false
+         },
+         {
+            "text": "2",
+            "isCorrect": true
+         },
+         {
+            "text": "8",
+            "isCorrect": false
+         },
+         {
+            "text": "10",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 946,
+      "category": "Tudomány és technika",
+      "question": "Mit lehet tömöríteni MP3 fájlba?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "bármilyen adatot",
+            "isCorrect": false
+         },
+         {
+            "text": "filmet",
+            "isCorrect": false
+         },
+         {
+            "text": "hangot",
+            "isCorrect": true
+         },
+         {
+            "text": "képet",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 947,
+      "category": "Tudomány és technika",
+      "question": "Milyen kiterjesztésű állományokat lehet megnyitni az Adobe Reader programmal?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "doc",
+            "isCorrect": false
+         },
+         {
+            "text": "exe",
+            "isCorrect": false
+         },
+         {
+            "text": "pdf",
+            "isCorrect": true
+         },
+         {
+            "text": "xls",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 948,
+      "category": "Tudomány és technika",
+      "question": "Melyik nem egy digitális képformátum?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "avi",
+            "isCorrect": false
+         },
+         {
+            "text": "jpeg",
+            "isCorrect": false
+         },
+         {
+            "text": "png",
+            "isCorrect": false
+         },
+         {
+            "text": "tif",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 949,
+      "category": "Tudomány és technika",
+      "question": "Mi Magyarország domain-végződése?",
+      "level": "2",
+      "answers": [
+         {
+            "text": ".com",
+            "isCorrect": false
+         },
+         {
+            "text": ".hu",
+            "isCorrect": true
+         },
+         {
+            "text": ".mo",
+            "isCorrect": false
+         },
+         {
+            "text": ".org",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 950,
+      "category": "Tudomány és technika",
+      "question": "Hányas számrendszer a számítástechnika alapja?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "2-es",
+            "isCorrect": true
+         },
+         {
+            "text": "8-as",
+            "isCorrect": false
+         },
+         {
+            "text": "10-es",
+            "isCorrect": false
+         },
+         {
+            "text": "16-os",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 951,
+      "category": "Földrajz",
+      "question": "Mi Németország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Berlin",
+            "isCorrect": true
+         },
+         {
+            "text": "Bonn",
+            "isCorrect": false
+         },
+         {
+            "text": "Hamburg",
+            "isCorrect": false
+         },
+         {
+            "text": "München",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 952,
+      "category": "Földrajz",
+      "question": "Mi Franciaország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Berlin",
+            "isCorrect": false
+         },
+         {
+            "text": "Lisszabon",
+            "isCorrect": false
+         },
+         {
+            "text": "Marseille",
+            "isCorrect": false
+         },
+         {
+            "text": "Párizs",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 953,
+      "category": "Földrajz",
+      "question": "Mi Szlovákia fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Kassa",
+            "isCorrect": false
+         },
+         {
+            "text": "Pozsony",
+            "isCorrect": true
+         },
+         {
+            "text": "Prága",
+            "isCorrect": false
+         },
+         {
+            "text": "Varsó",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 954,
+      "category": "Földrajz",
+      "question": "Mi Lengyelország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Kassa",
+            "isCorrect": false
+         },
+         {
+            "text": "Krakkó",
+            "isCorrect": false
+         },
+         {
+            "text": "Prága",
+            "isCorrect": false
+         },
+         {
+            "text": "Varsó",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 955,
+      "category": "Földrajz",
+      "question": "Mi Ukrajna fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Kijev",
+            "isCorrect": true
+         },
+         {
+            "text": "Lviv",
+            "isCorrect": false
+         },
+         {
+            "text": "Munkács",
+            "isCorrect": false
+         },
+         {
+            "text": "Odessza",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 956,
+      "category": "Földrajz",
+      "question": "Mi Ausztria fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Bécs",
+            "isCorrect": true
+         },
+         {
+            "text": "Bern",
+            "isCorrect": false
+         },
+         {
+            "text": "Pozsony",
+            "isCorrect": false
+         },
+         {
+            "text": "Salzburg",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 957,
+      "category": "Földrajz",
+      "question": "Mi Kína fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Katmandu",
+            "isCorrect": false
+         },
+         {
+            "text": "Kuala Lumpur",
+            "isCorrect": false
+         },
+         {
+            "text": "Peking",
+            "isCorrect": true
+         },
+         {
+            "text": "Tokió",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 958,
+      "category": "Földrajz",
+      "question": "Mi Japán fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Hanoi",
+            "isCorrect": false
+         },
+         {
+            "text": "Jakarta",
+            "isCorrect": false
+         },
+         {
+            "text": "Peking",
+            "isCorrect": false
+         },
+         {
+            "text": "Tokió",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 959,
+      "category": "Földrajz",
+      "question": "Mi Ausztrália fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Canberra",
+            "isCorrect": true
+         },
+         {
+            "text": "Melbourne",
+            "isCorrect": false
+         },
+         {
+            "text": "Sydney",
+            "isCorrect": false
+         },
+         {
+            "text": "Wellington",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 960,
+      "category": "Földrajz",
+      "question": "Mi Oroszország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Jekatyerinburg",
+            "isCorrect": false
+         },
+         {
+            "text": "Moszkva",
+            "isCorrect": true
+         },
+         {
+            "text": "Szentpétervár",
+            "isCorrect": false
+         },
+         {
+            "text": "Vlagyivosztok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 961,
+      "category": "Földrajz",
+      "question": "Mi Olaszország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Bologna",
+            "isCorrect": false
+         },
+         {
+            "text": "Milánó",
+            "isCorrect": false
+         },
+         {
+            "text": "Pisa",
+            "isCorrect": false
+         },
+         {
+            "text": "Róma",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 962,
+      "category": "Földrajz",
+      "question": "Mi Szlovénia fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Eszék",
+            "isCorrect": false
+         },
+         {
+            "text": "Ljubljana",
+            "isCorrect": true
+         },
+         {
+            "text": "Maribor",
+            "isCorrect": false
+         },
+         {
+            "text": "Zágráb",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 963,
+      "category": "Földrajz",
+      "question": "Mi Horvátország fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Fiume (Rijeka)",
+            "isCorrect": false
+         },
+         {
+            "text": "Ljubljana",
+            "isCorrect": false
+         },
+         {
+            "text": "Póla (Pula)",
+            "isCorrect": false
+         },
+         {
+            "text": "Zágráb",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 964,
+      "category": "Földrajz",
+      "question": "Mi Belgium fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Antwerpen",
+            "isCorrect": false
+         },
+         {
+            "text": "Brüsszel",
+            "isCorrect": true
+         },
+         {
+            "text": "Gent",
+            "isCorrect": false
+         },
+         {
+            "text": "Hága",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 965,
+      "category": "Földrajz",
+      "question": "Mi Svédország fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Göteborg",
+            "isCorrect": false
+         },
+         {
+            "text": "Koppenhága",
+            "isCorrect": false
+         },
+         {
+            "text": "Malmö",
+            "isCorrect": false
+         },
+         {
+            "text": "Stockholm",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 966,
+      "category": "Földrajz",
+      "question": "Mi Norvégia fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Koppenhága",
+            "isCorrect": false
+         },
+         {
+            "text": "Oslo",
+            "isCorrect": true
+         },
+         {
+            "text": "Stockholm",
+            "isCorrect": false
+         },
+         {
+            "text": "Trelleborg",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 967,
+      "category": "Földrajz",
+      "question": "Mi Finnország fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Helsinki",
+            "isCorrect": true
+         },
+         {
+            "text": "Koppenhága",
+            "isCorrect": false
+         },
+         {
+            "text": "Kuopio",
+            "isCorrect": false
+         },
+         {
+            "text": "Stockholm",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 968,
+      "category": "Földrajz",
+      "question": "Mi Új-Zéland fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Canberra",
+            "isCorrect": false
+         },
+         {
+            "text": "Hobart",
+            "isCorrect": false
+         },
+         {
+            "text": "Sydney",
+            "isCorrect": false
+         },
+         {
+            "text": "Wellington",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 969,
+      "category": "Földrajz",
+      "question": "Mi Indonézia fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Jakarta",
+            "isCorrect": true
+         },
+         {
+            "text": "Kuala Lumpur",
+            "isCorrect": false
+         },
+         {
+            "text": "Manila",
+            "isCorrect": false
+         },
+         {
+            "text": "Tokió",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 970,
+      "category": "Földrajz",
+      "question": "Mi Egyiptom fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Addisz-Abeba",
+            "isCorrect": false
+         },
+         {
+            "text": "Alexandria",
+            "isCorrect": false
+         },
+         {
+            "text": "Kairó",
+            "isCorrect": true
+         },
+         {
+            "text": "Tripoli",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 971,
+      "category": "Földrajz",
+      "question": "Mi Borsod-Abaúj-Zemplén vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Debrecen",
+            "isCorrect": false
+         },
+         {
+            "text": "Miskolc",
+            "isCorrect": true
+         },
+         {
+            "text": "Nyíregyháza",
+            "isCorrect": false
+         },
+         {
+            "text": "Tokaj",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 972,
+      "category": "Földrajz",
+      "question": "Mi Szabolcs-Szatmár-Bereg vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Debrecen",
+            "isCorrect": false
+         },
+         {
+            "text": "Mátészalka",
+            "isCorrect": false
+         },
+         {
+            "text": "Miskolc",
+            "isCorrect": false
+         },
+         {
+            "text": "Nyíregyháza",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 973,
+      "category": "Földrajz",
+      "question": "Mi Hajdú-Bihar vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Debrecen",
+            "isCorrect": true
+         },
+         {
+            "text": "Hajdúböszörmény",
+            "isCorrect": false
+         },
+         {
+            "text": "Miskolc",
+            "isCorrect": false
+         },
+         {
+            "text": "Nyíregyháza",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 974,
+      "category": "Földrajz",
+      "question": "Mi Heves vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Eger",
+            "isCorrect": true
+         },
+         {
+            "text": "Gyöngyös",
+            "isCorrect": false
+         },
+         {
+            "text": "Hatvan",
+            "isCorrect": false
+         },
+         {
+            "text": "Jászberény",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 975,
+      "category": "Földrajz",
+      "question": "Mi Jász-Nagykun-Szolnok vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Jászapáti",
+            "isCorrect": false
+         },
+         {
+            "text": "Jászberény",
+            "isCorrect": false
+         },
+         {
+            "text": "Kecskemét",
+            "isCorrect": false
+         },
+         {
+            "text": "Szolnok",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 976,
+      "category": "Földrajz",
+      "question": "Mi Bács-Kiskun vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Cegléd",
+            "isCorrect": false
+         },
+         {
+            "text": "Kecskemét",
+            "isCorrect": true
+         },
+         {
+            "text": "Nagykőrös",
+            "isCorrect": false
+         },
+         {
+            "text": "Szolnok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 977,
+      "category": "Földrajz",
+      "question": "Mi Békés vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Békés",
+            "isCorrect": false
+         },
+         {
+            "text": "Békéscsaba",
+            "isCorrect": true
+         },
+         {
+            "text": "Gyula",
+            "isCorrect": false
+         },
+         {
+            "text": "Szeged",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 978,
+      "category": "Földrajz",
+      "question": "Mi Csongrád-Csanád vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Csongrád",
+            "isCorrect": false
+         },
+         {
+            "text": "Hódmezővásárhely",
+            "isCorrect": false
+         },
+         {
+            "text": "Szeged",
+            "isCorrect": true
+         },
+         {
+            "text": "Szentes",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 979,
+      "category": "Földrajz",
+      "question": "Mi Somogy vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Baja",
+            "isCorrect": false
+         },
+         {
+            "text": "Dombóvár",
+            "isCorrect": false
+         },
+         {
+            "text": "Kaposvár",
+            "isCorrect": true
+         },
+         {
+            "text": "Pécs",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 980,
+      "category": "Földrajz",
+      "question": "Mi Veszprém vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Ajka",
+            "isCorrect": false
+         },
+         {
+            "text": "Balatonfüred",
+            "isCorrect": false
+         },
+         {
+            "text": "Székesfehérvár",
+            "isCorrect": false
+         },
+         {
+            "text": "Veszprém",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 981,
+      "category": "Földrajz",
+      "question": "Mi Vas vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Győr",
+            "isCorrect": false
+         },
+         {
+            "text": "Kőszeg",
+            "isCorrect": false
+         },
+         {
+            "text": "Sopron",
+            "isCorrect": false
+         },
+         {
+            "text": "Szombathely",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 982,
+      "category": "Földrajz",
+      "question": "Mi Győr-Moson-Sopron vármegye székhelye?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Győr",
+            "isCorrect": true
+         },
+         {
+            "text": "Komárom",
+            "isCorrect": false
+         },
+         {
+            "text": "Sopron",
+            "isCorrect": false
+         },
+         {
+            "text": "Szombathely",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 983,
+      "category": "Földrajz",
+      "question": "Mi Komárom-Esztergom vármegye székhelye?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Esztergom",
+            "isCorrect": false
+         },
+         {
+            "text": "Komárom",
+            "isCorrect": false
+         },
+          {
+            "text": "Székesfehérvár",
+            "isCorrect": false
+         },
+         {
+            "text": "Tatabánya",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 984,
+      "category": "Földrajz",
+      "question": "Mi Baranya vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Dombóvár",
+            "isCorrect": false
+         },
+         {
+            "text": "Kaposvár",
+            "isCorrect": false
+         },
+         {
+            "text": "Mohács",
+            "isCorrect": false
+         },
+         {
+            "text": "Pécs",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 985,
+      "category": "Földrajz",
+      "question": "Mi Zala vármegye székhelye?",
+      "level": "2",
+      "answers": [ 
+         {
+            "text": "Nagykanizsa",
+            "isCorrect": false
+         },
+         {
+            "text": "Szombathely",
+            "isCorrect": false
+         },
+         {
+            "text": "Zalaegerszeg",
+            "isCorrect": true
+         },
+         {
+            "text": "Zalaszentgrót",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 986,
+      "category": "Földrajz",
+      "question": "Mi Nógrád vármegye székhelye?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Balassagyarmat",
+            "isCorrect": false
+         },
+         {
+            "text": "Hatvan",
+            "isCorrect": false
+         },
+          {
+            "text": "Nógrád",
+            "isCorrect": false
+         },
+         {
+            "text": "Salgótarján",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 987,
+      "category": "Földrajz",
+      "question": "Mi Tolna vármegye székhelye?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Baja",
+            "isCorrect": false
+         },
+         {
+            "text": "Dombóvár",
+            "isCorrect": false
+         },
+         {
+            "text": "Szekszárd",
+            "isCorrect": true
+         },
+         {
+            "text": "Tolna",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 988,
+      "category": "Földrajz",
+      "question": "Mi Pest vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Budapest",
+            "isCorrect": true
+         },
+         {
+            "text": "Cegléd",
+            "isCorrect": false
+         },
+         {
+            "text": "Érd",
+            "isCorrect": false
+         },
+         {
+            "text": "Szigetszentmiklós",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 989,
+      "category": "Földrajz",
+      "question": "Mi Fejér vármegye székhelye?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Balatonfüred",
+            "isCorrect": false
+         },
+         {
+            "text": "Bicske",
+            "isCorrect": false
+         },
+         {
+            "text": "Siófok",
+            "isCorrect": false
+         },
+         {
+            "text": "Székesfehérvár",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 990,
+      "category": "Földrajz",
+      "question": "Hány vármegyéből áll jelenleg Magyarország?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "17",
+            "isCorrect": false
+         },
+         {
+            "text": "18",
+            "isCorrect": true
+         },
+         {
+            "text": "19",
+            "isCorrect": false
+         },
+         {
+            "text": "20",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 991,
+      "category": "Földrajz",
+      "question": "Mi Magyarország fővárosa?",
+      "level": "1",
+      "answers": [
+         {
+            "text": "Budapest",
+            "isCorrect": true
+         },
+         {
+            "text": "Bukarest",
+            "isCorrect": false
+         },
+         {
+            "text": "Debrecen",
+            "isCorrect": false
+         },
+         {
+            "text": "Miskolc",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 992,
+      "category": "Földrajz",
+      "question": "Mi Spanyolország fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Barcelona",
+            "isCorrect": false
+         },
+         {
+            "text": "Lisszabon",
+            "isCorrect": false
+         },
+         {
+            "text": "Madrid",
+            "isCorrect": true
+         },
+         {
+            "text": "Párizs",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 993,
+      "category": "Földrajz",
+      "question": "Mi Görögország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Athén",
+            "isCorrect": true
+         },
+         {
+            "text": "Róma",
+            "isCorrect": false
+         },
+         {
+            "text": "Szaloniki",
+            "isCorrect": false
+         },
+         {
+            "text": "Szófia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 994,
+      "category": "Földrajz",
+      "question": "Mi Törökország fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Athén",
+            "isCorrect": false
+         },
+         {
+            "text": "Bukarest",
+            "isCorrect": false
+         },
+         {
+            "text": "Isztambul",
+            "isCorrect": true
+         },
+         {
+            "text": "Szófia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 995,
+      "category": "Földrajz",
+      "question": "Mi Bulgária fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Athén",
+            "isCorrect": false
+         },
+         {
+            "text": "Burgasz",
+            "isCorrect": false
+         },
+         {
+            "text": "Szófia",
+            "isCorrect": true
+         },
+         {
+            "text": "Várna",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 996,
+      "category": "Földrajz",
+      "question": "Mi Szerbia fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Bukarest",
+            "isCorrect": false
+         },
+         {
+            "text": "Belgrád",
+            "isCorrect": true
+         },
+         {
+            "text": "Újvidék",
+            "isCorrect": false
+         },
+         {
+            "text": "Zágráb",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 997,
+      "category": "Földrajz",
+      "question": "Mi Albánia fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Belgrád",
+            "isCorrect": false
+         },
+         {
+            "text": "Dubrovnik",
+            "isCorrect": false
+         },
+         {
+            "text": "Szófia",
+            "isCorrect": false
+         },
+         {
+            "text": "Tirana",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 998,
+      "category": "Földrajz",
+      "question": "Mi Észak-Macedónia fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Belgrád",
+            "isCorrect": false
+         },
+         {
+            "text": "Szkopje",
+            "isCorrect": true
+         },
+         {
+            "text": "Szófia",
+            "isCorrect": false
+         },
+         {
+            "text": "Tirana",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 999,
+      "category": "Földrajz",
+      "question": "Mi Ciprus fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Iráklio",
+            "isCorrect": false
+         },
+         {
+            "text": "Nicosia",
+            "isCorrect": true
+         },
+         {
+            "text": "Páfosz",
+            "isCorrect": false
+         },
+         {
+            "text": "Szaloniki",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1000,
+      "category": "Földrajz",
+      "question": "Mi az Egyesült Királyság fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Edinburgh",
+            "isCorrect": false
+         },
+         {
+            "text": "London",
+            "isCorrect": true
+         },
+         {
+            "text": "Manchester",
+            "isCorrect": false
+         },
+         {
+            "text": "Párizs",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1001,
+      "category": "Földrajz",
+      "question": "Mi az Amerikai Egyesült Államok fővárosa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "Las Vegas",
+            "isCorrect": false
+         },
+         {
+            "text": "New York",
+            "isCorrect": false
+         },
+         {
+            "text": "San Francisco",
+            "isCorrect": false
+         },
+         {
+            "text": "Washington",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1002,
+      "category": "Földrajz",
+      "question": "Mi Dánia fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Billund",
+            "isCorrect": false
+         },
+         {
+            "text": "Koppenhága",
+            "isCorrect": true
+         },
+         {
+            "text": "Oslo",
+            "isCorrect": false
+         },
+         {
+            "text": "Malmö",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1003,
+      "category": "Földrajz",
+      "question": "Mi Kanada fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Montréal",
+            "isCorrect": false
+         },
+         {
+            "text": "Ottawa",
+            "isCorrect": true
+         },
+         {
+            "text": "Québec",
+            "isCorrect": false
+         },
+         {
+            "text": "Vancouver",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1004,
+      "category": "Földrajz",
+      "question": "Mi India fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bangkok",
+            "isCorrect": false
+         },
+         {
+            "text": "Dakka",
+            "isCorrect": false
+         },
+         {
+            "text": "Manila",
+            "isCorrect": false
+         },
+         {
+            "text": "Új-Delhi",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1005,
+      "category": "Földrajz",
+      "question": "Mi Thaiföld fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Bangkok",
+            "isCorrect": true
+         },
+         {
+            "text": "Kuala Lumpur",
+            "isCorrect": false
+         },
+         {
+            "text": "Manila",
+            "isCorrect": false
+         },
+         {
+            "text": "Új-Delhi",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1006,
+      "category": "Földrajz",
+      "question": "Mi Malajzia fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Jakarta",
+            "isCorrect": false
+         },
+         {
+            "text": "Kuala Lumpur",
+            "isCorrect": true
+         },
+         {
+            "text": "Manila",
+            "isCorrect": false
+         },
+         {
+            "text": "Timpu",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1007,
+      "category": "Földrajz",
+      "question": "Mi Bhután fővárosa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bangkok",
+            "isCorrect": false
+         },
+         {
+            "text": "Dakka",
+            "isCorrect": false
+         },
+         {
+            "text": "Timpu",
+            "isCorrect": true
+         },
+         {
+            "text": "Ulánbátor",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1008,
+      "category": "Földrajz",
+      "question": "Mi Nepál fővárosa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bangkok",
+            "isCorrect": false
+         },
+         {
+            "text": "Katmandu",
+            "isCorrect": true
+         },
+         {
+            "text": "Peking",
+            "isCorrect": false
+         },
+         {
+            "text": "Új-Delhi",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1009,
+      "category": "Földrajz",
+      "question": "Mi Vietnám fővárosa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bangkok",
+            "isCorrect": false
+         },
+         {
+            "text": "Hanoi",
+            "isCorrect": true
+         },
+         {
+            "text": "Jakarta",
+            "isCorrect": false
+         },
+         {
+            "text": "Manila",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1010,
+      "category": "Földrajz",
+      "question": "Mi Laosz fővárosa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Hanoi",
+            "isCorrect": false
+         },
+         {
+            "text": "Kuala Lumpur",
+            "isCorrect": false
+         },
+         {
+            "text": "Manila",
+            "isCorrect": false
+         },
+         {
+            "text": "Vientián",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1011,
+      "category": "Földrajz",
+      "question": "Melyik hegycsúcs nem a Himalájában található?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Csomolungma",
+            "isCorrect": false
+         },
+         {
+            "text": "Elbrusz",
+            "isCorrect": true
+         },
+         {
+            "text": "K2",
+            "isCorrect": false
+         },
+         {
+            "text": "Kancsendzönga",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1012,
+      "category": "Földrajz",
+      "question": "Melyik hegycsúcs nem az Alpokban található?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Jungfrau",
+            "isCorrect": false
+         },
+         {
+            "text": "Kancsendzönga",
+            "isCorrect": true
+         },
+         {
+            "text": "Matterhorn",
+            "isCorrect": false
+         },
+         {
+            "text": "Mont Blanc",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1013,
+      "category": "Földrajz",
+      "question": "Mi Liechtenstein fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Graz",
+            "isCorrect": false
+         },
+         {
+            "text": "München",
+            "isCorrect": false
+         },
+         {
+            "text": "Vaduz",
+            "isCorrect": true
+         },
+         {
+            "text": "Zürich",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1014,
+      "category": "Földrajz",
+      "question": "Mi Málta fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Andorra la Vella",
+            "isCorrect": false
+         },
+         {
+            "text": "Nicosia",
+            "isCorrect": false
+         },
+         {
+            "text": "Tirana",
+            "isCorrect": false
+         },
+         {
+            "text": "Valletta",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1015,
+      "category": "Földrajz",
+      "question": "Melyik nem törpeállam az alábbi európai országok közül?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Ciprus",
+            "isCorrect": true
+         },
+         {
+            "text": "Liechtenstein",
+            "isCorrect": false
+         },
+         {
+            "text": "Monaco",
+            "isCorrect": false
+         },
+         {
+            "text": "San Marino",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1016,
+      "category": "Földrajz",
+      "question": "Melyik ország nem tagja az Európai Uniónak az alábbiak közül?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Franciaország",
+            "isCorrect": false
+         },
+         {
+            "text": "Hollandia",
+            "isCorrect": false
+         },
+         {
+            "text": "Norvégia",
+            "isCorrect": true
+         },
+         {
+            "text": "Svédország",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1017,
+      "category": "Földrajz",
+      "question": "Melyik az az ország, amely 2020-ban egyedüliként kilépett az Európai Unióból?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Egyesült Királyság",
+            "isCorrect": true
+         },
+         {
+            "text": "Írország",
+            "isCorrect": false
+         },
+         {
+            "text": "Norvégia",
+            "isCorrect": false
+         },
+         {
+            "text": "Svájc",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1018,
+      "category": "Földrajz",
+      "question": "Melyik ország csatlakozott 2013. július 1-jével az Európai Unióhoz?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Egyesült Királyság",
+            "isCorrect": false
+         },
+         {
+            "text": "Horvátország",
+            "isCorrect": true
+         },
+         {
+            "text": "Szlovákia",
+            "isCorrect": false
+         },
+         {
+            "text": "Szlovénia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1019,
+      "category": "Földrajz",
+      "question": "Melyik ország csatlakozott a legkorábban az Európai Unióhoz az alábbiak közül?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Ausztria",
+            "isCorrect": false
+         },
+         {
+            "text": "Horvátország",
+            "isCorrect": false
+         },
+         {
+            "text": "Magyarország",
+            "isCorrect": false
+         },
+         {
+            "text": "Románia",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1020,
+      "category": "Földrajz",
+      "question": "Melyik ország csatlakozott 2023. január 1-jével az eurót hivatalos fizetőeszközként használó országokhoz?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Egyesült Királyság",
+            "isCorrect": false
+         },
+         {
+            "text": "Horvátország",
+            "isCorrect": true
+         },
+         {
+            "text": "Szlovákia",
+            "isCorrect": false
+         },
+         {
+            "text": "Szlovénia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1021,
+      "category": "Sport",
+      "question": "Melyik híres operából csendül fel részlet a Forma-1-es versenyek végén, a dobogón való pezsgőzéskor?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bohémélet",
+            "isCorrect": false
+         },
+         {
+            "text": "Carmen",
+            "isCorrect": true
+         },
+         {
+            "text": "Traviata",
+            "isCorrect": false
+         },
+         {
+            "text": "Varázsfuvola",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1022,
+      "category": "Életmód",
+      "question": "Mi Görögország jellegzetes, ánizzsal ízesített alkoholos itala?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "ouzo",
+            "isCorrect": true
+         },
+         {
+            "text": "szaké",
+            "isCorrect": false
+         },
+         {
+            "text": "tequila",
+            "isCorrect": false
+         },
+         {
+            "text": "vodka",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1023,
+      "category": "Életmód",
+      "question": "Melyik jeles névnapot szokták jégtörőnek nevezni?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Balázs",
+            "isCorrect": false
+         },
+         {
+            "text": "István",
+            "isCorrect": false
+         },
+         {
+            "text": "Mátyás",
+            "isCorrect": true
+         },
+         {
+            "text": "Miklós",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1024,
+      "category": "Életmód",
+      "question": "Mi a neve az indiai gasztronómiából ismert, bivalytejből készült túrónak?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "ghi",
+            "isCorrect": false
+         },
+         {
+            "text": "kumisz",
+            "isCorrect": false
+         },
+         {
+            "text": "mascarpone",
+            "isCorrect": false
+         },
+         {
+            "text": "paneer",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1025,
+      "category": "Életmód",
+      "question": "Melyik fesztiválnak adnak otthont a Szársomlyó környéki települések?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Fishing on Orfű",
+            "isCorrect": false
+         },
+         {
+            "text": "MOST",
+            "isCorrect": false
+         },
+         {
+            "text": "Művészetek Völgye",
+            "isCorrect": false
+         },
+         {
+            "text": "Ördögkatlan",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1026,
+      "category": "Életmód",
+      "question": "Melyik közép-amerikai ország nevét viseli egy kézzel szőtt kalap?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Costa Rica",
+            "isCorrect": false
+         },
+         {
+            "text": "Guatemala",
+            "isCorrect": false
+         },
+         {
+            "text": "Mexikó",
+            "isCorrect": false
+         },
+         {
+            "text": "Panama",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1027,
+      "category": "Életmód",
+      "question": "Melyik tejtermékből kapható Magyarországon is kaukázusi?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "joghurt",
+            "isCorrect": false
+         },
+         {
+            "text": "kefír",
+            "isCorrect": true
+         },
+         {
+            "text": "túró",
+            "isCorrect": false
+         },
+         {
+            "text": "vaj",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1028,
+      "category": "Életmód",
+      "question": "Melyik hónapban van a régi pásztorünnep, Szent Mihály napja?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "júniusban",
+            "isCorrect": false
+         },
+         {
+            "text": "júliusban",
+            "isCorrect": false
+         },
+         {
+            "text": "augusztusban",
+            "isCorrect": false
+         },
+         {
+            "text": "szeptemberben",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1029,
+      "category": "Életmód",
+      "question": "Hány lapból áll egy pakli magyar kártya?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "20",
+            "isCorrect": false
+         },
+         {
+            "text": "32",
+            "isCorrect": true
+         },
+         {
+            "text": "44",
+            "isCorrect": false
+         },
+         {
+            "text": "52",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1030,
+      "category": "Életmód",
+      "question": "Milyen konyhai eljárás során helyezzük az ételt légmentesen lezárt tasakban vízfürdőbe?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "blansírozás",
+            "isCorrect": false
+         },
+         {
+            "text": "dinsztelés",
+            "isCorrect": false
+         },
+         {
+            "text": "párolás",
+            "isCorrect": false
+         },
+         {
+            "text": "szuvidálás",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1031,
+      "category": "Életmód",
+      "question": "Melyik magyar pénzérmét nevezték régen bélásnak?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "20 filléres",
+            "isCorrect": false
+         },
+         {
+            "text": "50 filléres",
+            "isCorrect": false
+         },
+         {
+            "text": "1 forintos",
+            "isCorrect": false
+         },
+         {
+            "text": "2 forintos",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1032,
+      "category": "Életmód",
+      "question": "Maximum hány karakterből állhat egy bejegyzés a Twitteren?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "140",
+            "isCorrect": false
+         },
+         {
+            "text": "160",
+            "isCorrect": false
+         },
+         {
+            "text": "280",
+            "isCorrect": true
+         },
+         {
+            "text": "500",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1033,
+      "category": "Életmód",
+      "question": "Hány deci szódával kell hígítani két deciliter bort a viceházmesternél?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "1",
+            "isCorrect": false
+         },
+         {
+            "text": "2",
+            "isCorrect": false
+         },
+         {
+            "text": "3",
+            "isCorrect": true
+         },
+         {
+            "text": "4",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1034,
+      "category": "Életmód",
+      "question": "Hogy nevezik Velence taxit helyettesítő vízijárműveit?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "fregatt",
+            "isCorrect": false
+         },
+         {
+            "text": "gondola",
+            "isCorrect": true
+         },
+         {
+            "text": "katamarán",
+            "isCorrect": false
+         },
+         {
+            "text": "vaporetto",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1035,
+      "category": "Film és TV",
+      "question": "Ki alakította a címszerepet a Magyarországon is nagysikerű, \"Sandokan\" című sorozatban?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Anthony Quinn",
+            "isCorrect": false
+         },
+         {
+            "text": "Gojko Mitić",
+            "isCorrect": false
+         },
+         {
+            "text": "Kabir Bedi",
+            "isCorrect": true
+         },
+         {
+            "text": "Klausjürgen Wussow",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1036,
+      "category": "Film és TV",
+      "question": "Milyen néven ismerjük Magyarországon a Laurel és Hardy komikuspárost?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Chip és Dale",
+            "isCorrect": false
+         },
+         {
+            "text": "Markos és Nádas",
+            "isCorrect": false
+         },
+         {
+            "text": "Martin és Lewis",
+            "isCorrect": false
+         },
+         {
+            "text": "Stan és Pan",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1037,
+      "category": "Film és TV",
+      "question": "Melyik TV-s nyomozó társa volt Harry Klein rendőrfelügyelő?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Adrian Monk",
+            "isCorrect": false
+         },
+         {
+            "text": "Columbo",
+            "isCorrect": false
+         },
+         {
+            "text": "Derrick",
+            "isCorrect": true
+         },
+         {
+            "text": "Horatio Caine",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1038,
+      "category": "Film és TV",
+      "question": "Mit orvosolt kávéval Surda a nagysikerű jugoszláv tévésorozat, a \"Forró szél\" főhőse?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "alacsony vérnyomást",
+            "isCorrect": true
+         },
+         {
+            "text": "köhögést",
+            "isCorrect": false
+         },
+         {
+            "text": "rossz alvást",
+            "isCorrect": false
+         },
+         {
+            "text": "szédülést",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1039,
+      "category": "Zene",
+      "question": "Milyen művésznéven lett világhírű Saul Hudson, a Guns'n'Roses gitárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Axl Rose",
+            "isCorrect": false
+         },
+         {
+            "text": "Billy Idol",
+            "isCorrect": false
+         },
+         {
+            "text": "Slash",
+            "isCorrect": true
+         },
+         {
+            "text": "Sting",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1040,
+      "category": "Film és TV",
+      "question": "Minek a hangját utánozták kókuszdióval a \"Gyalog galopp\" című film lovagjai?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "kalapácsolás",
+            "isCorrect": false
+         },
+         {
+            "text": "kopogás",
+            "isCorrect": false
+         },
+         {
+            "text": "lódobogás",
+            "isCorrect": true
+         },
+         {
+            "text": "szekérzörgés",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1041,
+      "category": "Film és TV",
+      "question": "Milyen fajtájú kutya a mesében Frakk?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Cocker spániel",
+            "isCorrect": false
+         },
+         {
+            "text": "golden retriever",
+            "isCorrect": false
+         },
+         {
+            "text": "magyar vizsla",
+            "isCorrect": true
+         },
+         {
+            "text": "puli",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1042,
+      "category": "Film és TV",
+      "question": "Sylvester Stallone melyik filmje nyert három Oscar-díjat?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Állj, vagy lő a mamám!",
+            "isCorrect": false
+         },
+         {
+            "text": "A pusztító",
+            "isCorrect": false
+         },
+         {
+            "text": "Oscar",
+            "isCorrect": false
+         },
+         {
+            "text": "Rocky",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1043,
+      "category": "Film és TV",
+      "question": "Ki játszotta a Hídembert, azaz Széchenyi Istvánt a 2002-es magyar filmben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Eperjes Károly",
+            "isCorrect": true
+         },
+         {
+            "text": "Gálvölgyi János",
+            "isCorrect": false
+         },
+         {
+            "text": "Stohl András",
+            "isCorrect": false
+         },
+         {
+            "text": "Szacsvay László",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1044,
+      "category": "Irodalom és kultúra",
+      "question": "Ki a rombolás, a megújítás és a tánc ura a hindu istenhármasságban (trimúrti)?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Brahma",
+            "isCorrect": false
+         },
+         {
+            "text": "Ganésa",
+            "isCorrect": false
+         },
+         {
+            "text": "Siva",
+            "isCorrect": true
+         },
+         {
+            "text": "Visnu",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1045,
+      "category": "Történelem és közélet",
+      "question": "Ki volt Zrínyi Ilona második férje?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Hunyadi János",
+            "isCorrect": false
+         },
+         {
+            "text": "Luxemburgi Zsigmond",
+            "isCorrect": false
+         },
+         {
+            "text": "I. Rákóczi Ferenc",
+            "isCorrect": false
+         },
+         {
+            "text": "Thököly Imre",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1046,
+      "category": "Történelem és közélet",
+      "question": "Melyik francia városban írta alá Magyarország a trianoni békeszerződést?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bordeaux",
+            "isCorrect": false
+         },
+         {
+            "text": "Nantes",
+            "isCorrect": false
+         },
+         {
+            "text": "Párizs",
+            "isCorrect": false
+         },
+         {
+            "text": "Versailles",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1047,
+      "category": "Történelem és közélet",
+      "question": "Ki volt az amerikai elnök a csernobili atomerőmű katasztrófájának idején?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bill Clinton",
+            "isCorrect": false
+         },
+         {
+            "text": "George Bush",
+            "isCorrect": false
+         },
+         {
+            "text": "George W. Bush",
+            "isCorrect": false
+         },
+         {
+            "text": "Ronald Reagan",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1048,
+      "category": "Történelem és közélet",
+      "question": "Ki volt Magyarország első királynője?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Anjou Mária",
+            "isCorrect": true
+         },
+         {
+            "text": "Mária Terézia",
+            "isCorrect": false
+         },
+         {
+            "text": "Szent Margit",
+            "isCorrect": false
+         },
+         {
+            "text": "Zrínyi Ilona",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1049,
+      "category": "Történelem és közélet",
+      "question": "Melyik az egyetlen délkelet-ázsiai állam, ami soha nem volt európai gyarmat?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Mianmar (Burma)",
+            "isCorrect": false
+         },
+         {
+            "text": "Szingapúr",
+            "isCorrect": false
+         },
+         {
+            "text": "Thaiföld",
+            "isCorrect": true
+         },
+         {
+            "text": "Vietnám",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1050,
+      "category": "Sport",
+      "question": "Hány olimpiai aranyérmet szerzett pályafutása során az úszó, Darnyi Tamás?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "2",
+            "isCorrect": false
+         },
+         {
+            "text": "3",
+            "isCorrect": false
+         },
+         {
+            "text": "4",
+            "isCorrect": true
+         },
+         {
+            "text": "5",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1051,
+      "category": "Sport",
+      "question": "A Sahtar Doneck mellett melyik klub játszik az ukrán liga 1992-es indulása óta az elsőosztályban?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Dinamo Kijev",
+            "isCorrect": true
+         },
+         {
+            "text": "Dnyipro",
+            "isCorrect": false
+         },
+         {
+            "text": "Metaliszt Harkiv",
+            "isCorrect": false
+         },
+         {
+            "text": "Zorja Luhanszk",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1052,
+      "category": "Sport",
+      "question": "Mi a legjobb világbajnoki eredménye a magyar férfi kézilabda-válogatottnak?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "1. hely",
+            "isCorrect": false
+         },
+         {
+            "text": "2. hely",
+            "isCorrect": true
+         },
+         {
+            "text": "3. hely",
+            "isCorrect": false
+         },
+         {
+            "text": "4. hely",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1053,
+      "category": "Sport",
+      "question": "Melyik európai ország kerékpáros körversenyén vesz részt, aki a Vueltán teker?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Franciaország",
+            "isCorrect": false
+         },
+         {
+            "text": "Hollandia",
+            "isCorrect": false
+         },
+         {
+            "text": "Olaszország",
+            "isCorrect": false
+         },
+         {
+            "text": "Spanyolország",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1054,
+      "category": "Sport",
+      "question": "Melyik vívásnem képviselője az olimpiai bajnok Szilágyi Áron?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "kard",
+            "isCorrect": true
+         },
+         {
+            "text": "párbajtőr",
+            "isCorrect": false
+         },
+          {
+            "text": "szablya",
+            "isCorrect": false
+         },
+         {
+            "text": "tőr",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1055,
+      "category": "Sport",
+      "question": "Melyik csapat nyerte a spanyol labdarúgó-bajnokság első osztályát, a La Ligát 2021-ben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Atlético Madrid",
+            "isCorrect": true
+         },
+         {
+            "text": "FC Barcelona",
+            "isCorrect": false
+         },
+         {
+            "text": "Real Madrid",
+            "isCorrect": false
+         },
+         {
+            "text": "Valencia CF",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1056,
+      "category": "Történelem és közélet",
+      "question": "Ki volt az utolsó orosz cár?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "V. Iván",
+            "isCorrect": false
+         },
+         {
+            "text": "II. (Nagy) Katalin",
+            "isCorrect": false
+         },
+         {
+            "text": "II. Miklós",
+            "isCorrect": true
+         },
+         {
+            "text": "III. Sándor",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1057,
+      "category": "Irodalom és kultúra",
+      "question": "Ki volt a bibliai Ábrahám és Sára egyetlen fia?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Ézsau",
+            "isCorrect": false
+         },
+         {
+            "text": "Izsák",
+            "isCorrect": true
+         },
+         {
+            "text": "Jónás",
+            "isCorrect": false
+         },
+         {
+            "text": "Lót",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1058,
+      "category": "Történelem és közélet",
+      "question": "Melyik család építtette a gödöllői barokk kastélyt?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Brunszvik",
+            "isCorrect": false
+         },
+         {
+            "text": "Eszterházy",
+            "isCorrect": false
+         },
+         {
+            "text": "Festetics",
+            "isCorrect": false
+         },
+         {
+            "text": "Grassalkovich",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1059,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik múzeumban látható Boticelli \"Vénusz születése\" című festménye?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "a firenzei Uffizi képtárban",
+            "isCorrect": true
+         },
+         {
+            "text": "a New York-i Metropolitan Művészeti Múzeumban",
+            "isCorrect": false
+         },
+         {
+            "text": "a párizsi Louvre-ban",
+            "isCorrect": false
+         },
+         {
+            "text": "a szentpétervári Ermitázsban",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1060,
+      "category": "Történelem és közélet",
+      "question": "Melyik magyar költő vett részt a Mátyás király elleni összeesküvésben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Balassi Bálint",
+            "isCorrect": false
+         },
+         {
+            "text": "Batsányi János",
+            "isCorrect": false
+         },
+         {
+            "text": "Janus Pannonius",
+            "isCorrect": true
+         },
+         {
+            "text": "Petőfi Sándor",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1061,
+      "category": "Földrajz",
+      "question": "Melyik hegyen van a Zugligeti libegő egyik végállomása?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "János-hegy",
+            "isCorrect": true
+         },
+         {
+            "text": "Nagy Hárs-hegy",
+            "isCorrect": false
+         },
+         {
+            "text": "Nagy-Kopasz",
+            "isCorrect": false
+         },
+         {
+            "text": "Széchenyi-hegy",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1062,
+      "category": "Életmód",
+      "question": "Összesen hány lábujja van egy struccnak?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "4",
+            "isCorrect": true
+         },
+         {
+            "text": "6",
+            "isCorrect": false
+         },
+         {
+            "text": "8",
+            "isCorrect": false
+         },
+         {
+            "text": "10",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1063,
+      "category": "Film és TV",
+      "question": "Ki rendezte az \"Aranypolgár\" című, 1941-ben bemutatott amerikai filmet?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "James Cameron",
+            "isCorrect": false
+         },
+         {
+            "text": "Luis Buñuel",
+            "isCorrect": false
+         },
+         {
+            "text": "Michael Bay",
+            "isCorrect": false
+         },
+         {
+            "text": "Orson Welles",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1064,
+      "category": "Sport",
+      "question": "Melyik amerikai város profi kosárlabdacsapata a Lakers?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Chicago",
+            "isCorrect": false
+         },
+         {
+            "text": "Los Angeles",
+            "isCorrect": true
+         },
+         {
+            "text": "New York",
+            "isCorrect": false
+         },
+         {
+            "text": "San Francisco",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1065,
+      "category": "Életmód",
+      "question": "Melyik gyümölcsből készül a törkölypálinka?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "alma",
+            "isCorrect": false
+         },
+         {
+            "text": "birsalma",
+            "isCorrect": false
+         },
+         {
+            "text": "sárgabarack",
+            "isCorrect": false
+         },
+         {
+            "text": "szőlő",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1066,
+      "category": "Zene",
+      "question": "Melyik énekesnő slágere a \"Hajolj bele a hajamba\"?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Janicsák Veca",
+            "isCorrect": false
+         },
+         {
+            "text": "Koncz Zsuzsa",
+            "isCorrect": false
+         },
+         {
+            "text": "Péterfy Bori",
+            "isCorrect": true
+         },
+         {
+            "text": "Tóth Andi",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1067,
+      "category": "Életmód",
+      "question": "Melyik tejtermék minőségét jelzi a tea szó?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "joghurt",
+            "isCorrect": false
+         },
+         {
+            "text": "sajt",
+            "isCorrect": false
+         },
+         {
+            "text": "túró",
+            "isCorrect": false
+         },
+         {
+            "text": "vaj",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1068,
+      "category": "Sport",
+      "question": "Melyik német labdarúgóklub játékosa, majd edzője volt Dárdai Pál?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bayer 04 Leverkusen",
+            "isCorrect": false
+         },
+         {
+            "text": "Bayern München",
+            "isCorrect": false
+         },
+         {
+            "text": "Borussia Dortmund",
+            "isCorrect": false
+         },
+         {
+            "text": "Hertha BSC",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1069,
+      "category": "Film és TV",
+      "question": "Melyik kultikus gonoszt alakított Jack Nicholson, Heath Ledger és Joaquin Phoenix is a mozivásznon?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Freddy Krueger",
+            "isCorrect": false
+         },
+         {
+            "text": "Hannibal Lecter",
+            "isCorrect": false
+         },
+         {
+            "text": "Joker",
+            "isCorrect": true
+         },
+         {
+            "text": "Voldemort",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1070,
+      "category": "Bulvár",
+      "question": "Kihez ment feleségül 1990-ben Nagy-Kálózy Eszter színésznő?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Gesztesi Károly",
+            "isCorrect": false
+         },
+         {
+            "text": "Kerekes József",
+            "isCorrect": false
+         },
+         {
+            "text": "Rudolf Péter",
+            "isCorrect": true
+         },
+         {
+            "text": "Szabó-Sipos Barnabás",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1071,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik magyar humoristának jelent meg könyve \"Meg se kínáltak\" címmel?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Bödőcs Tibor",
+            "isCorrect": true
+         },
+         {
+            "text": "Dombóvári István",
+            "isCorrect": false
+         },
+         {
+            "text": "Kiss Ádám",
+            "isCorrect": false
+         },
+         {
+            "text": "Maksa Zoltán",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1072,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik család tagja Júlia, Shakespeare drámájának egyik címszereplője?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Addams",
+            "isCorrect": false
+         },
+         {
+            "text": "Baradlay",
+            "isCorrect": false
+         },
+         {
+            "text": "Capulet",
+            "isCorrect": true
+         },
+         {
+            "text": "Montague",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1073,
+      "category": "Irodalom és kultúra",
+      "question": "Mi a keresztneve a \"kőszívű ember\" legidősebb fiának Jókai Mór regényében?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Jenő",
+            "isCorrect": false
+         },
+         {
+            "text": "Kázmér",
+            "isCorrect": false
+         },
+         {
+            "text": "Ödön",
+            "isCorrect": true
+         },
+         {
+            "text": "Richárd",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1074,
+      "category": "Irodalom és kultúra",
+      "question": "Kiről kapta a nevét Leiner Laura regénysorozatának gimnáziuma?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Petőfi Sándor",
+            "isCorrect": false
+         },
+         {
+            "text": "Szent Johanna",
+            "isCorrect": true
+         },
+         {
+            "text": "Szent Margit",
+            "isCorrect": false
+         },
+         {
+            "text": "Szerb Antal",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1075,
+      "category": "Irodalom és kultúra",
+      "question": "Bohumil Hrabal melyik művéből való az idézet: \"Unatkozik? Vegyen mosómedvét!\"?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Harlekin milliói",
+            "isCorrect": false
+         },
+         {
+            "text": "Őfelsége pincére voltam",
+            "isCorrect": false
+         },
+         {
+            "text": "Sörgyári capriccio",
+            "isCorrect": true
+         },
+         {
+            "text": "Szigorúan ellenőrzött vonatok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1076,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik kártyajátékon nyerte el a Nobel-díjat Gorcsev Iván \"A tizennégy karátos autó\" című regényben?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "makaó",
+            "isCorrect": true
+         },
+         {
+            "text": "póker",
+            "isCorrect": false
+         },
+         {
+            "text": "snapszer",
+            "isCorrect": false
+         },
+         {
+            "text": "ulti",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1077,
+      "category": "Irodalom és kultúra",
+      "question": "Szerb Antal melyik regényében keveredik Bátky János rejtélyes kalandokba?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "VII. Olivér",
+            "isCorrect": false
+         },
+         {
+            "text": "A Pendragon legenda",
+            "isCorrect": true
+         },
+         {
+            "text": "Budapesti kalauz marslakók számára",
+            "isCorrect": false
+         },
+         {
+            "text": "Utas és holdvilág",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1078,
+      "category": "Földrajz",
+      "question": "Melyik európai országban hivatalos nyelv a rétoromán?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Albánia",
+            "isCorrect": false
+         },
+         {
+            "text": "Olaszország",
+            "isCorrect": false
+         },
+         {
+            "text": "Románia",
+            "isCorrect": false
+         },
+         {
+            "text": "Svájc",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1079,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik magyar költő vette el az egri hős, Dobó István lányát?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Balassi Bálint",
+            "isCorrect": true
+         },
+         {
+            "text": "Janus Pannonius",
+            "isCorrect": false
+         },
+         {
+            "text": "Petőfi Sándor",
+            "isCorrect": false
+         },
+         {
+            "text": "Tinódi Lantos Sebestyén",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1080,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik állat csap nagy uzsonnát a csókai csókából Móra Ferenc meséjében?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "a farkas",
+            "isCorrect": false
+         },
+         {
+            "text": "a kutya",
+            "isCorrect": false
+         },
+         {
+            "text": "a medve",
+            "isCorrect": false
+         },
+         {
+            "text": "a róka",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1081,
+      "category": "Élővilág",
+      "question": "Melyik háziállatról kapta nevét egy Magyarországon is élő béka?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "kacsa",
+            "isCorrect": false
+         },
+         {
+            "text": "kecske",
+            "isCorrect": true
+         },
+         {
+            "text": "tehén",
+            "isCorrect": false
+         },
+         {
+            "text": "tyúk",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1082,
+      "category": "Zene",
+      "question": "Ki az a világhírű kanadai énekesnő, aki 2008-ban a zene doktora lett a Laval Egyetemen?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Avril Lavigne",
+            "isCorrect": false
+         },
+         {
+            "text": "Celine Dion",
+            "isCorrect": true
+         },
+         {
+            "text": "Nelly Furtado",
+            "isCorrect": false
+         },
+         {
+            "text": "Shania Twain",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1083,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik képregényhős kapta magyarul eleinte a Mokány nevet?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Batman",
+            "isCorrect": false
+         },
+         {
+            "text": "Hulk",
+            "isCorrect": true
+         },
+         {
+            "text": "Superman",
+            "isCorrect": false
+         },
+         {
+            "text": "Vasember",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1084,
+      "category": "Tudomány és technika",
+      "question": "Melyik az egyetlen páros prímszám?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "2",
+            "isCorrect": true
+         },
+         {
+            "text": "4",
+            "isCorrect": false
+         },
+         {
+            "text": "6",
+            "isCorrect": false
+         },
+         {
+            "text": "14",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1085,
+      "category": "Film és TV",
+      "question": "Ki játszotta az 1986-os angol-amerikai kalandfilmben a Hegylakót?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Arnold Schwarzenegger",
+            "isCorrect": false
+         },
+         {
+            "text": "Christopher Lambert",
+            "isCorrect": true
+         },
+         {
+            "text": "Mel Gibson",
+            "isCorrect": false
+         },
+         {
+            "text": "Sylvester Stallone",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1086,
+      "category": "Életmód",
+      "question": "Melyik csonthéjas gyümölcsből készül hagyományosan a marcipán?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "dió",
+            "isCorrect": false
+         },
+         {
+            "text": "mandula",
+            "isCorrect": true
+         },
+          {
+            "text": "mogyoró",
+            "isCorrect": false
+         },
+         {
+            "text": "pisztácia",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1087,
+      "category": "Élővilág",
+      "question": "Melyik baromfi hímjét nevezik gácsérnak?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "házityúk",
+            "isCorrect": false
+         },
+         {
+            "text": "kacsa",
+            "isCorrect": true
+         },
+         {
+            "text": "liba",
+            "isCorrect": false
+         },
+         {
+            "text": "pulyka",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1088,
+      "category": "Sport",
+      "question": "Melyik spanyol labdarúgóklub játékosa volt Puskás Ferenc?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Atlético Madrid",
+            "isCorrect": false
+         },
+         {
+            "text": "Deportivo",
+            "isCorrect": false
+         },
+         {
+            "text": "FC Barcelona",
+            "isCorrect": false
+         },
+         {
+            "text": "Real Madrid",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1089,
+      "category": "Életmód",
+      "question": "Hogyan nevezzük a pókerben azt a kombinációt, amikor négy azonos értékű lapunk van?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "drill",
+            "isCorrect": false
+         },
+         {
+            "text": "póker",
+            "isCorrect": true
+         },
+         {
+            "text": "royal flush",
+            "isCorrect": false
+         },
+         {
+            "text": "sor",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1090,
+      "category": "Sport",
+      "question": "Melyik sportág bajnoka volt Arnold Palmer és Jack Nicklaus?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "autóversenyzés",
+            "isCorrect": false
+         },
+         {
+            "text": "golf",
+            "isCorrect": true
+         },
+         {
+            "text": "tenisz",
+            "isCorrect": false
+         },
+         {
+            "text": "úszás",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1091,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik versében búcsúzik el végleg Ady Endre szerelmétől, Lédától?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "A könnyek asszonya",
+            "isCorrect": false
+         },
+         {
+            "text": "Elbocsátó szép üzenet",
+            "isCorrect": true
+         },
+         {
+            "text": "Héja-nász az avaron",
+            "isCorrect": false
+         },
+         {
+            "text": "Sírni, sírni, sírni",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1092,
+      "category": "Földrajz",
+      "question": "Mi Burundi fővárosa?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bujumbura",
+            "isCorrect": true
+         },
+         {
+            "text": "Nairobi",
+            "isCorrect": false
+         },
+         {
+            "text": "N'Djamena",
+            "isCorrect": false
+         },
+         {
+            "text": "Phnom Penh",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1093,
+      "category": "Földrajz",
+      "question": "Mi Kenya fővárosa?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Accra",
+            "isCorrect": false
+         },
+         {
+            "text": "Kairó",
+            "isCorrect": false
+         },
+         {
+            "text": "Maputo",
+            "isCorrect": false
+         },
+         {
+            "text": "Nairobi",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1094,
+      "category": "Földrajz",
+      "question": "Mi Izrael fővárosa?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Ammán",
+            "isCorrect": false
+         },
+         {
+            "text": "Bagdad",
+            "isCorrect": false
+         },
+         {
+            "text": "Betlehem",
+            "isCorrect": false
+         },
+         {
+            "text": "Jeruzsálem",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1095,
+      "category": "Irodalom és kultúra",
+      "question": "Melyik híres ember keresztneve nem Isaac volt?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Asimov, író",
+            "isCorrect": false
+         },
+         {
+            "text": "Hayes, soulénekes",
+            "isCorrect": false
+         },
+         {
+            "text": "Mailer, író",
+            "isCorrect": true
+         },
+         {
+            "text": "Newton, fizikus",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1096,
+      "category": "Történelem és közélet",
+      "question": "Ki alapította a keszthelyi Georgikont?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "gróf Festetics György",
+            "isCorrect": true
+         },
+         {
+            "text": "Kossuth Lajos",
+            "isCorrect": false
+         },
+         {
+            "text": "Széchényi Ferenc",
+            "isCorrect": false
+         },
+         {
+            "text": "gróf Széchenyi István",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1097,
+      "category": "Sport",
+      "question": "Mi a közismert neve a brazil Sao Pauló-i autóversenypályának?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Interformula",
+            "isCorrect": false
+         },
+         {
+            "text": "Interlagos",
+            "isCorrect": true
+         },
+         {
+            "text": "Interpaulo",
+            "isCorrect": false
+         },
+         {
+            "text": "Monza",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1098,
+      "category": "Sport",
+      "question": "Melyik versenyző nem volt Forma-1-es világbajnok?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Ayrton Senna",
+            "isCorrect": false
+         },
+         {
+            "text": "Eddie Irvine",
+            "isCorrect": true
+         },
+         {
+            "text": "James Hunt",
+            "isCorrect": false
+         },
+         {
+            "text": "Mika Häkkinen",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1099,
+      "category": "Sport",
+      "question": "Milyen nemzetiségű a kétszeres Forma-1-es világbajnok Fernando Alonso?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "brazil",
+            "isCorrect": false
+         },
+         {
+            "text": "mexikói",
+            "isCorrect": false
+         },
+         {
+            "text": "olasz",
+            "isCorrect": false
+         },
+         {
+            "text": "spanyol",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1100,
+      "category": "Sport",
+      "question": "Melyik évben indult első Forma-1-es versenyén a később három világbajnoki címet szerző Ayrton Senna?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "1980",
+            "isCorrect": false
+         },
+         {
+            "text": "1984",
+            "isCorrect": true
+         },
+         {
+            "text": "1986",
+            "isCorrect": false
+         },
+         {
+            "text": "1990",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1101,
+      "category": "Tudomány és technika",
+      "question": "Melyik autómárka francia az alábbiak közül?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Mazda",
+            "isCorrect": false
+         },
+         {
+            "text": "Opel",
+            "isCorrect": false
+         },
+         {
+            "text": "Peugeot",
+            "isCorrect": true
+         },
+         {
+            "text": "Volvo",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1102,
+      "category": "Életmód",
+      "question": "Melyik testrészen viselik a kalucsnit?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "fej",
+            "isCorrect": false
+         },
+         {
+            "text": "kéz",
+            "isCorrect": false
+         },
+         {
+            "text": "láb",
+            "isCorrect": true
+         },
+         {
+            "text": "nyak",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1103,
+      "category": "Zene",
+      "question": "Melyik énekes egyik dalában szerepel: \"Álljunk össze, mint két kicsi legó!\"?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "Byalex",
+            "isCorrect": false
+         },
+         {
+            "text": "Caramel",
+            "isCorrect": false
+         },
+         {
+            "text": "Fluor Tomi",
+            "isCorrect": true
+         },
+         {
+            "text": "Vastag Csaba",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1104,
+      "category": "Tudomány és technika",
+      "question": "Kitől származik a számítógépekhez használt egér ötlete?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Bill English",
+            "isCorrect": true
+         },
+         {
+            "text": "Bill Gates",
+            "isCorrect": false
+         },
+         {
+            "text": "Douglas Engelbart",
+            "isCorrect": false
+         },
+         {
+            "text": "Neumann János",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1105,
+      "category": "Élővilág",
+      "question": "Milyen színűek általában a nefelejcs szirmai?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "kék",
+            "isCorrect": true
+         },
+         {
+            "text": "piros",
+            "isCorrect": false
+         },
+         {
+            "text": "sárga",
+            "isCorrect": false
+         },
+         {
+            "text": "zöld",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1106,
+      "category": "Élővilág",
+      "question": "Mi a henye boroszlán?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "egy borozó katona",
+            "isCorrect": false
+         },
+         {
+            "text": "egy eltévedt tigris",
+            "isCorrect": false
+         },
+         {
+            "text": "egy lusta oroszlán",
+            "isCorrect": false
+         },
+         {
+            "text": "egy Magyarországon is őshonos növény",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1107,
+      "category": "Élővilág",
+      "question": "Melyik növény népies elnevezése a törökbúza?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "kukorica",
+            "isCorrect": true
+         },
+         {
+            "text": "napraforgó",
+            "isCorrect": false
+         },
+         {
+            "text": "rozs",
+            "isCorrect": false
+         },
+         {
+            "text": "zab",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1108,
+      "category": "Élővilág",
+      "question": "Milyen színű a levendula virága?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "kék",
+            "isCorrect": true
+         },
+         {
+            "text": "narancssárga",
+            "isCorrect": false
+         },
+         {
+            "text": "piros",
+            "isCorrect": false
+         },
+         {
+            "text": "rózsaszín",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1109,
+      "category": "Élővilág",
+      "question": "Melyik gomba tönkje nem ehető?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "fodros káposztagomba",
+            "isCorrect": false
+         },
+         {
+            "text": "májgomba",
+            "isCorrect": false
+         },
+         {
+            "text": "óriáspöfeteg",
+            "isCorrect": false
+         },
+         {
+            "text": "sötéttönkű fokhagymagomba",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1100,
+      "category": "Zene",
+      "question": "Hogy folytatódik a dal: \"Utcára nyílik...\"?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "a bejárati ajtó",
+            "isCorrect": false
+         },
+         {
+            "text": "a kocsmaajtó",
+            "isCorrect": true
+         },
+         {
+            "text": "az ablak",
+            "isCorrect": false
+         },
+         {
+            "text": "az ólajtó",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1111,
+      "category": "Életmód",
+      "question": "Melyik volt az alábbiak közül az ókori rómaiak viselete?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "khitón",
+            "isCorrect": false
+         },
+         {
+            "text": "kimonó",
+            "isCorrect": false
+         },
+         {
+            "text": "peplosz",
+            "isCorrect": false
+         },
+         {
+            "text": "tunika",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1112,
+      "category": "Életmód",
+      "question": "Miből készül a Girardi kalap?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "csuhéból",
+            "isCorrect": false
+         },
+         {
+            "text": "lenből",
+            "isCorrect": false
+         },
+         {
+            "text": "szalmából",
+            "isCorrect": true
+         },
+         {
+            "text": "textiltől",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1113,
+      "category": "Életmód",
+      "question": "Kik hordták a tógát?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "gall rabszolgák",
+            "isCorrect": false
+         },
+         {
+            "text": "kínai mandarinok",
+            "isCorrect": false
+         },
+         {
+            "text": "római polgárok",
+            "isCorrect": true
+         },
+         {
+            "text": "sumér papok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1114,
+      "category": "Életmód",
+      "question": "Kiről vagy miről kapta nevét a kardigán?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "egy ír birkafajtáról",
+            "isCorrect": false
+         },
+         {
+            "text": "egy norvég színészről",
+            "isCorrect": false
+         },
+         {
+            "text": "egy skót szövetfajtáról",
+            "isCorrect": false
+         },
+         {
+            "text": "James Brunedell angol grófról",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1115,
+      "category": "Életmód",
+      "question": "Melyik egy klasszikus mexikói fejfedő?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "cilinder",
+            "isCorrect": false
+         },
+         {
+            "text": "hidzsáb",
+            "isCorrect": false
+         },
+         {
+            "text": "sombrero",
+            "isCorrect": true
+         },
+         {
+            "text": "turbán",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1116,
+      "category": "Életmód",
+      "question": "Miből készítik a pamutot?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "gyapjúból",
+            "isCorrect": false
+         },
+         {
+            "text": "gyapotból",
+            "isCorrect": true
+         },
+         {
+            "text": "kenderből",
+            "isCorrect": false
+         },
+         {
+            "text": "lenből",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1117,
+      "category": "Életmód",
+      "question": "Milyen lábbeli a klumpa?",
+      "level": "2",
+      "answers": [
+         {
+            "text": "bőrszandál",
+            "isCorrect": false
+         },
+         {
+            "text": "facipő",
+            "isCorrect": true
+         },
+         {
+            "text": "gumicsizma",
+            "isCorrect": false
+         },
+         {
+            "text": "magas sarkú női cipő",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1118,
+      "category": "Életmód",
+      "question": "Kik hordták a pártát?",
+      "level": "3",
+      "answers": [
+         {
+            "text": "feleségek",
+            "isCorrect": false
+         },
+         {
+            "text": "hajadon nők",
+            "isCorrect": true
+         },
+         {
+            "text": "papok",
+            "isCorrect": false
+         },
+         {
+            "text": "özvegy asszonyok",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1119,
+      "category": "Film és TV",
+      "question": "Melyik bibliai idézetet mondja el Jules Winnfield a \"Ponyvaregény\" című filmben?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Ezékiel 25:17",
+            "isCorrect": true
+         },
+         {
+            "text": "Máté 18:14",
+            "isCorrect": false
+         },
+          {
+            "text": "Pál apostol első levele a korintusiakhoz 13:1-7",
+            "isCorrect": false
+         },
+         {
+            "text": "Zsoltárok 42:2",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1120,
+      "category": "Film és TV",
+      "question": "Melyik karaktert játssza John Travolta a \"Ponyvaregény\" című 1994-es kultfilmben?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Butch Coolidge",
+            "isCorrect": false
+         },
+         {
+            "text": "Marsellus Wallace",
+            "isCorrect": false
+         },
+         {
+            "text": "Tökfej",
+            "isCorrect": false
+         },
+         {
+            "text": "Vincent Vega",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1121,
+      "category": "Sport",
+      "question": "Ki volt az első női Forma-1-es versenyző?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Giovanna Amati",
+            "isCorrect": false
+         },
+         {
+            "text": "Lella Lombardi",
+            "isCorrect": false
+         },
+         {
+            "text": "María de Villota",
+            "isCorrect": false
+         },
+         {
+            "text": "Maria Teresa de Filippis",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1122,
+      "category": "Sport",
+      "question": "Ki volt az első és egyben egyetlen női pontszerző a Forma-1-ben?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Carmen Jordá",
+            "isCorrect": false
+         },
+         {
+            "text": "Lella Lombardi",
+            "isCorrect": true
+         },
+         {
+            "text": "María de Villota",
+            "isCorrect": false
+         },
+         {
+            "text": "Maria Teresa de Filippis",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1123,
+      "category": "Film és TV",
+      "question": "Melyik mesefilm egyik szereplője Pimpike, a farkas?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Az erdő kapitánya",
+            "isCorrect": true
+         },
+         {
+            "text": "Macskafogó",
+            "isCorrect": false
+         },
+         {
+            "text": "Toy Story - Játékháború",
+            "isCorrect": false
+         },
+         {
+            "text": "Zootropolis",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1124,
+      "category": "Film és TV",
+      "question": "Melyik filmsorozat egyik fontos karaktere Felicity King?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "A farm, ahol élünk",
+            "isCorrect": false
+         },
+         {
+            "text": "Egyről a kettőre",
+            "isCorrect": false
+         },
+         {
+            "text": "Jóbarátok",
+            "isCorrect": false
+         },
+         {
+            "text": "Váratlan utazás",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1125,
+      "category": "Film és TV",
+      "question": "Melyik filmvígjáték főhőse Mia Thermopolis?",
+      "level": "4",
+      "answers": [
+         {
+            "text": "Apád-anyád idejöjjön!",
+            "isCorrect": false
+         },
+         {
+            "text": "Kicsi kocsi - tele a tank",
+            "isCorrect": false
+         },
+         {
+            "text": "Micsoda nő!",
+            "isCorrect": false
+         },
+         {
+            "text": "Neveletlen hercegnő",
+            "isCorrect": true
+         }
+      ]
+   },
+   {
+      "id": 1126,
+      "category": "Történelem és közélet",
+      "question": "Ki az első és máig egyetlen olyan amerikai elnök, aki két nem egymást követő ciklust töltött ki?",
+      "level": "5",
+      "answers": [
+         {
+            "text": "Grover Cleveland",
+            "isCorrect": true
+         },
+         {
+            "text": "Harry Truman",
+            "isCorrect": false
+         },
+         {
+            "text": "Theodore Roosevelt",
+            "isCorrect": false
+         },
+         {
+            "text": "Thomas Jefferson",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1127,
+      "category": "",
+      "question": "?",
+      "level": "",
+      "answers": [
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": true
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1128,
+      "category": "",
+      "question": "?",
+      "level": "",
+      "answers": [
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": true
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1129,
+      "category": "",
+      "question": "?",
+      "level": "",
+      "answers": [
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": true
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1130,
+      "category": "",
+      "question": "?",
+      "level": "",
+      "answers": [
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         },
+         {
+            "text": "",
+            "isCorrect": true
+         },
+         {
+            "text": "",
+            "isCorrect": false
+         }
+      ]
+   },
+   {
+      "id": 1131,
       "category": "",
       "question": "?",
       "level": "",

@@ -38,7 +38,7 @@
         </div>
 
         <div id="selectorDiv" class="col-12 d-flex flex-wrap justify-content-around mt-2">
-            <div id="questionCategoriesDiv" class="col-3 px-3 bg-warning rounded">
+            <div id="questionCategoriesDiv" class="col-2 px-3 bg-warning rounded">
                 <p class="text-center mt-1 fs-4 px-1 text-wrap">Válassz a kategóriák közül!</p>
                 <form>
                     <div class="form-check">
@@ -93,7 +93,7 @@
                 </form>
             </div>
 
-            <div id="questionLevelsDiv" class="col-3 px-3 bg-warning rounded">
+            <div id="questionLevelsDiv" class="col-2 px-3 bg-warning rounded">
                 <p class="text-center mt-1 fs-4 px-1">Válassz a nehézségi szintek közül!</p>
                 <form>
                     <div class="form-check">
@@ -128,7 +128,7 @@
                 </div>
             </div>
 
-            <div id="questionQuantDiv" class="col-3 px-3 bg-warning rounded">
+            <div id="questionQuantDiv" class="col-2 px-3 bg-warning rounded">
                 <p class="text-center mt-1 fs-4 px-1">Válaszd ki a kérdések számát!</p>
                 <form>
                     <div class="form-check">
@@ -150,6 +150,32 @@
                     <div class="form-check">
                         <input class="form-check-input" name="quantSelect" type="radio" value="all" id="selectAll" />
                         <label class="form-check-label" for="quantSelect">Az összes</label>
+                    </div>
+                </form>
+            </div>
+
+            <div id="questionTimeDiv" class="col-2 px-3 bg-warning rounded">
+                <p class="text-center mt-1 fs-4 px-1">Hány másodpercen belül akarsz válaszolni?</p>
+                <form>
+                    <div class="form-check">
+                        <input class="form-check-input" name="timeSelect" type="radio" value="5" id="secs5" />
+                        <label class="form-check-label" for="timeSelect">5</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="timeSelect" type="radio" value="10" id="secs10" />
+                        <label class="form-check-label" for="timeSelect">10</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="timeSelect" type="radio" value="15" id="secs15" />
+                        <label class="form-check-label" for="timeSelect">15</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="timeSelect" type="radio" value="20" id="secs20" />
+                        <label class="form-check-label" for="timeSelect">20</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" name="timeSelect" type="radio" value="30" id="secs30" />
+                        <label class="form-check-label" for="timeSelect">30</label>
                     </div>
                 </form>
             </div>

@@ -7,7 +7,6 @@ const soundBtn = document.getElementById('soundBtn');
 const selectorDiv = document.getElementById('selectorDiv');
 const questionCategoriesDiv = document.getElementById('questionCategoriesDiv');
 const categoryCheckboxes = document.querySelectorAll('input[name=categoryCheckbox]');
-
 const bulvarCheckbox = document.getElementById('bulvarCheckbox');
 const eletmodCheckbox = document.getElementById('eletmodCheckbox');
 const elovilagCheckbox = document.getElementById('elovilagCheckbox');
@@ -38,6 +37,14 @@ const question20 = document.getElementById('select20');
 const question50 = document.getElementById('select50');
 const question100 = document.getElementById('select100');
 const questionAll = document.getElementById('selectAll');
+
+const questionTimeDiv = document.getElementById('questionTimeDiv');
+const questionTimeInputs = document.querySelectorAll('input[name="timeSelect"]');
+const secs5 = document.getElementById('secs5');
+const secs10 = document.getElementById('secs10');
+const secs15 = document.getElementById('secs15');
+const secs20 = document.getElementById('secs20');
+const secs30 = document.getElementById('secs30');
 
 const startQuizBtn = document.getElementById('startQuizBtn');
 const questionDiv = document.getElementById('questionDiv');
@@ -283,20 +290,20 @@ levelCheckboxes.forEach((checkbox) => {
 
 function getSelectedQuestions() {
     const selectedCategories = getSelectedCheckboxes(categoryCheckboxes);
-        const selectedLevels = getSelectedCheckboxes(levelCheckboxes);
+    const selectedLevels = getSelectedCheckboxes(levelCheckboxes);
 
-        selectedQuestions = questionsObject.filter((obj) => {
-            return selectedCategories.includes(obj.category) && selectedLevels.includes(obj.level);
-        });
+    selectedQuestions = questionsObject.filter((obj) => {
+        return selectedCategories.includes(obj.category) && selectedLevels.includes(obj.level);
+    });
 
-        selectedQuestions.forEach(() => {
-            filteredLevels.push(selectedQuestions);
-        });
+    selectedQuestions.forEach(() => {
+        filteredLevels.push(selectedQuestions);
+    });
 
-        console.log('selected categories: ', selectedCategories);
-        console.log('selected levels: ', selectedLevels);
-        console.log('filtered levels: ', filteredLevels);
-        console.log('selected questions: ', selectedQuestions);
+    console.log('selected categories: ', selectedCategories);
+    console.log('selected levels: ', selectedLevels);
+    console.log('filtered levels: ', filteredLevels);
+    console.log('selected questions: ', selectedQuestions);
 }
 
 function getSelectedCheckboxes(checkBoxes) {
@@ -310,21 +317,7 @@ function getSelectedCheckboxes(checkBoxes) {
     return selectedCheckboxes;
 }
 
-/*
-const checkIt = () => {
-    if(document.getElementById("bulvarCheckbox").checked) {
-        console.log(id, "CHECKED");
-    } else {
-        console.log(id, "NOT CHECKED");
-    };
-}
 
-bulvarCheckbox.onclick = () => {
-    checkIt();
-}
-*/
-
-/*
 questionQuantInputs.forEach((checkbox) => {
     checkbox.addEventListener('change', () => {
         if(checkbox.checked) {
@@ -334,9 +327,8 @@ questionQuantInputs.forEach((checkbox) => {
             console.log(checkbox.value, 'unchecked');
 
         }
-    })
+    });
 })
-*/
 
 /*
 function selectCategories() {
@@ -431,18 +423,44 @@ question10.addEventListener("change", function() {
 });
 */
 
-if(document.querySelector('input[name="quantSelect"]')) {
-    document.querySelectorAll('input[name="quantSelect"]').forEach((elem) => {
-        elem.addEventListener("change", function(event) {
-            let item = event.target.value;
-            if(event.target.value === '10') {
-                const questions10 = shuffledQuestions.slice(0,10);
-                console.log('10 questions: ', questions10);
-            }
-            console.log('item:', item);
+function get10questions() {
+    //if(document.querySelector('input[name="quantSelect"]')) {
+        document.querySelectorAll('input[name="quantSelect"]').forEach((elem) => {
+            elem.addEventListener("change", function(event) {
+                let item = event.target.value;
+                if(event.target.value === '10') {
+                    shuffledQuestions = shuffledQuestions.slice(0,-10);
+                    console.log('10 questions: ', shuffledQuestions);
+                }
+
+                /*
+                if(event.target.value === '20') {
+                    const questions20 = shuffledQuestions.slice(0,20);
+                    console.log('20 questions: ', questions20);
+                }
+
+                if(event.target.value === '50') {
+                    const questions50 = shuffledQuestions.slice(0,50);
+                    console.log('50 questions: ', questions50);
+                }
+
+                if(event.target.value === '100') {
+                    const questions100 = shuffledQuestions.slice(0,100);
+                    console.log('100 questions: ', questions100);
+                }
+
+                if(event.target.value === 'all') {
+                    const questionAll = shuffledQuestions;
+                    console.log('all questions: ', questionAll);
+                }
+                */
+
+                console.log('item:', item);
+            });
         });
-    });
+    //}
 }
+
 
 /*
 function checkRadioValues() {
@@ -538,9 +556,11 @@ function startQuiz() {
         startQuizBtn.style.display = 'none';
         
         shuffledQuestions = selectedQuestions.sort(() => Math.random() - .5);
-        
+
+        console.log('shuffled questions: ', shuffledQuestions);
+        get10questions();
+
         const noOfQuest = shuffledQuestions.length;
-        
         noOfQuestUpper.innerHTML = noOfQuest;
         noOfQuestFooter.innerHTML = noOfQuest;
         currentQuestionIndex = 0;
